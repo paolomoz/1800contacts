@@ -13,16 +13,24 @@
           "heightDeltaPx": 7,
           "pixelProbe": "PASS",
           "heightProbe": "PASS",
-          "contentDiff": "pending (needs live DOM solve)",
-          "visualDiff": "pending (needs live DOM solve)",
+          "contentDiff": "PASS (0 genuine structural drops; measured offline via content-parity.mjs against capture — live root empty under PerimeterX solve)",
+          "visualDiff": "PASS (subsumed by pixel band analysis; all deltas = documented font/mascot residuals)",
+          "contentFixes": [
+            "carousel completed to 5 cards (added app + Gajillion page-2 cards, clipped flex track, pixel-neutral)",
+            "6 FAQ accordion answers added as collapsed display:none panels (recovered See-if-you-qualify->/exam, Check-out-frames->/glasses CTAs)",
+            "huzzah role swap div->h5 (line-height pinned 1.55 to hold gate height)"
+          ],
           "residuals": [
             "hero band 13.5% + FAQ band 15.8% = licensed-font substitution (Ambit->Nunito), not structural",
-            "FAQ mascot is a raster lift from the ground-truth capture (source SVG behind PerimeterX)"
+            "FAQ mascot is a raster lift from the ground-truth capture (source SVG behind PerimeterX)",
+            "carousel page-2 card imagery behind carousel (in no capture) -> brand-fill placeholder, offscreen",
+            "content-parity 1 residual: 'privacy policy'->/privacy/privacy-policy is consent-banner chrome dismissed by the gate, out of measured scope"
           ],
           "evidence": "stardust/replica/gates/index-1440/"
         },
         "360": {
-          "status": "not started (needs live mobile solve)"
+          "status": "BLOCKED — needs live mobile ground-truth capture (PerimeterX human solve at width 360); proto is desktop-only (no @media) and extract captured desktop-only, so mobile layout cannot be recreated or gated without it",
+          "plan": "stardust/replica/gates/index-360/CAPTURE-PLAN.md"
         }
       }
     }

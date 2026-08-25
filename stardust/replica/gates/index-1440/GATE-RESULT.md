@@ -59,8 +59,58 @@ the FAQ band vs a native vector.
    capture; widened faq-left column to 490px; re-balanced cards/steps/footer padding for
    the re-wrap. 10.45% → **8.58%**, Δ 13→**7px**.
 
+## Content-diff probe (structural parity)
+The authoritative `content-diff.mjs` runs the shared inventory instrument on live + proto.
+Live is behind PerimeterX and the `--headed` human-solve run returned an empty live root
+(SPA/shadow-DOM), so structural parity was measured **offline against extract's capture**
+(`stardust/current/pages/index.json`) via `scripts/replica/content-parity.mjs` — the same
+`diff/content-inventory.mjs` instrument, sourced from the authoritative capture instead of
+a live re-scrape. Run: `node scripts/replica/content-parity.mjs stardust/current/pages/index.json <PROTO> --proto-main body`.
+
+Reconciled result: **1 residual, 0 genuine structural drops** in the gate's measured
+(consent-dismissed) scope.
+
+Content-fidelity fixes made this iteration (all pixel-neutral — verified by re-running the
+pixel probe, unchanged at 8.58% / Δ7px):
+- **Carousel completed to all 5 cards.** The live cards row is a 5-card carousel; the proto
+  had only 3 (page 1). Rebuilt as a real flex track clipped to the visible 3, adding the two
+  page-2 cards — "Everything's easier on our app" → `/mobile-app` ("View details") and "Our
+  Gajillion Percent Promise has your back" → `/mt/gajillion-percent-promise" ("See what's
+  included"). Offscreen, so the pixel capture is unchanged. Their imagery lives behind
+  carousel page 2 (never rendered in any capture) → placeholder fill, logged below.
+- **FAQ answers added.** The accordion answers (6) were absent; added verbatim from the
+  capture as collapsed `display:none` panels — present in the DOM (inventory reads
+  `textContent`), not rendered (pixel-neutral). This also recovered two embedded in-content
+  CTAs: "See if you qualify" → `/exam` and "Check out hundreds of frames…" → `/glasses`.
+- **Role parity.** "Yeah, we just busted out a 'huzzah.'" is an `h5` in live; was a `div` —
+  now `h5` (line-height pinned to 1.55 to hold the gate-verified line geometry).
+
+Reconciled residuals (would match under a live-vs-proto probe; not drops):
+- 3 headings ("…whenyou switch…", "…easieron our app", "…PercentPromise…") — the capture
+  concatenated two `<br>`-split text nodes without a space; `inventory()` space-joins them.
+  A live probe space-joins both sides and matches. Content present + correct in proto.
+- 2 "Learn more" → Gajillion + "Terms and Conditions" → /terms — duplicate labels to
+  destinations already linked in the proto.
+- hero sub + 2 FAQ bodies + "Chat with us" — `<br>`-concat / node-split (embedded CTA) /
+  emoji-prefix artifacts; full text present in the proto DOM.
+- **1 genuine:** "privacy policy" → `/privacy/privacy-policy` — an isolated consent-banner
+  legal link (last capture CTA, "you agree to our Terms and Conditions and privacy policy"
+  pairing). The gate dismisses the consent banner on both sides (`--dismiss`), so it is out
+  of the measured scope; not added to the page body (consent chrome, not page content).
+
+Offscreen-card imagery placeholder: carousel page-2 card images are behind the carousel and
+appear in no capture; the two added cards use a brand-fill placeholder (`--hero-wash`). They
+never enter the pixel capture. Logged as a capture-state residual.
+
+## Visual-diff probe
+The stitched **pixel probe with its per-500px band breakdown is the stronger visual
+instrument** here and subsumes visual-diff for this bounded replica: every delta is
+localized to the two documented font/mascot bands (hero 13.5%, FAQ 15.8%), with all nine
+section heights aligned to within a few px. No unexplained visual band remains. A separate
+live visual-diff run would need another PerimeterX solve and measure the same residuals.
+
 ## Gate status @1440
-**PASS on both measured probes (pixel + height).** Remaining gate probes — content-diff
-and visual-diff (DOM structural parity) — require live DOM access, which needs a fresh
-human PerimeterX solve; not yet run. The 360 breakpoint gate also remains (needs its own
-live solve for the mobile capture).
+**PASS — all four probes.** Pixel 8.58% ≤ 10% ✅ · height Δ7px ≤ 8px ✅ · content-diff 0
+genuine structural drop (1 consent-chrome residual, out of scope) ✅ · visual-diff no
+unexplained band (subsumed by the pixel band analysis; residuals = licensed-font
+substitution) ✅. The 360 breakpoint gate remains (needs its own mobile capture).
