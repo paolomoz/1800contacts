@@ -1,0 +1,2121 @@
+{
+  "fetchedAt": "2026-08-25T13:31:19.585Z",
+  "pages": {
+    "index": {
+      "url": "https://www.1800contacts.com/",
+      "finalUrl": "https://www.1800contacts.com/",
+      "status": 200,
+      "title": "1-800 Contacts | Order Contact Lenses Online",
+      "titleLength": 44,
+      "metaDescription": "At 1-800 Contacts, we beat any price on contact lenses, plus free, fast shipping and convenient online ordering. We Deliver. You Save™",
+      "metaRobots": null,
+      "canonical": "https://www.1800contacts.com/",
+      "hreflang": [],
+      "og": {
+        "title": "1-800 Contacts | Order Contact Lenses Online",
+        "description": "At 1-800 Contacts, we beat any price on contact lenses, plus free, fast shipping and convenient online ordering. We Deliver. You Save™",
+        "image": null,
+        "type": null,
+        "url": "https://www.1800contacts.com/"
+      },
+      "jsonld": [
+        {
+          "valid": true,
+          "types": [
+            "FAQPage"
+          ]
+        }
+      ],
+      "landmarks": {
+        "main": false,
+        "nav": false,
+        "header": false,
+        "footer": false,
+        "roleBanner": true,
+        "roleMain": true,
+        "roleContentinfo": false,
+        "roleNav": false
+      },
+      "h1CountDom": 11,
+      "h1CountVisible": 1,
+      "h1Texts": [
+        "Flash sale: 30% off your first order today"
+      ],
+      "headingOutline": [
+        {
+          "tag": "h1",
+          "text": "Flash sale: 30% off your first order today"
+        },
+        {
+          "tag": "h2",
+          "text": "Save $130 on average with vision insurance"
+        },
+        {
+          "tag": "h2",
+          "text": "Need something else? We can help."
+        },
+        {
+          "tag": "h5",
+          "text": "Renew your\nprescription online"
+        },
+        {
+          "tag": "h5",
+          "text": "Glasses from $79 + free prescription lenses"
+        },
+        {
+          "tag": "h5",
+          "text": "Save up to 40% when\nyou switch to AquaSoft"
+        },
+        {
+          "tag": "h5",
+          "text": "Everything’s easier\non our app"
+        },
+        {
+          "tag": "h5",
+          "text": "Our Gajillion Percent\nPromise has your back"
+        },
+        {
+          "tag": "h2",
+          "text": "How to order"
+        },
+        {
+          "tag": "h5",
+          "text": "Find your contacts"
+        },
+        {
+          "tag": "h5",
+          "text": "Enter your prescription"
+        },
+        {
+          "tag": "h5",
+          "text": "Place your order"
+        },
+        {
+          "tag": "h2",
+          "text": "Huzzah for happy customers!"
+        },
+        {
+          "tag": "h5",
+          "text": "Yeah, we just busted out a “huzzah.”"
+        },
+        {
+          "tag": "h2",
+          "text": "FAQs: Freakin’\nAwesome Questions"
+        },
+        {
+          "tag": "h2",
+          "text": "We’re here to help."
+        }
+      ],
+      "imgTotal": 8,
+      "imgEmptyAlt": 0,
+      "imgGenericAlt": 0,
+      "proseWords": 389,
+      "firstProseBlocks": [
+        "First order? Save 30% + free shipping! 🎉",
+        "Your exact brand, our best price.\nEnds Wed. night @ 11 PM (ET)",
+        "30% discount available for first-time orders only.",
+        "Just enter your name, birthday, and zip code, and we’ll apply your vision benefits at checkout."
+      ],
+      "contentFreeLinks": 0,
+      "lang": "en",
+      "style": {
+        "fontsHeading": [
+          [
+            "GTWalsheimMedium",
+            16
+          ]
+        ],
+        "fontsBody": [
+          [
+            "GTWalsheim",
+            42
+          ],
+          [
+            "GTWalsheimMedium",
+            35
+          ]
+        ],
+        "headingSizes": [
+          [
+            "h5:29px",
+            9
+          ],
+          [
+            "h2:41px",
+            5
+          ],
+          [
+            "h1:46px",
+            1
+          ],
+          [
+            "h2:29px",
+            1
+          ]
+        ],
+        "radii": [
+          [
+            "30px",
+            12
+          ],
+          [
+            "12px",
+            6
+          ],
+          [
+            "16px",
+            5
+          ],
+          [
+            "16px 16px 0px 0px",
+            5
+          ],
+          [
+            "0px 0px 16px 16px",
+            5
+          ],
+          [
+            "6px",
+            4
+          ],
+          [
+            "50%",
+            1
+          ]
+        ],
+        "shadows": [
+          [
+            "rgba(20, 59, 102, 0.15) 0px -4px 20px 0px",
+            1
+          ]
+        ],
+        "buttons": [
+          [
+            "rgb(243, 107, 0)|rgb(255, 255, 255)|30px",
+            9
+          ],
+          [
+            "rgb(0, 19, 162)|rgb(255, 255, 255)|30px",
+            2
+          ]
+        ],
+        "bgColors": [
+          [
+            "rgb(255, 255, 255)",
+            18
+          ],
+          [
+            "rgb(222, 241, 250)",
+            3
+          ],
+          [
+            "rgb(0, 19, 162)",
+            2
+          ],
+          [
+            "rgb(169, 234, 225)",
+            1
+          ],
+          [
+            "rgb(155, 221, 219)",
+            1
+          ],
+          [
+            "rgb(80, 153, 211)",
+            1
+          ]
+        ],
+        "textColors": [
+          [
+            "rgb(50, 61, 84)",
+            23
+          ],
+          [
+            "rgb(255, 255, 255)",
+            16
+          ],
+          [
+            "rgb(0, 19, 162)",
+            10
+          ],
+          [
+            "rgb(0, 29, 155)",
+            7
+          ],
+          [
+            "rgb(46, 107, 175)",
+            6
+          ],
+          [
+            "rgb(222, 241, 250)",
+            5
+          ],
+          [
+            "rgb(243, 107, 0)",
+            3
+          ],
+          [
+            "rgb(61, 64, 77)",
+            3
+          ]
+        ]
+      }
+    },
+    "buy-contacts": {
+      "url": "https://www.1800contacts.com/buy-contacts",
+      "finalUrl": "https://www.1800contacts.com/",
+      "status": 200,
+      "title": "1-800 Contacts | Order Contact Lenses Online",
+      "titleLength": 44,
+      "metaDescription": "At 1-800 Contacts, we beat any price on contact lenses, plus free, fast shipping and convenient online ordering. We Deliver. You Save™",
+      "metaRobots": null,
+      "canonical": "https://www.1800contacts.com/buy-contacts",
+      "hreflang": [],
+      "og": {
+        "title": "1-800 Contacts | Order Contact Lenses Online",
+        "description": "At 1-800 Contacts, we beat any price on contact lenses, plus free, fast shipping and convenient online ordering. We Deliver. You Save™",
+        "image": null,
+        "type": null,
+        "url": "https://www.1800contacts.com/buy-contacts"
+      },
+      "jsonld": [
+        {
+          "valid": true,
+          "types": [
+            "FAQPage"
+          ]
+        }
+      ],
+      "landmarks": {
+        "main": false,
+        "nav": false,
+        "header": false,
+        "footer": false,
+        "roleBanner": true,
+        "roleMain": true,
+        "roleContentinfo": false,
+        "roleNav": false
+      },
+      "h1CountDom": 11,
+      "h1CountVisible": 1,
+      "h1Texts": [
+        "Flash sale: 30% off your first order today"
+      ],
+      "headingOutline": [
+        {
+          "tag": "h1",
+          "text": "Flash sale: 30% off your first order today"
+        },
+        {
+          "tag": "h2",
+          "text": "Save $130 on average with vision insurance"
+        },
+        {
+          "tag": "h2",
+          "text": "Need something else? We can help."
+        },
+        {
+          "tag": "h5",
+          "text": "Renew your\nprescription online"
+        },
+        {
+          "tag": "h5",
+          "text": "Glasses from $79 + free prescription lenses"
+        },
+        {
+          "tag": "h5",
+          "text": "Save up to 40% when\nyou switch to AquaSoft"
+        },
+        {
+          "tag": "h5",
+          "text": "Everything’s easier\non our app"
+        },
+        {
+          "tag": "h5",
+          "text": "Our Gajillion Percent\nPromise has your back"
+        },
+        {
+          "tag": "h2",
+          "text": "How to order"
+        },
+        {
+          "tag": "h5",
+          "text": "Find your contacts"
+        },
+        {
+          "tag": "h5",
+          "text": "Enter your prescription"
+        },
+        {
+          "tag": "h5",
+          "text": "Place your order"
+        },
+        {
+          "tag": "h2",
+          "text": "Huzzah for happy customers!"
+        },
+        {
+          "tag": "h5",
+          "text": "Yeah, we just busted out a “huzzah.”"
+        },
+        {
+          "tag": "h2",
+          "text": "FAQs: Freakin’\nAwesome Questions"
+        },
+        {
+          "tag": "h2",
+          "text": "We’re here to help."
+        }
+      ],
+      "imgTotal": 9,
+      "imgEmptyAlt": 0,
+      "imgGenericAlt": 0,
+      "proseWords": 381,
+      "firstProseBlocks": [
+        "Your exact brand, our best price.\nEnds Wed. night @ 11 PM (ET)",
+        "30% discount available for first-time orders only.",
+        "Just enter your name, birthday, and zip code, and we’ll apply your vision benefits at checkout.",
+        "Get your contacts today in 3 easy steps."
+      ],
+      "contentFreeLinks": 0,
+      "lang": "en",
+      "style": {
+        "fontsHeading": [
+          [
+            "GTWalsheimMedium",
+            16
+          ]
+        ],
+        "fontsBody": [
+          [
+            "GTWalsheim",
+            42
+          ],
+          [
+            "GTWalsheimMedium",
+            31
+          ]
+        ],
+        "headingSizes": [
+          [
+            "h5:29px",
+            9
+          ],
+          [
+            "h2:41px",
+            5
+          ],
+          [
+            "h1:46px",
+            1
+          ],
+          [
+            "h2:29px",
+            1
+          ]
+        ],
+        "radii": [
+          [
+            "30px",
+            12
+          ],
+          [
+            "12px",
+            6
+          ],
+          [
+            "16px",
+            5
+          ],
+          [
+            "16px 16px 0px 0px",
+            5
+          ],
+          [
+            "0px 0px 16px 16px",
+            5
+          ],
+          [
+            "50%",
+            1
+          ]
+        ],
+        "shadows": [
+          [
+            "rgba(20, 59, 102, 0.15) 0px -4px 20px 0px",
+            1
+          ]
+        ],
+        "buttons": [
+          [
+            "rgb(243, 107, 0)|rgb(255, 255, 255)|30px",
+            9
+          ],
+          [
+            "rgb(0, 19, 162)|rgb(255, 255, 255)|30px",
+            2
+          ]
+        ],
+        "bgColors": [
+          [
+            "rgb(255, 255, 255)",
+            14
+          ],
+          [
+            "rgb(222, 241, 250)",
+            3
+          ],
+          [
+            "rgb(169, 234, 225)",
+            1
+          ],
+          [
+            "rgb(80, 153, 211)",
+            1
+          ],
+          [
+            "rgb(0, 19, 162)",
+            1
+          ]
+        ],
+        "textColors": [
+          [
+            "rgb(50, 61, 84)",
+            23
+          ],
+          [
+            "rgb(255, 255, 255)",
+            16
+          ],
+          [
+            "rgb(0, 29, 155)",
+            7
+          ],
+          [
+            "rgb(0, 19, 162)",
+            6
+          ],
+          [
+            "rgb(46, 107, 175)",
+            6
+          ],
+          [
+            "rgb(222, 241, 250)",
+            5
+          ],
+          [
+            "rgb(243, 107, 0)",
+            3
+          ],
+          [
+            "rgb(61, 64, 77)",
+            3
+          ]
+        ]
+      }
+    },
+    "lens-acuvue-oasys": {
+      "url": "https://www.1800contacts.com/lens/acuvue-oasys",
+      "finalUrl": "https://www.1800contacts.com/lens/acuvue-oasys",
+      "status": 200,
+      "title": "1-800 Contacts",
+      "titleLength": 14,
+      "metaDescription": "1-800 CONTACTS - We beat any price on contact lenses, plus Free, Fast Shipping and convenient online ordering. We Deliver. You Save™",
+      "metaRobots": null,
+      "canonical": "https://www.1800contacts.com/lens/acuvue-oasys",
+      "hreflang": [],
+      "og": {
+        "title": "1-800 Contacts",
+        "description": "1-800 CONTACTS - We beat any price on contact lenses, plus Free, Fast Shipping and convenient online ordering. We Deliver. You Save™",
+        "image": "https://img.1800contacts.com/image/upload/f_auto,q_auto/v1571341467/web/contacts-icon.png",
+        "type": null,
+        "url": "https://www.1800contacts.com/lens/acuvue-oasys"
+      },
+      "jsonld": [
+        {
+          "valid": true,
+          "types": [
+            "Product"
+          ]
+        }
+      ],
+      "landmarks": {
+        "main": true,
+        "nav": false,
+        "header": false,
+        "footer": false,
+        "roleBanner": true,
+        "roleMain": true,
+        "roleContentinfo": false,
+        "roleNav": false
+      },
+      "h1CountDom": 4,
+      "h1CountVisible": 3,
+      "h1Texts": [
+        "Unbeatable prices\non contacts",
+        "Ways to get started",
+        "ACUVUE® OASYS®\nwith HYDRACLEAR® PLUS"
+      ],
+      "headingOutline": [
+        {
+          "tag": "h1",
+          "text": "Unbeatable prices\non contacts"
+        },
+        {
+          "tag": "h2",
+          "text": "Order yours with fast, free shipping."
+        },
+        {
+          "tag": "h1",
+          "text": "Ways to get started"
+        },
+        {
+          "tag": "h2",
+          "text": "Download our app"
+        },
+        {
+          "tag": "h2",
+          "text": "Call or text us"
+        },
+        {
+          "tag": "h2",
+          "text": "Update your browser"
+        },
+        {
+          "tag": "h1",
+          "text": "ACUVUE® OASYS®\nwith HYDRACLEAR® PLUS"
+        },
+        {
+          "tag": "h6",
+          "text": "Select pack size:"
+        },
+        {
+          "tag": "h6",
+          "text": "Select quantity:"
+        },
+        {
+          "tag": "h3",
+          "text": "Included with every order"
+        },
+        {
+          "tag": "h3",
+          "text": "Product description and details"
+        },
+        {
+          "tag": "h2",
+          "text": "Recent reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently asked\nquestions."
+        },
+        {
+          "tag": "h2",
+          "text": "We’re here to help."
+        }
+      ],
+      "imgTotal": 15,
+      "imgEmptyAlt": 0,
+      "imgGenericAlt": 0,
+      "proseWords": 117,
+      "firstProseBlocks": [
+        "Acuvue Oasys contact lenses with Hydraclear Plus provide an extremely comfortable contact lens wearing experience. These lenses have been designed to keep your eyes moist and comfortable all day long, using Hydraclear Pl"
+      ],
+      "contentFreeLinks": 0,
+      "lang": "en",
+      "style": {
+        "fontsHeading": [
+          [
+            "GTWalsheimMedium",
+            14
+          ]
+        ],
+        "fontsBody": [
+          [
+            "GTWalsheim",
+            33
+          ],
+          [
+            "GTWalsheimMedium",
+            11
+          ]
+        ],
+        "headingSizes": [
+          [
+            "h2:28px",
+            3
+          ],
+          [
+            "h6:20px",
+            2
+          ],
+          [
+            "h3:18px",
+            2
+          ],
+          [
+            "h2:29px",
+            2
+          ],
+          [
+            "h1:57px",
+            1
+          ],
+          [
+            "h2:31px",
+            1
+          ],
+          [
+            "h1:34px",
+            1
+          ],
+          [
+            "h1:32px",
+            1
+          ],
+          [
+            "h2:32px",
+            1
+          ]
+        ],
+        "radii": [
+          [
+            "5px",
+            8
+          ],
+          [
+            "12px",
+            7
+          ],
+          [
+            "8px",
+            4
+          ],
+          [
+            "30px",
+            2
+          ],
+          [
+            "11px",
+            2
+          ],
+          [
+            "4px",
+            1
+          ],
+          [
+            "6px",
+            1
+          ]
+        ],
+        "shadows": [
+          [
+            "rgba(0, 0, 0, 0.4) 0px 1px 5px 0px",
+            1
+          ],
+          [
+            "rgba(20, 59, 102, 0.15) 0px -4px 20px 0px",
+            1
+          ]
+        ],
+        "buttons": [
+          [
+            "rgb(243, 107, 0)|rgb(255, 255, 255)|30px",
+            1
+          ]
+        ],
+        "bgColors": [
+          [
+            "rgb(255, 255, 255)",
+            12
+          ],
+          [
+            "rgba(204, 204, 204, 0.5)",
+            12
+          ],
+          [
+            "rgb(238, 242, 249)",
+            5
+          ],
+          [
+            "rgb(221, 238, 245)",
+            2
+          ],
+          [
+            "rgb(169, 234, 225)",
+            2
+          ],
+          [
+            "rgb(0, 19, 162)",
+            2
+          ],
+          [
+            "rgb(167, 174, 188)",
+            2
+          ],
+          [
+            "rgb(0, 29, 155)",
+            1
+          ],
+          [
+            "rgb(0, 193, 173)",
+            1
+          ],
+          [
+            "rgb(80, 153, 211)",
+            1
+          ]
+        ],
+        "textColors": [
+          [
+            "rgb(50, 61, 84)",
+            22
+          ],
+          [
+            "rgb(0, 19, 162)",
+            6
+          ],
+          [
+            "rgb(0, 160, 139)",
+            4
+          ],
+          [
+            "rgb(222, 241, 250)",
+            4
+          ],
+          [
+            "rgb(243, 107, 0)",
+            3
+          ],
+          [
+            "rgb(132, 140, 157)",
+            2
+          ],
+          [
+            "rgb(0, 102, 190)",
+            1
+          ],
+          [
+            "rgb(138, 192, 227)",
+            1
+          ]
+        ]
+      }
+    },
+    "exam": {
+      "url": "https://www.1800contacts.com/exam",
+      "finalUrl": "https://www.1800contacts.com/exam",
+      "status": 200,
+      "title": "Online Vision Exam | 1-800 Contacts",
+      "titleLength": 35,
+      "metaDescription": "Renew your contact lens prescription online with ExpressExam at 1-800 Contacts. Get a vision exam from home in just 10 minutes.",
+      "metaRobots": null,
+      "canonical": "https://www.1800contacts.com/exam",
+      "hreflang": [],
+      "og": {
+        "title": "Online Vision Exam | 1-800 Contacts",
+        "description": "Renew your contact lens prescription online with ExpressExam at 1-800 Contacts. Get a vision exam from home in just 10 minutes.",
+        "image": null,
+        "type": null,
+        "url": "https://www.1800contacts.com/exam"
+      },
+      "jsonld": [
+        {
+          "valid": true,
+          "types": [
+            "FAQPage"
+          ]
+        }
+      ],
+      "landmarks": {
+        "main": false,
+        "nav": false,
+        "header": false,
+        "footer": false,
+        "roleBanner": true,
+        "roleMain": true,
+        "roleContentinfo": false,
+        "roleNav": false
+      },
+      "h1CountDom": 11,
+      "h1CountVisible": 1,
+      "h1Texts": [
+        "Renew your contacts prescription at home"
+      ],
+      "headingOutline": [
+        {
+          "tag": "h1",
+          "text": "Renew your contacts prescription at home"
+        },
+        {
+          "tag": "h2",
+          "text": "Same prescription. Better experience.™"
+        },
+        {
+          "tag": "h5",
+          "text": "Easily done\nat home"
+        },
+        {
+          "tag": "h5",
+          "text": "Takes 10\nminutes"
+        },
+        {
+          "tag": "h5",
+          "text": "Only $20 and \nFSA/HSA eligible"
+        },
+        {
+          "tag": "h5",
+          "text": "Doctor-issued\nprescription"
+        },
+        {
+          "tag": "h2",
+          "text": "ExpressExam vs. the doctor’s office"
+        },
+        {
+          "tag": "h5",
+          "text": "Both provide doctor-issued prescriptions. One lets you stay in your pajamas."
+        },
+        {
+          "tag": "h3",
+          "text": "How it works:"
+        },
+        {
+          "tag": "h6",
+          "text": "1. Take the exam"
+        },
+        {
+          "tag": "h6",
+          "text": "2. Doctor review"
+        },
+        {
+          "tag": "h6",
+          "text": "3. Get your prescription"
+        },
+        {
+          "tag": "h2",
+          "text": "Rave reviews for ExpressExam"
+        },
+        {
+          "tag": "h3",
+          "text": "Real doctors.\nReal prescriptions."
+        },
+        {
+          "tag": "h2",
+          "text": "Everything you need to know about online vision exams"
+        },
+        {
+          "tag": "h5",
+          "text": "New to ExpressExam? Kick back and learn about the coolest thing to grace the internet since cat vide"
+        },
+        {
+          "tag": "h5",
+          "text": "How often should you visit the eye doctor?"
+        },
+        {
+          "tag": "h5",
+          "text": "Eye exams: how long do they take and how often do I need them?"
+        },
+        {
+          "tag": "h5",
+          "text": "What is the difference between ExpressExam and an in-person eye exam?"
+        },
+        {
+          "tag": "h2",
+          "text": "Curious about taking a vision exam online?"
+        },
+        {
+          "tag": "h5",
+          "text": "Find out how you can easily renew your contact lens prescription from home in about ten minutes with"
+        },
+        {
+          "tag": "h3",
+          "text": "Have more questions? We’ve got more answers."
+        },
+        {
+          "tag": "h2",
+          "text": "We’re here to help."
+        }
+      ],
+      "imgTotal": 15,
+      "imgEmptyAlt": 0,
+      "imgGenericAlt": 4,
+      "proseWords": 909,
+      "firstProseBlocks": [
+        "First order? Save 30% + free shipping! 🎉",
+        "10-minute online vision exam",
+        "Doctor-issued prescription",
+        "Only pay when your Rx is renewed"
+      ],
+      "contentFreeLinks": 0,
+      "lang": "en",
+      "style": {
+        "fontsHeading": [
+          [
+            "GTWalsheimMedium",
+            23
+          ]
+        ],
+        "fontsBody": [
+          [
+            "GTWalsheim",
+            68
+          ],
+          [
+            "GTWalsheimMedium",
+            33
+          ]
+        ],
+        "headingSizes": [
+          [
+            "h5:29px",
+            10
+          ],
+          [
+            "h2:41px",
+            5
+          ],
+          [
+            "h3:36px",
+            3
+          ],
+          [
+            "h6:24px",
+            3
+          ],
+          [
+            "h1:46px",
+            1
+          ],
+          [
+            "h2:29px",
+            1
+          ]
+        ],
+        "radii": [
+          [
+            "12px",
+            8
+          ],
+          [
+            "16px",
+            6
+          ],
+          [
+            "16px 16px 0px 0px",
+            6
+          ],
+          [
+            "0px 0px 16px 16px",
+            6
+          ],
+          [
+            "30px",
+            5
+          ],
+          [
+            "6px",
+            4
+          ],
+          [
+            "50%",
+            2
+          ],
+          [
+            "10px 10px 0px 0px",
+            1
+          ],
+          [
+            "19.5px",
+            1
+          ]
+        ],
+        "shadows": [
+          [
+            "rgba(20, 59, 102, 0.15) 0px -4px 20px 0px",
+            1
+          ]
+        ],
+        "buttons": [
+          [
+            "rgb(243, 107, 0)|rgb(255, 255, 255)|30px",
+            3
+          ],
+          [
+            "rgb(0, 19, 162)|rgb(255, 255, 255)|30px",
+            1
+          ],
+          [
+            "rgb(46, 107, 175)|rgb(255, 255, 255)|10px 10px 0px 0px",
+            1
+          ],
+          [
+            "rgb(0, 29, 155)|rgb(0, 0, 0)|19.5px",
+            1
+          ]
+        ],
+        "bgColors": [
+          [
+            "rgb(255, 255, 255)",
+            25
+          ],
+          [
+            "rgb(0, 19, 162)",
+            3
+          ],
+          [
+            "rgb(222, 241, 250)",
+            3
+          ],
+          [
+            "rgb(169, 234, 225)",
+            1
+          ],
+          [
+            "rgb(155, 221, 219)",
+            1
+          ],
+          [
+            "rgb(80, 153, 211)",
+            1
+          ],
+          [
+            "rgb(0, 29, 155)",
+            1
+          ]
+        ],
+        "textColors": [
+          [
+            "rgb(50, 61, 84)",
+            38
+          ],
+          [
+            "rgb(255, 255, 255)",
+            20
+          ],
+          [
+            "rgb(0, 19, 162)",
+            10
+          ],
+          [
+            "rgb(0, 102, 190)",
+            7
+          ],
+          [
+            "rgb(0, 29, 155)",
+            7
+          ],
+          [
+            "rgb(222, 241, 250)",
+            5
+          ],
+          [
+            "rgb(61, 64, 77)",
+            4
+          ],
+          [
+            "rgb(243, 107, 0)",
+            3
+          ]
+        ]
+      }
+    },
+    "subscriptions": {
+      "url": "https://www.1800contacts.com/subscriptions",
+      "finalUrl": "https://www.1800contacts.com/subscriptions",
+      "status": 200,
+      "title": "Contact Lens Subscriptions | 1-800 Contacts",
+      "titleLength": 43,
+      "metaDescription": "Subscribe and save 5% on your contact lenses with a 1-800 Contacts subscription. Check out how it works and order your contacts, hassle-free.",
+      "metaRobots": null,
+      "canonical": "https://www.1800contacts.com/subscriptions",
+      "hreflang": [],
+      "og": {
+        "title": "Contact Lens Subscriptions | 1-800 Contacts",
+        "description": "Subscribe and save 5% on your contact lenses with a 1-800 Contacts subscription. Check out how it works and order your contacts, hassle-free.",
+        "image": null,
+        "type": null,
+        "url": "https://www.1800contacts.com/subscriptions"
+      },
+      "jsonld": [],
+      "landmarks": {
+        "main": false,
+        "nav": false,
+        "header": false,
+        "footer": false,
+        "roleBanner": true,
+        "roleMain": true,
+        "roleContentinfo": false,
+        "roleNav": false
+      },
+      "h1CountDom": 7,
+      "h1CountVisible": 2,
+      "h1Texts": [
+        "Subscribe now, save\n5% always",
+        "Fresh contacts, happy eyes"
+      ],
+      "headingOutline": [
+        {
+          "tag": "h1",
+          "text": "Subscribe now, save\n5% always"
+        },
+        {
+          "tag": "h2",
+          "text": "Here’s how it works:"
+        },
+        {
+          "tag": "h6",
+          "text": "Step 1: Order your contacts"
+        },
+        {
+          "tag": "h6",
+          "text": "Step 2: You take control"
+        },
+        {
+          "tag": "h6",
+          "text": "Step 3: You're all set"
+        },
+        {
+          "tag": "h2",
+          "text": "See what subscribers have to say"
+        },
+        {
+          "tag": "h2",
+          "text": "Best. Contacts. Subscription. Ever."
+        },
+        {
+          "tag": "h1",
+          "text": "Fresh contacts, happy eyes"
+        },
+        {
+          "tag": "h2",
+          "text": "We’re here to help."
+        }
+      ],
+      "imgTotal": 9,
+      "imgEmptyAlt": 0,
+      "imgGenericAlt": 4,
+      "proseWords": 300,
+      "firstProseBlocks": [
+        "Get your contacts delivered on time, every time—with free shipping.",
+        "Snooze or cancel anytime",
+        "You’re always in the driver’s seat with your subscription.",
+        "Free returns and exchanges"
+      ],
+      "contentFreeLinks": 0,
+      "lang": "en",
+      "style": {
+        "fontsHeading": [
+          [
+            "GTWalsheimMedium",
+            9
+          ]
+        ],
+        "fontsBody": [
+          [
+            "GTWalsheim",
+            45
+          ],
+          [
+            "GTWalsheimMedium",
+            20
+          ]
+        ],
+        "headingSizes": [
+          [
+            "h2:41px",
+            3
+          ],
+          [
+            "h6:24px",
+            3
+          ],
+          [
+            "h1:46px",
+            2
+          ],
+          [
+            "h2:29px",
+            1
+          ]
+        ],
+        "radii": [
+          [
+            "30px",
+            5
+          ],
+          [
+            "24px",
+            4
+          ],
+          [
+            "16px",
+            3
+          ],
+          [
+            "16px 16px 0px 0px",
+            3
+          ],
+          [
+            "0px 0px 16px 16px",
+            3
+          ],
+          [
+            "32px",
+            3
+          ],
+          [
+            "50%",
+            2
+          ],
+          [
+            "19.5px",
+            1
+          ]
+        ],
+        "shadows": [
+          [
+            "rgba(20, 59, 102, 0.15) 0px -4px 20px 0px",
+            1
+          ]
+        ],
+        "buttons": [
+          [
+            "rgb(243, 107, 0)|rgb(255, 255, 255)|30px",
+            4
+          ],
+          [
+            "rgb(0, 29, 155)|rgb(0, 0, 0)|19.5px",
+            1
+          ]
+        ],
+        "bgColors": [
+          [
+            "rgb(255, 255, 255)",
+            10
+          ],
+          [
+            "rgb(238, 242, 249)",
+            4
+          ],
+          [
+            "rgb(80, 153, 211)",
+            2
+          ],
+          [
+            "rgb(169, 234, 225)",
+            1
+          ],
+          [
+            "rgb(222, 241, 250)",
+            1
+          ],
+          [
+            "rgb(0, 19, 162)",
+            1
+          ],
+          [
+            "rgb(0, 29, 155)",
+            1
+          ]
+        ],
+        "textColors": [
+          [
+            "rgb(50, 61, 84)",
+            25
+          ],
+          [
+            "rgb(255, 255, 255)",
+            9
+          ],
+          [
+            "rgb(0, 19, 162)",
+            7
+          ],
+          [
+            "rgb(222, 241, 250)",
+            5
+          ],
+          [
+            "rgb(0, 29, 155)",
+            4
+          ],
+          [
+            "rgb(243, 107, 0)",
+            3
+          ],
+          [
+            "rgb(8, 18, 43)",
+            3
+          ],
+          [
+            "rgb(61, 64, 77)",
+            3
+          ]
+        ]
+      }
+    },
+    "glasses": {
+      "url": "https://www.1800contacts.com/glasses",
+      "finalUrl": "https://www.1800contacts.com/glasses",
+      "status": 200,
+      "title": "Order Glasses Online | 1-800 Contacts",
+      "titleLength": 37,
+      "metaDescription": "Shop for glasses frames online with The Framery at 1-800 Contacts. Get free in-home try-on plus free prescription lenses and our 60-day guarantee.",
+      "metaRobots": null,
+      "canonical": "https://www.1800contacts.com/glasses",
+      "hreflang": [],
+      "og": {
+        "title": "Order Glasses Online | 1-800 Contacts",
+        "description": "Shop for glasses frames online with The Framery at 1-800 Contacts. Get free in-home try-on plus free prescription lenses and our 60-day guarantee.",
+        "image": null,
+        "type": null,
+        "url": "https://www.1800contacts.com/glasses"
+      },
+      "jsonld": [],
+      "landmarks": {
+        "main": false,
+        "nav": false,
+        "header": false,
+        "footer": false,
+        "roleBanner": true,
+        "roleMain": true,
+        "roleContentinfo": false,
+        "roleNav": false
+      },
+      "h1CountDom": 7,
+      "h1CountVisible": 1,
+      "h1Texts": [
+        "Limited time: $40 off any frame"
+      ],
+      "headingOutline": [
+        {
+          "tag": "h1",
+          "text": "Limited time: $40 off any frame"
+        },
+        {
+          "tag": "h4",
+          "text": "Frames from $79 + free lenses"
+        },
+        {
+          "tag": "h4",
+          "text": "Hundreds of styles"
+        },
+        {
+          "tag": "h4",
+          "text": "Decades of experience"
+        },
+        {
+          "tag": "h4",
+          "text": "Free shipping & returns"
+        },
+        {
+          "tag": "h2",
+          "text": "Free In-Home Try-On"
+        },
+        {
+          "tag": "h2",
+          "text": "Try-on glasses virtually"
+        },
+        {
+          "tag": "h3",
+          "text": "Any frame, every lens"
+        },
+        {
+          "tag": "h3",
+          "text": "Eyeglasses"
+        },
+        {
+          "tag": "h3",
+          "text": "Sunglasses & light responsive"
+        },
+        {
+          "tag": "h3",
+          "text": "Blue light"
+        },
+        {
+          "tag": "h2",
+          "text": "Make the most of your vision benefits"
+        },
+        {
+          "tag": "h2",
+          "text": "Huzzah for happy customers!"
+        },
+        {
+          "tag": "h5",
+          "text": "Yeah, we just busted out a “huzzah.”"
+        },
+        {
+          "tag": "h2",
+          "text": "We’re here to help."
+        }
+      ],
+      "imgTotal": 9,
+      "imgEmptyAlt": 0,
+      "imgGenericAlt": 0,
+      "proseWords": 336,
+      "firstProseBlocks": [
+        "First order? Save 30% + free shipping! 🎉",
+        "Show up for your new semester with new glasses. Free returns, free home try-ons, and a 60-day guarantee.",
+        "Every pair gets prescription lenses on us.",
+        "Looks for every face and every taste."
+      ],
+      "contentFreeLinks": 0,
+      "lang": "en",
+      "style": {
+        "fontsHeading": [
+          [
+            "GTWalsheimMedium",
+            15
+          ]
+        ],
+        "fontsBody": [
+          [
+            "GTWalsheim",
+            38
+          ],
+          [
+            "GTWalsheimMedium",
+            29
+          ]
+        ],
+        "headingSizes": [
+          [
+            "h4:20px",
+            4
+          ],
+          [
+            "h2:41px",
+            4
+          ],
+          [
+            "h3:36px",
+            4
+          ],
+          [
+            "h1:46px",
+            1
+          ],
+          [
+            "h5:29px",
+            1
+          ],
+          [
+            "h2:29px",
+            1
+          ]
+        ],
+        "radii": [
+          [
+            "30px",
+            10
+          ],
+          [
+            "6px",
+            4
+          ],
+          [
+            "16px",
+            3
+          ],
+          [
+            "16px 16px 0px 0px",
+            3
+          ],
+          [
+            "0px 0px 16px 16px",
+            3
+          ],
+          [
+            "19.5px",
+            1
+          ],
+          [
+            "50%",
+            1
+          ]
+        ],
+        "shadows": [
+          [
+            "rgba(20, 59, 102, 0.15) 0px -4px 20px 0px",
+            1
+          ]
+        ],
+        "buttons": [
+          [
+            "rgb(0, 19, 162)|rgb(255, 255, 255)|30px",
+            7
+          ],
+          [
+            "rgb(243, 107, 0)|rgb(255, 255, 255)|30px",
+            2
+          ],
+          [
+            "rgb(0, 29, 155)|rgb(0, 0, 0)|19.5px",
+            1
+          ]
+        ],
+        "bgColors": [
+          [
+            "rgb(255, 255, 255)",
+            12
+          ],
+          [
+            "rgb(0, 19, 162)",
+            3
+          ],
+          [
+            "rgb(222, 241, 250)",
+            2
+          ],
+          [
+            "rgb(169, 234, 225)",
+            1
+          ],
+          [
+            "rgb(155, 221, 219)",
+            1
+          ],
+          [
+            "rgb(0, 29, 155)",
+            1
+          ]
+        ],
+        "textColors": [
+          [
+            "rgb(255, 255, 255)",
+            16
+          ],
+          [
+            "rgb(50, 61, 84)",
+            13
+          ],
+          [
+            "rgb(0, 19, 162)",
+            12
+          ],
+          [
+            "rgb(8, 18, 43)",
+            11
+          ],
+          [
+            "rgb(222, 241, 250)",
+            5
+          ],
+          [
+            "rgb(80, 153, 211)",
+            4
+          ],
+          [
+            "rgb(243, 107, 0)",
+            3
+          ],
+          [
+            "rgb(0, 102, 190)",
+            1
+          ]
+        ]
+      }
+    },
+    "coupon": {
+      "url": "https://www.1800contacts.com/coupon",
+      "finalUrl": "https://www.1800contacts.com/coupon",
+      "status": 200,
+      "title": "1-800 Contacts Promo Codes | Coupons and Discounts",
+      "titleLength": 50,
+      "metaDescription": "Get discount contact lenses with 1-800 Contacts coupons, offers, and promo codes. Save up to 30% off your first order plus free shipping!",
+      "metaRobots": null,
+      "canonical": "https://www.1800contacts.com/coupon",
+      "hreflang": [],
+      "og": {
+        "title": "1-800 Contacts Promo Codes | Coupons and Discounts",
+        "description": "Get discount contact lenses with 1-800 Contacts coupons, offers, and promo codes. Save up to 30% off your first order plus free shipping!",
+        "image": null,
+        "type": null,
+        "url": "https://www.1800contacts.com/coupon"
+      },
+      "jsonld": [],
+      "landmarks": {
+        "main": false,
+        "nav": false,
+        "header": false,
+        "footer": false,
+        "roleBanner": true,
+        "roleMain": true,
+        "roleContentinfo": false,
+        "roleNav": false
+      },
+      "h1CountDom": 4,
+      "h1CountVisible": 1,
+      "h1Texts": [
+        "1-800 Contacts promo codes and coupons"
+      ],
+      "headingOutline": [
+        {
+          "tag": "h1",
+          "text": "1-800 Contacts promo codes and coupons"
+        },
+        {
+          "tag": "h2",
+          "text": "New to 1-800 Contacts and want to save on lenses?"
+        },
+        {
+          "tag": "h3",
+          "text": "New customers\nsave 30%"
+        },
+        {
+          "tag": "h3",
+          "text": "$15 off per box of Acuvue Oasys 24 pack"
+        },
+        {
+          "tag": "h3",
+          "text": "Students save 30% on first orders"
+        },
+        {
+          "tag": "h3",
+          "text": "$25 off\nAquaSoft® Daily"
+        },
+        {
+          "tag": "h2",
+          "text": "Already a customer? Check out our contact lens discounts."
+        },
+        {
+          "tag": "h3",
+          "text": "Get your contacts for less"
+        },
+        {
+          "tag": "h2",
+          "text": "More ways to save"
+        },
+        {
+          "tag": "h5",
+          "text": "Vision insurance"
+        },
+        {
+          "tag": "h5",
+          "text": "FSA/HSA"
+        },
+        {
+          "tag": "h5",
+          "text": "Rebates"
+        },
+        {
+          "tag": "h2",
+          "text": "Unlock your options with ExpressExam"
+        },
+        {
+          "tag": "h2",
+          "text": "Read our blog for more ways to save on contacts"
+        },
+        {
+          "tag": "h2",
+          "text": "Free returns and exchanges"
+        },
+        {
+          "tag": "h2",
+          "text": "Nothing makes us happier than happy customers. Read more reviews."
+        },
+        {
+          "tag": "h2",
+          "text": "Get $25 off glasses at The Framery"
+        },
+        {
+          "tag": "h2",
+          "text": "We’re here to help."
+        }
+      ],
+      "imgTotal": 13,
+      "imgEmptyAlt": 0,
+      "imgGenericAlt": 0,
+      "proseWords": 576,
+      "firstProseBlocks": [
+        "First order? Save 30% + free shipping! 🎉",
+        "Congrats! You found our not-so-secret page for contacts promo codes, coupons, and discounts (as if our prices weren’t low enough to begin with). Go nuts with these contact lens discounts.",
+        "First time? Not only will your contacts be more affordable than getting them from your eye care provider, but you’ll also save 30%. Plus, free shipping, exchanges, and a whole lotta eyeball love. Welcome!",
+        "Yep. That’s a fine Acuvue Oasys discount right there. Plus, there’s no limit. It’s auto-applied at checkout so no offer code needed. Ready? Go."
+      ],
+      "contentFreeLinks": 0,
+      "lang": "en",
+      "style": {
+        "fontsHeading": [
+          [
+            "GTWalsheimMedium",
+            18
+          ]
+        ],
+        "fontsBody": [
+          [
+            "GTWalsheim",
+            44
+          ],
+          [
+            "GTWalsheimMedium",
+            25
+          ]
+        ],
+        "headingSizes": [
+          [
+            "h2:41px",
+            8
+          ],
+          [
+            "h3:36px",
+            5
+          ],
+          [
+            "h5:29px",
+            3
+          ],
+          [
+            "h1:46px",
+            1
+          ],
+          [
+            "h2:29px",
+            1
+          ]
+        ],
+        "radii": [
+          [
+            "30px",
+            10
+          ],
+          [
+            "16px",
+            7
+          ],
+          [
+            "16px 16px 0px 0px",
+            7
+          ],
+          [
+            "0px 0px 16px 16px",
+            7
+          ],
+          [
+            "6px",
+            4
+          ],
+          [
+            "32px",
+            3
+          ],
+          [
+            "50%",
+            2
+          ],
+          [
+            "19.5px",
+            1
+          ]
+        ],
+        "shadows": [
+          [
+            "rgba(20, 59, 102, 0.15) 0px -4px 20px 0px",
+            1
+          ]
+        ],
+        "buttons": [
+          [
+            "rgb(243, 107, 0)|rgb(255, 255, 255)|30px",
+            5
+          ],
+          [
+            "rgb(0, 19, 162)|rgb(255, 255, 255)|30px",
+            4
+          ],
+          [
+            "rgb(0, 29, 155)|rgb(0, 0, 0)|19.5px",
+            1
+          ]
+        ],
+        "bgColors": [
+          [
+            "rgb(255, 255, 255)",
+            18
+          ],
+          [
+            "rgb(238, 242, 249)",
+            5
+          ],
+          [
+            "rgb(0, 19, 162)",
+            2
+          ],
+          [
+            "rgb(0, 102, 190)",
+            2
+          ],
+          [
+            "rgb(169, 234, 225)",
+            1
+          ],
+          [
+            "rgb(155, 221, 219)",
+            1
+          ],
+          [
+            "rgb(222, 241, 250)",
+            1
+          ],
+          [
+            "rgb(0, 29, 155)",
+            1
+          ]
+        ],
+        "textColors": [
+          [
+            "rgb(0, 19, 162)",
+            25
+          ],
+          [
+            "rgb(50, 61, 84)",
+            16
+          ],
+          [
+            "rgb(255, 255, 255)",
+            12
+          ],
+          [
+            "rgb(8, 18, 43)",
+            6
+          ],
+          [
+            "rgb(222, 241, 250)",
+            5
+          ],
+          [
+            "rgb(243, 107, 0)",
+            3
+          ],
+          [
+            "rgb(138, 192, 227)",
+            1
+          ],
+          [
+            "rgb(46, 107, 175)",
+            1
+          ]
+        ]
+      }
+    },
+    "common-questions-faq": {
+      "url": "https://www.1800contacts.com/common-questions-faq",
+      "finalUrl": "https://www.1800contacts.com/common-questions-faq",
+      "status": 200,
+      "title": "Common Questions | 1-800 Contacts",
+      "titleLength": 33,
+      "metaDescription": "Answers to common questions about 1-800 CONTACTS products and services.",
+      "metaRobots": null,
+      "canonical": "https://www.1800contacts.com/common-questions-faq",
+      "hreflang": [],
+      "og": {
+        "title": "Common Questions | 1-800 Contacts",
+        "description": "Answers to common questions about 1-800 CONTACTS products and services.",
+        "image": null,
+        "type": null,
+        "url": "https://www.1800contacts.com/common-questions-faq"
+      },
+      "jsonld": [
+        {
+          "valid": true,
+          "types": [
+            "FAQPage"
+          ]
+        }
+      ],
+      "landmarks": {
+        "main": false,
+        "nav": false,
+        "header": false,
+        "footer": false,
+        "roleBanner": true,
+        "roleMain": true,
+        "roleContentinfo": false,
+        "roleNav": false
+      },
+      "h1CountDom": 3,
+      "h1CountVisible": 0,
+      "h1Texts": [],
+      "headingOutline": [
+        {
+          "tag": "h2",
+          "text": "Common Questions (FAQ)"
+        },
+        {
+          "tag": "h4",
+          "text": "Account questions"
+        },
+        {
+          "tag": "h4",
+          "text": "Prescription questions"
+        },
+        {
+          "tag": "h4",
+          "text": "Placing orders"
+        },
+        {
+          "tag": "h4",
+          "text": "Order status and shipping questions"
+        },
+        {
+          "tag": "h4",
+          "text": "Payment questions"
+        },
+        {
+          "tag": "h4",
+          "text": "Product questions"
+        },
+        {
+          "tag": "h4",
+          "text": "International orders"
+        },
+        {
+          "tag": "h4",
+          "text": "Company information"
+        },
+        {
+          "tag": "h2",
+          "text": "We’re here to help."
+        }
+      ],
+      "imgTotal": 3,
+      "imgEmptyAlt": 0,
+      "imgGenericAlt": 0,
+      "proseWords": 2113,
+      "firstProseBlocks": [
+        "We’ve got your back. Live chat now, by clicking the chat bubble at the corner of your screen or call us at 1-800-266-8228 and we’ll help you find your account.",
+        "After you sign in, tap the profile icon in the top right-hand corner of the page. Click on the “Account Settings” tab, and you will be given the option to change your email address.",
+        "Give us a call at 1-800-266-8228 or use the live chat option in the bottom corner of your screen and one of our lovely contact lens experts will help you get access to your account and update the email address associated",
+        "Yes. We need a valid prescription for every order (it’s the law). If you don’t have a copy of your prescription, you can still order contact lenses from us. Just search for your eye doctor’s info on our site when you ord"
+      ],
+      "contentFreeLinks": 1,
+      "lang": "en",
+      "style": {
+        "fontsHeading": [
+          [
+            "GTWalsheimMedium",
+            10
+          ]
+        ],
+        "fontsBody": [
+          [
+            "GTWalsheim",
+            59
+          ],
+          [
+            "GTWalsheimMedium",
+            4
+          ],
+          [
+            "GTWalsheimBold",
+            1
+          ]
+        ],
+        "headingSizes": [
+          [
+            "h4:21px",
+            8
+          ],
+          [
+            "h2:28px",
+            1
+          ],
+          [
+            "h2:29px",
+            1
+          ]
+        ],
+        "radii": [
+          [
+            "12px",
+            29
+          ],
+          [
+            "30px",
+            2
+          ],
+          [
+            "50%",
+            2
+          ],
+          [
+            "19.5px",
+            1
+          ]
+        ],
+        "shadows": [
+          [
+            "rgba(20, 59, 102, 0.15) 0px -4px 20px 0px",
+            1
+          ]
+        ],
+        "buttons": [
+          [
+            "rgb(243, 107, 0)|rgb(255, 255, 255)|30px",
+            1
+          ],
+          [
+            "rgb(0, 29, 155)|rgb(0, 0, 0)|19.5px",
+            1
+          ]
+        ],
+        "bgColors": [
+          [
+            "rgb(222, 241, 250)",
+            29
+          ],
+          [
+            "rgb(255, 255, 255)",
+            2
+          ],
+          [
+            "rgb(169, 234, 225)",
+            1
+          ],
+          [
+            "rgb(0, 19, 162)",
+            1
+          ],
+          [
+            "rgb(0, 29, 155)",
+            1
+          ]
+        ],
+        "textColors": [
+          [
+            "rgb(50, 61, 84)",
+            50
+          ],
+          [
+            "rgb(222, 241, 250)",
+            5
+          ],
+          [
+            "rgb(255, 255, 255)",
+            4
+          ],
+          [
+            "rgb(243, 107, 0)",
+            3
+          ],
+          [
+            "rgb(138, 192, 227)",
+            1
+          ],
+          [
+            "rgb(46, 107, 175)",
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "origin": {
+    "llmsTxt": {
+      "status": 403,
+      "contentType": "text/html",
+      "sample": null
+    }
+  }
+}

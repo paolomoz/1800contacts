@@ -1,0 +1,29 @@
+{
+  "fetchedAt": "2026-08-25T13:54:01.301Z",
+  "pages": {
+    "index": {
+      "logoSvg": null,
+      "logoImgSrc": null,
+      "favicon": null,
+      "appleTouchIcon": null,
+      "themeColor": null,
+      "jsonldRaw": [],
+      "generatorMeta": null,
+      "fontFiles": [
+        "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2"
+      ]
+    },
+    "lens-acuvue-oasys": {
+      "logoSvg": null,
+      "logoImgSrc": null,
+      "favicon": null,
+      "appleTouchIcon": null,
+      "themeColor": null,
+      "jsonldRaw": [],
+      "generatorMeta": null,
+      "fontFiles": [
+        "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2"
+      ]
+    }
+  }
+}

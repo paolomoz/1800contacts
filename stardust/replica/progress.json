@@ -1,0 +1,31 @@
+{
+  "url": "https://www.1800contacts.com/",
+  "mode": "replica",
+  "direction": "preserve (bounded-single)",
+  "pageTypes": [
+    {
+      "type": "home",
+      "archetype": "stardust/prototypes/index-proposed.html",
+      "breakpoints": {
+        "1440": {
+          "iterations": 3,
+          "pixelDiffPct": 8.58,
+          "heightDeltaPx": 7,
+          "pixelProbe": "PASS",
+          "heightProbe": "PASS",
+          "contentDiff": "pending (needs live DOM solve)",
+          "visualDiff": "pending (needs live DOM solve)",
+          "residuals": [
+            "hero band 13.5% + FAQ band 15.8% = licensed-font substitution (Ambit->Nunito), not structural",
+            "FAQ mascot is a raster lift from the ground-truth capture (source SVG behind PerimeterX)"
+          ],
+          "evidence": "stardust/replica/gates/index-1440/"
+        },
+        "360": {
+          "status": "not started (needs live mobile solve)"
+        }
+      }
+    }
+  ],
+  "lastRun": "2026-08-25"
+}

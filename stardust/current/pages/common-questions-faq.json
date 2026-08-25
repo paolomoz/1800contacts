@@ -1,0 +1,566 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-25T13:30:23.776Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "common-questions-faq",
+  "url": "https://www.1800contacts.com/common-questions-faq",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-25T13:30:23.776Z",
+  "finalUrl": "https://www.1800contacts.com/common-questions-faq",
+  "title": "Common Questions | 1-800 Contacts",
+  "description": "Answers to common questions about 1-800 CONTACTS products and services.",
+  "og": {
+    "title": "Common Questions | 1-800 Contacts",
+    "description": "Answers to common questions about 1-800 CONTACTS products and services.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Common Questions (FAQ)"
+    },
+    {
+      "tag": "h4",
+      "text": "Account questions"
+    },
+    {
+      "tag": "h4",
+      "text": "Prescription questions"
+    },
+    {
+      "tag": "h4",
+      "text": "Placing orders"
+    },
+    {
+      "tag": "h4",
+      "text": "Order status and shipping questions"
+    },
+    {
+      "tag": "h4",
+      "text": "Payment questions"
+    },
+    {
+      "tag": "h4",
+      "text": "Product questions"
+    },
+    {
+      "tag": "h4",
+      "text": "International orders"
+    },
+    {
+      "tag": "h4",
+      "text": "Company information"
+    },
+    {
+      "tag": "h2",
+      "text": "We’re here to help."
+    }
+  ],
+  "body": [
+    "We’ve got your back. Live chat now, by clicking the chat bubble at the corner of your screen or call us at 1-800-266-8228 and we’ll help you find your account.",
+    "After you sign in, tap the profile icon in the top right-hand corner of the page. Click on the “Account Settings” tab, and you will be given the option to change your email address.",
+    "Give us a call at 1-800-266-8228 or use the live chat option in the bottom corner of your screen and one of our lovely contact lens experts will help you get access to your account and update the email address associated with it. For your security, if you change your email address, we’ll remove the credit card information from your account. We’ll also send you an email confirming your change.",
+    "Yes. We need a valid prescription for every order (it’s the law). If you don’t have a copy of your prescription, you can still order contact lenses from us. Just search for your eye doctor’s info on our site when you order. All you’ll need is your eye care provider’s name (or clinic name), city, and state. After you submit your order, we’ll verify your prescription with your eye care provider to make super-sure you get the correct contacts. This may take up to one business day.",
+    "To find the correct information for your contact lens order, just look on one of your contact lens boxes. Your contact lens box will have a brand name and your prescription information. Please see the example below to find your prescription on your contact lens box:",
+    "Where is my prescription? ... it’s on the box!",
+    "Contact lens prescriptions vary based on the type of lens you wear (bifocal, toric, disposable contacts, etc.).",
+    "If you don’t have a box, call us at 1-800-266-8228 and we can complete your order process over the phone. One of our agents will be happy to contact your eye doctor and find your prescription for you.",
+    "Under federal law your prescription is good for 1-2 years, depending on the state in which your eye care provider is located. Most importantly, this one-year time period is from the date your eye doctor issues your prescription—not from the date of your eye exam. We're advocates of proper eye health and encourage our customers to receive regular eye care. If you have provided us a copy of your prescription, we'll notify you when it's expiring. If it has already expired, we’ll call to remind you to visit your eye doctor for an eye exam and to receive an updated or new contact lens prescription.",
+    "Send us a copy of your prescription to get your order as fast as possible. Here’s how to make that happen:",
+    "Snap a picture of your written prescription with your phone. Text it to 41800, email it to rx@1800contacts.com, or upload it here.",
+    "Yep. That’s all there is to it. You’ll also get prescription expiration and reorder reminders.",
+    "Yes! You can conveniently renew your prescription with our online vision exam, ExpressExam. It takes less than 10 minutes and adds a doctor-issued prescription to your account within two business hours for easy ordering. Learn more and see if you qualify.",
+    "Ordering with 1-800 Contacts is simple! Our How to Order page will quickly teach you how to order a product. If you’re still having trouble, you can call us at 1-800-266-8228 to help you through the process or use the live chat option in the bottom corner of your screen.",
+    "If you wear different brands in each eye, start by entering the prescription for your right eye. On the product page for your brand, uncheck the box next to “Left Eye”. The page will refresh with the parameters for the left eye grayed out. Enter the parameters for your right eye according to your prescription or contact lens box and enter your name below the prescription. When you are done with the right eye, continue by clicking the “Add to Cart” button. You will be taken to the shopping cart and see the prescription you entered for your right eye.",
+    "To enter the prescription for your left eye, navigate to your brand using the search box or one of the product lists on the left side of the page. When you’ve found your brand and arrived on its product page, uncheck the box next to “Right Eye.” The page will refresh with the right eye grayed out this time. Next, enter the parameters for your left eye according to your prescription or contact lens box and enter your name below the prescription. When you are finished, click Add to Cart. You will arrive on the shopping cart page again, this time with the separate prescriptions for each eye listed. Review the prescriptions to make sure they are correct and then hit “Continue Order” to proceed.",
+    "Look for the \"Have promo code?\" link in your cart. Click on the link, enter your code, and hit apply to see valid codes applied to your total.",
+    "First, be sure to sign into your account. Then click the three-line menu button near our logo in the top left of the screen. Your most recent order will be displayed, and you can also print or email your receipt. If you want to see past orders, scroll to the bottom of the order details and click “See more orders.”",
+    "You can print a copy of your invoice from your order history or have one of our awesome associates email you a copy. Give us a call at 1-800-266-8228 or use the live chat option in the bottom corner of your screen and we’ll get it right to you.",
+    "With a verified prescription, orders placed weekdays by 3:00 PM Mountain Time will ship that day (orders placed on weekends/holidays will ship next business day). Sending your prescription is easy. Just snap a pic and upload it or fill in the info manually. If we need to double-check with your eye care provider, no problem! We’ll give them a call and get everything squared away (verification with your eye doctor may take up to one business day).",
+    "All of them:",
+    "Standard (5-7 business days)",
+    "Ridiculously fast (2-3 business days)",
+    "Teleported (basically) (1 business day)",
+    "Importantly, these shipping times are how long it takes to ship after we verify your prescription, which can take up to one full business day. To have your order shipped right away, text a picture of it to 41800 and your order will typically ship the same day. Orders with a valid prescription on file, placed weekdays by 3:00 PM Mountain Time, will ship that day (orders placed on weekends/holidays will ship next business day).Also, if you live in Hawaii, Alaska, or are shipping to a P.O. box, our \"Teleported (basically)\" option will take a few extra days. Sorry, we can only bend the laws of physics so much. 🤷🏻‍♂️",
+    "We offer more than 100% satisfaction guarantee on all orders, it’s what we call our “Gajillion Percent Promise.” We’ll even return or exchange unused lenses if your prescription changes. Once we verify your new prescription, your lenses will be replaced and sent to you. Just make sure you send back your old contacts within 30 days so you aren't charged for both.We're also happy to replace torn lenses because everybody knows they’re the worst. The. Worst.",
+    "Absolutely. When you pay for your order, just use your FSA card as you would any other credit card. If you don’t have an FSA card, you can purchase products using a regular credit card and submit the invoice for reimbursement.",
+    "For more information about using your FSA to pay for contacts, click here. If you need help, call us at 1-800-266-8228.",
+    "Yes. 1-800 Contacts is an in-network provider for:",
+    "Davis Vision",
+    "Superior Vision (Versant Health)",
+    "Spectera (United Healthcare)",
+    "Blue View Vision",
+    "Anthem BCBS (administered by EyeMed)",
+    "Have a different benefits provider such as VSP or EyeMed? Getting reimbursed is simple: Just place your order (online or by phone) and complete the out-of-network form (click here to download), then submit both the invoice from your order and the completed form to your insurance company for reimbursement. It's that easy.",
+    "Note: most discounts, such as rebates and new customer discounts, can’t be combined with vision insurance. If you have questions, give us a call and we’ll help do the math and figure out which to apply to get the lowest out-of-pocket price.",
+    "Still have questions? Read more here, chat, or give us a call (1-800-266-8228) and a real, friendly person will be happy to help.",
+    "Yes, you receive the exact same contact lenses as you would from your eye doctor, including all of the major brands like Acuvue®, Soflens®, Air Optix Aqua®, Optima®, PureVision®, Focus® and Biomedics® as well as hard-to-find specialty lenses such as toric, colored, bifocal, multifocal and disposable contact lenses.",
+    "Gas permeable contact lenses are only available through our call center, which is staffed by smart, extraordinarily nice people. Please call 1-800-266-8228 to order this type of lens.",
+    "If you can’t find your contacts on our website, it may mean that we only sell them in our call center. Please call 1-800-266-8228 for help from one of our super nice contact lens experts.",
+    "Good news! With The Framery (our amazing eyewear company) you can get free prescription lenses, free shipping and returns, and free in-home try-on just for being a 1-800 Contacts customer.",
+    "These orders can’t be filled on the website since orders shipped within the 50 United States require your current eye doctor’s contact information and a copy of your contact lens prescription. First, call 1-800-266-8228 to set up an account and place your order. Then, upload a copy of your prescription by snapping a pic or entering the info manually. We'll fill international prescriptions for two years from the exam or issue date no matter the rules regarding the shipping. If there’s no date on a prescription, we’ll honor that prescription for two years after the date we received it. Boom, because that’s how we do business. Just know that because prescriptions are written differently in every country, there’s some info that the doctor needs to specify:Patient name Brand of contact lens Power Base Curve (this measurement tells us the size of your eye, generally an 8.x Or 9.x Number) If you have any questions, call 1-800-266-8228 for assistance.",
+    "International orders may experience additional shipping delays. You may be subject to import duties and taxes, which are charged once a shipment reaches your country. Additional charges for customs clearance must be paid by you; we have no control over these charges and can’t predict the amount. Customs policies vary widely from country to country, so you should contact your local customs office for further information. Additionally, you must comply with all laws and regulations of the country in which you’re receiving the goods. Manufacturer restrictions prevent us from shipping certain products to some geographic locations.",
+    "Orders shipping to Japan will only be allowed a two-box quantity or a two-month supply. O2 Optix orders will not be shipped outside North America (with the exception of APO/FPO shipping addresses). Additionally, we can’t ship to Mexico or Spain.",
+    "Wonder what makes us tick? Who are the smart, funny, passionate, and uncommonly attractive people who get you your contacts? Find out here. Hours of operation and contact info. With only a few exceptions, our call center agents are available by phone at 1-800-266-8228, 24 hours a day, 7 days a week. For your convenience, live chat agents are always just a click away. 1-800 Contacts’ call center is closed or has limited hours on the following days: New Year’s Day—Open 8 a.m. (MST) to midnight Easter—Closed 4th of July—Closed Thanksgiving Day—Closed Christmas Eve—Open until 6 p.m. (MST) Christmas Day—Closed New Year’s Eve—Open until 6 p.m. (MST) To contact us by email, click here. We can also be reached by snail mail at: 1-800 Contacts 51 West Center St. Orem, UT 84057",
+    "Visit our Notice of Privacy Practices page for more info.",
+    "Visit our Privacy Policy page for more info.",
+    "Visit our Terms of Service page for more info.",
+    "Visit our Accessibility page for more info.",
+    "We accept",
+    "Real people with real answers in real time, 24/7.",
+    "Chat with us"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Contact lenses",
+      "href": "/lenses"
+    },
+    {
+      "label": "How to order",
+      "href": "/how-to-order"
+    },
+    {
+      "label": "Online vision exam",
+      "href": "/exam"
+    },
+    {
+      "label": "Vision insurance",
+      "href": "/vision-insurance"
+    },
+    {
+      "label": "1-800-266-8228",
+      "href": "tel:18002668228"
+    },
+    {
+      "label": "sign in",
+      "href": "/account-settings"
+    },
+    {
+      "label": "rx@1800contacts.com",
+      "href": "mailto:rx@1800contacts.com"
+    },
+    {
+      "label": "upload it here",
+      "href": "/upload-rx"
+    },
+    {
+      "label": "Learn more and see if you qualify",
+      "href": "https://www.1800contacts.com/exam/landing"
+    },
+    {
+      "label": "How to Order",
+      "href": "/how-to-order"
+    },
+    {
+      "label": "cart",
+      "href": "/cart"
+    },
+    {
+      "label": "sign into",
+      "href": "/order-history"
+    },
+    {
+      "label": "order history",
+      "href": "/order-history"
+    },
+    {
+      "label": "1-800-266-8228",
+      "href": "tel:18002668228"
+    },
+    {
+      "label": "upload it",
+      "href": "https://www.1800contacts.com/upload-rx"
+    },
+    {
+      "label": "Gajillion Percent Promise",
+      "href": "https://www.1800contacts.com/mt/gajillion-percent-promise"
+    },
+    {
+      "label": "click here",
+      "href": "/fsa-fund-use"
+    },
+    {
+      "label": "click here to download",
+      "href": "https://www.1800contacts.com/welcome/welcome-back/oon-form"
+    },
+    {
+      "label": "Read more here",
+      "href": "https://www.1800contacts.com/vision-insurance"
+    },
+    {
+      "label": "contact lenses",
+      "href": "/lenses"
+    },
+    {
+      "label": "Acuvue®",
+      "href": "/lenses/acuvue"
+    },
+    {
+      "label": "Soflens®",
+      "href": "/lenses/soflens"
+    },
+    {
+      "label": "Air Optix Aqua®",
+      "href": "/lenses/air-optix"
+    },
+    {
+      "label": "Optima®",
+      "href": "/lenses/optima"
+    },
+    {
+      "label": "PureVision®",
+      "href": "/lenses/purevision"
+    },
+    {
+      "label": "Focus®",
+      "href": "/lenses/focus"
+    },
+    {
+      "label": "Biomedics®",
+      "href": "/lenses/biomedics"
+    },
+    {
+      "label": "toric",
+      "href": "/lenses/toric-astigmatism"
+    },
+    {
+      "label": "colored",
+      "href": "/lenses/color"
+    },
+    {
+      "label": "bifocal",
+      "href": "/lenses/multifocal-bifocal"
+    },
+    {
+      "label": "multifocal",
+      "href": "/lenses/multifocal-bifocal"
+    },
+    {
+      "label": "disposable",
+      "href": "/lenses/soft"
+    },
+    {
+      "label": "The Framery",
+      "href": "https://www.1800contacts.com/glasses"
+    },
+    {
+      "label": "Find out here",
+      "href": "https://www.1800contacts.com/the-company"
+    },
+    {
+      "label": "Notice of Privacy Practices",
+      "href": "/notice-of-privacy-practices"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy"
+    },
+    {
+      "label": "Terms of Service",
+      "href": "/terms-and-conditions"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility"
+    },
+    {
+      "label": "Learn more",
+      "href": "/gajillion-percent-promise"
+    },
+    {
+      "label": "1-800-266-8228",
+      "href": "tel:18002668228"
+    },
+    {
+      "label": "Customer reviews",
+      "href": "/reviews"
+    },
+    {
+      "label": "Our story",
+      "href": "/the-company"
+    },
+    {
+      "label": "Community",
+      "href": "/eyesociety/category/community"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "How to order",
+      "href": "/how-to-order"
+    },
+    {
+      "label": "How to read your prescription",
+      "href": "/how-to-read-rx"
+    },
+    {
+      "label": "Returns & exchanges",
+      "href": "/returns-and-exchanges"
+    },
+    {
+      "label": "Gajillion percent promise",
+      "href": "/gajillion-percent-promise"
+    },
+    {
+      "label": "Best-price guarantee",
+      "href": "/best-price-guarantee"
+    },
+    {
+      "label": "FAQs",
+      "href": "/common-questions-faq"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact-us"
+    },
+    {
+      "label": "Order status",
+      "href": "/account/order-history"
+    },
+    {
+      "label": "Reorder",
+      "href": "/reorder"
+    },
+    {
+      "label": "Upload prescription",
+      "href": "/upload-rx"
+    },
+    {
+      "label": "My prescriptions",
+      "href": "/account/prescriptions"
+    },
+    {
+      "label": "Get the app",
+      "href": "/mobile-app"
+    },
+    {
+      "label": "Glasses",
+      "href": "/glasses"
+    },
+    {
+      "label": "Eye Society blog",
+      "href": "/eyesociety"
+    },
+    {
+      "label": "Insurance",
+      "href": "/vision-insurance"
+    },
+    {
+      "label": "FSA / HSA",
+      "href": "/fsa-fund-use"
+    },
+    {
+      "label": "Offers & coupons",
+      "href": "/coupon"
+    },
+    {
+      "label": "Online vision exam",
+      "href": "/exam/landing"
+    },
+    {
+      "label": "Find eye doctors",
+      "href": "/eye-doctor-search"
+    },
+    {
+      "label": "Privacy practices",
+      "href": "/privacy/notice-of-privacy-practices"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "/terms/terms-and-conditions"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility?offering=general"
+    },
+    {
+      "label": "Ad choices",
+      "href": "#"
+    },
+    {
+      "label": "Patents",
+      "href": "/patents"
+    },
+    {
+      "label": "privacy policy",
+      "href": "/privacy/privacy-policy"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "/terms/terms-and-conditions"
+    },
+    {
+      "label": "Live Chat",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.1800contacts.com/",
+    "https://support.apple.com/en-us/102665",
+    "https://www.mozilla.org/en-US/firefox/new",
+    "https://www.microsoft.com/en-us/windows/microsoft-edge",
+    "https://www.google.com/chrome/browser",
+    "https://www.1800contacts.com/lenses",
+    "https://www.1800contacts.com/how-to-order",
+    "https://www.1800contacts.com/exam",
+    "https://www.1800contacts.com/vision-insurance",
+    "tel:18002668228",
+    "https://www.1800contacts.com/lenses/acuvue",
+    "https://www.1800contacts.com/lenses/air-optix",
+    "https://www.1800contacts.com/lenses/dailies",
+    "https://www.1800contacts.com/lenses/biofinity",
+    "https://www.1800contacts.com/lenses/bausch-lomb",
+    "https://www.1800contacts.com/lenses/coopervision",
+    "https://www.1800contacts.com/account-settings",
+    "mailto:rx@1800contacts.com",
+    "https://www.1800contacts.com/upload-rx",
+    "https://www.1800contacts.com/exam/landing",
+    "https://www.1800contacts.com/cart",
+    "https://www.1800contacts.com/order-history",
+    "https://www.1800contacts.com/mt/gajillion-percent-promise",
+    "https://www.1800contacts.com/fsa-fund-use",
+    "https://www.1800contacts.com/welcome/welcome-back/oon-form",
+    "https://www.1800contacts.com/lenses/soflens",
+    "https://www.1800contacts.com/lenses/optima",
+    "https://www.1800contacts.com/lenses/purevision",
+    "https://www.1800contacts.com/lenses/focus",
+    "https://www.1800contacts.com/lenses/biomedics",
+    "https://www.1800contacts.com/lenses/toric-astigmatism",
+    "https://www.1800contacts.com/lenses/color",
+    "https://www.1800contacts.com/lenses/multifocal-bifocal",
+    "https://www.1800contacts.com/lenses/soft",
+    "https://www.1800contacts.com/glasses",
+    "https://www.1800contacts.com/the-company",
+    "https://www.1800contacts.com/notice-of-privacy-practices",
+    "https://www.1800contacts.com/privacy-policy",
+    "https://www.1800contacts.com/terms-and-conditions",
+    "https://www.1800contacts.com/accessibility",
+    "https://www.1800contacts.com/gajillion-percent-promise",
+    "https://www.instagram.com/1800contacts/",
+    "https://www.facebook.com/1800Contacts",
+    "https://www.tiktok.com/@1800contacts",
+    "https://www.youtube.com/1800contacts",
+    "https://www.1800contacts.com/reviews",
+    "https://www.1800contacts.com/eyesociety/category/community",
+    "https://www.1800contacts.com/careers",
+    "https://www.1800contacts.com/how-to-read-rx",
+    "https://www.1800contacts.com/returns-and-exchanges",
+    "https://www.1800contacts.com/best-price-guarantee",
+    "https://www.1800contacts.com/common-questions-faq",
+    "https://www.1800contacts.com/contact-us",
+    "https://www.1800contacts.com/account/order-history",
+    "https://www.1800contacts.com/reorder",
+    "https://www.1800contacts.com/account/prescriptions",
+    "https://www.1800contacts.com/mobile-app",
+    "https://www.1800contacts.com/eyesociety",
+    "https://www.1800contacts.com/coupon",
+    "https://www.1800contacts.com/eye-doctor-search",
+    "https://www.1800contacts.com/privacy/notice-of-privacy-practices",
+    "https://www.1800contacts.com/terms/terms-and-conditions",
+    "https://www.1800contacts.com/accessibility?offering=general",
+    "https://www.1800contacts.com/#",
+    "https://www.1800contacts.com/patents",
+    "https://www.1800contacts.com/privacy/privacy-policy"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.1800contacts.com/image/upload/f_auto,q_auto/v1571874585/web/box-prescription-1.gif",
+        "alt": "On the box",
+        "w": 165,
+        "h": 97
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/f_auto,q_auto/v1571874585/web/box-prescription-2.gif",
+        "alt": "On the box",
+        "w": 165,
+        "h": 97
+      },
+      {
+        "src": "https://services-public-de-na1.niceincontact.com/guide/user-images/5723/44d3b701-41fd-4cf1-af74-6b35b67bf83e.svg",
+        "alt": "Live Chat",
+        "w": 100,
+        "h": 100
+      }
+    ],
+    "allImgCount": 14,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": null,
+        "title": null
+      }
+    ]
+  },
+  "customProps": {
+    "--iris-color-neutral-100": "#f9fcff",
+    "--iris-color-neutral-200": "#eef2f9",
+    "--iris-color-neutral-300": "#dde1ea",
+    "--iris-color-neutral-400": "#c5cbd6",
+    "--iris-color-neutral-500": "#a7aebc",
+    "--iris-color-neutral-600": "#848c9d",
+    "--iris-color-neutral-700": "#5c667a",
+    "--iris-color-neutral-800": "#323d54",
+    "--iris-color-neutral-900": "#08122b",
+    "--iris-color-neutral-wcag45": "#6d7588",
+    "--iris-color-neutral-wcag3": "#8d95a5",
+    "--iris-color-orange-100": "#fffb98",
+    "--iris-color-orange-200": "#ffef86",
+    "--iris-color-orange-300": "#ffdb66",
+    "--iris-color-orange-400": "#ffbe31",
+    "--iris-color-orange-500": "#ff9600",
+    "--iris-color-orange-600": "#f36b00",
+    "--iris-color-orange-700": "#e84300",
+    "--iris-color-orange-800": "#df1400",
+    "--iris-color-orange-900": "#d90000",
+    "--iris-color-indigo-100": "#f4fcff",
+    "--iris-color-indigo-200": "#def1fa",
+    "--iris-color-indigo-300": "#baddf0",
+    "--iris-color-indigo-400": "#8ac0e3",
+    "--iris-color-indigo-500": "#5099d3",
+    "--iris-color-indigo-600": "#0066be",
+    "--iris-color-indigo-700": "#0013a2",
+    "--iris-color-indigo-800": "#000083",
+    "--iris-color-indigo-900": "#0d005c",
+    "--iris-color-red-100": "#fffaf8",
+    "--iris-color-red-200": "#ffeae4",
+    "--iris-color-red-300": "#fdd0c3",
+    "--iris-color-red-400": "#f7aa96",
+    "--iris-color-red-500": "#ec775f",
+    "--iris-color-red-600": "#d9230c",
+    "--iris-color-red-700": "#b90000",
+    "--iris-color-red-800": "#8b0000",
+    "--iris-color-red-900": "#550000",
+    "--iris-color-green-100": "#f6fdfc",
+    "--iris-color-green-200": "#daf6f2",
+    "--iris-color-green-300": "#a9eae1",
+    "--iris-color-green-400": "#52d9ca",
+    "--iris-color-green-500": "#00c1ad",
+    "--iris-color-green-600": "#00a08b",
+    "--iris-color-green-700": "#007565",
+    "--iris-color-green-800": "#00564b",
+    "--iris-color-green-900": "#003430",
+    "--iris-color-white": "#ffffff",
+    "--iris-color-black": "#161616"
+  },
+  "_signals": {
+    "filteredInterstitials": 1,
+    "distinctHeadings": 10,
+    "mainTextLen": 86627,
+    "realImageCount": 3,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/common-questions-faq.png"
+}

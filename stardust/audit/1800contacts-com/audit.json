@@ -1,0 +1,534 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:audit",
+    "writtenAt": "2026-08-25T16:10:00Z",
+    "againstInput": "https://www.1800contacts.com/",
+    "readArtifacts": [
+      "stardust/audit/1800contacts-com/_brand-probe.json",
+      "stardust/audit/1800contacts-com/_seo-probe.json",
+      "stardust/audit/1800contacts-com/_cwv.json",
+      "stardust/current/pages/index.json",
+      "stardust/current/pages/lens-acuvue-oasys.json",
+      "stardust/current/assets/screenshots/index.png",
+      "analysis/page-types.md",
+      "analysis/martech-and-apis.md",
+      "analysis/url-inventory.md"
+    ],
+    "synthesizedInputs": [
+      "Report-completion pass: the original stardust:audit run captured all raw probes but crashed before Phase 6 synthesis. This audit.json was synthesized from the on-disk probes without re-crawling the live site (behind PerimeterX bot protection). Brand surface was read from _brand-probe.json + per-page style blocks + the index page iris design-token customProps, rather than a Phase-1 _brand-extraction.json (not produced by the crashed run)."
+    ],
+    "stardustVersion": "0.18.1"
+  },
+
+  "site": {
+    "url": "https://www.1800contacts.com/",
+    "domainSlug": "1800contacts-com",
+    "pagesAudited": ["index", "buy-contacts", "lens-acuvue-oasys", "exam", "subscriptions", "glasses", "coupon", "common-questions-faq"],
+    "extraction": {
+      "reused": true,
+      "extractedAt": "2026-08-25T13:57:23Z",
+      "pageCount": 8,
+      "totalDiscovered": 1126
+    }
+  },
+
+  "assumptions": [
+    "Report-completion pass: this audit was synthesized from pre-captured on-disk probes after the original run crashed before synthesis. The live site was not re-crawled (PerimeterX / HUMAN Security bot protection).",
+    "Primary conversion action assumed to be 'start or continue a contact-lens order' — the orange (#f36b00) button is the repeated primary CTA (9x on the home page), routing to /lenses and /reorder.",
+    "Representative mobile CWV run assumed to be 'home-mobile-v2' (status 200, full 198-resource load). The status-403 mobile runs in _cwv.json are PerimeterX bot-challenge stubs (13 resources / 22 DOM nodes) and were excluded as non-representative.",
+    "brandColorShare was measured on the captured flash-sale home screenshot; the orange share is elevated by the promotional hero and promo bands present at capture time.",
+    "altCoverage was aggregated from the per-page SEO-probe counts; the probe's generic-alt heuristic did not flag some 'media image' / 'callout image' strings visible in the home page JSON, so true meaningful-alt coverage is modestly lower than the reported 0.90.",
+    "Reference benchmarking (Phase 5) was not run in this completion pass; the refero MCP was not probed."
+  ],
+
+  "scorecard": {
+    "overall": 58,
+    "scoredWeight": 100,
+    "dimensions": {
+      "brand-expression": {
+        "score": 73,
+        "weight": 10,
+        "evidence": ["measurements.brandColorShare", "measurements.radiusSprawl", "measurements.designTokenSystem", "F-012", "F-014"],
+        "notMeasured": []
+      },
+      "visual-hierarchy-craft": {
+        "score": 58,
+        "weight": 15,
+        "evidence": ["measurements.typeScale", "measurements.h1Integrity", "F-013", "F-014", "screenshot:index.png"],
+        "notMeasured": []
+      },
+      "conversion-focus": {
+        "score": 62,
+        "weight": 20,
+        "evidence": ["measurements.ctaFragmentation", "F-009", "F-002", "screenshot:index.png"],
+        "notMeasured": []
+      },
+      "accessibility": {
+        "score": 55,
+        "weight": 10,
+        "evidence": ["measurements.contrast", "measurements.altCoverage", "measurements.landmarkSet", "measurements.h1Integrity", "F-002", "F-006", "F-010"],
+        "notMeasured": []
+      },
+      "technical-seo": {
+        "score": 62,
+        "weight": 15,
+        "evidence": ["measurements.duplicateTitle", "measurements.pdpTitleQuality", "measurements.jsonldCoverage", "measurements.ogCompleteness", "F-003", "F-004", "F-005", "F-008"],
+        "notMeasured": []
+      },
+      "content-llm-visibility": {
+        "score": 60,
+        "weight": 15,
+        "evidence": ["measurements.llmsTxt", "measurements.jsonldCoverage", "measurements.extractableProseWords", "measurements.headingQuestionCoverage", "F-007", "F-011"],
+        "notMeasured": []
+      },
+      "performance": {
+        "score": 38,
+        "weight": 15,
+        "evidence": ["measurements.cwv", "F-001"],
+        "notMeasured": []
+      }
+    }
+  },
+
+  "measurements": {
+    "brandColorShare": {
+      "value": 0.27,
+      "unit": "share-of-painted-pixels",
+      "status": "measured",
+      "method": "pixel-sample",
+      "detail": {
+        "screenshot": "stardust/current/assets/screenshots/index.png",
+        "dimensions": "1440x4164",
+        "grid": "every 6th px",
+        "paintedPixels": 120707,
+        "brandPixels": 32611,
+        "targets": "saturated iris brand tokens (orange-500/600/700, indigo-600/700/800/900) at tolerance 22",
+        "note": "Elevated by the flash-sale promotional hero and orange promo bands present at capture. A broader run including mid tints (5099d3, 8ac0e3, teals) yields 0.43. Brand color is deliberately and heavily deployed; share is comfortably above the 15% strong-deployment anchor."
+      }
+    },
+    "designTokenSystem": {
+      "value": "iris",
+      "unit": "named-token-system",
+      "status": "measured",
+      "method": "customProps-inspection",
+      "detail": {
+        "source": "stardust/current/pages/index.json#customProps",
+        "families": ["neutral (100-900)", "orange (100-900)", "indigo (100-900)", "red (100-900)", "green (100-900)", "white", "black"],
+        "wcagAwareTokens": ["--iris-color-neutral-wcag45: #6d7588 (4.62:1 on white)", "--iris-color-neutral-wcag3: #8d95a5"],
+        "displayFace": "GTWalsheim / GTWalsheimMedium",
+        "note": "A mature, formally named design-token system with dedicated WCAG-safe neutrals — yet the WCAG-safe tokens are not consistently used in captured roles (see contrast failures)."
+      }
+    },
+    "ctaFragmentation": {
+      "value": 4,
+      "unit": "distinct-labels-per-bucket",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "bucket": "start-or-continue-order",
+        "labels": { "Get started": 1, "First time here": 1, "Contact lenses": 1, "Back again": 1 },
+        "destinations": ["/lenses", "/reorder"],
+        "secondaryBucket": "generic-learn-more (5 distinct labels to 5 destinations: 'Learn more' x5, 'Tell me more', 'View details', 'See what's included', 'See if you qualify')",
+        "source": "stardust/current/pages/index.json#ctas"
+      }
+    },
+    "typeScale": {
+      "value": "inconsistent-mapping",
+      "unit": "scale-kind",
+      "status": "measured",
+      "method": "pages-style-aggregation",
+      "detail": {
+        "distinctHeadingSizesPx": [18, 20, 21, 24, 28, 29, 31, 32, 34, 36, 41, 46, 57],
+        "coreLandingSizes": [46, 41, 29],
+        "issue": "Semantic heading level is decoupled from size: h5 (29px) renders larger than h3/h4 (18-21px) on card grids; h2 appears at both 41px and 29px; the PDP introduces its own sizes (57/34/32/28). No clean modular ratio.",
+        "ratio": null
+      }
+    },
+    "radiusSprawl": {
+      "value": 12,
+      "unit": "distinct-radii",
+      "status": "measured",
+      "method": "pages-style-aggregation",
+      "detail": {
+        "distinctValues": ["4px", "5px", "6px", "8px", "10px", "11px", "12px", "16px", "19.5px", "24px", "30px", "32px", "50%", "compound corners (16 16 0 0 / 0 0 16 16 / 10 10 0 0)"],
+        "dominant": { "30px": "pill buttons", "16px/12px": "cards" },
+        "source": "stardust/current/pages/*.json#style.radii"
+      }
+    },
+    "contrast": {
+      "status": "measured",
+      "method": "wcag-computed",
+      "detail": {
+        "note": "WCAG 2.1 relative-luminance ratios computed from captured iris colors in their actual UI roles. Normal-text AA = 4.5, large-text AA = 3.0, AAA = 7.0.",
+        "pairs": [
+          { "fg": "#ffffff", "bg": "#f36b00", "ratio": 3.04, "role": "PRIMARY CTA button label (white on orange-600), 9x on home", "passesAA": false, "passesAALarge": true, "passesAAA": false },
+          { "fg": "#000000", "bg": "#001d9b", "ratio": 1.65, "role": "button: black text on dark-blue (indigo-800-ish), radius 19.5px, multi-page", "passesAA": false, "passesAALarge": false, "passesAAA": false },
+          { "fg": "#8ac0e3", "bg": "#ffffff", "ratio": 1.96, "role": "light-blue text (indigo-400) on white", "passesAA": false, "passesAALarge": false, "passesAAA": false },
+          { "fg": "#f36b00", "bg": "#def1fa", "ratio": 2.61, "role": "orange text on pale-blue section (indigo-200)", "passesAA": false, "passesAALarge": false, "passesAAA": false },
+          { "fg": "#f36b00", "bg": "#ffffff", "ratio": 3.04, "role": "orange text (orange-600) on white", "passesAA": false, "passesAALarge": true, "passesAAA": false },
+          { "fg": "#ffffff", "bg": "#5099d3", "ratio": 3.07, "role": "white text on light-blue section bg (indigo-500)", "passesAA": false, "passesAALarge": true, "passesAAA": false },
+          { "fg": "#00a08b", "bg": "#ffffff", "ratio": 3.28, "role": "teal text (green-600) on white, PDP", "passesAA": false, "passesAALarge": true, "passesAAA": false },
+          { "fg": "#848c9d", "bg": "#ffffff", "ratio": 3.38, "role": "muted-gray text (neutral-600) on white, PDP", "passesAA": false, "passesAALarge": true, "passesAAA": false },
+          { "fg": "#2e6baf", "bg": "#ffffff", "ratio": 5.47, "role": "steel-blue text/button on white, exam", "passesAA": true, "passesAALarge": true, "passesAAA": false },
+          { "fg": "#0066be", "bg": "#ffffff", "ratio": 5.76, "role": "blue text (indigo-600) on white, exam", "passesAA": true, "passesAALarge": true, "passesAAA": false },
+          { "fg": "#323d54", "bg": "#def1fa", "ratio": 9.36, "role": "body text on pale-blue section (FAQ bg, 29x)", "passesAA": true, "passesAALarge": true, "passesAAA": true },
+          { "fg": "#323d54", "bg": "#eef2f9", "ratio": 9.69, "role": "body text on pale-gray section (neutral-200)", "passesAA": true, "passesAALarge": true, "passesAAA": true },
+          { "fg": "#3d404d", "bg": "#ffffff", "ratio": 10.30, "role": "dark-gray text on white", "passesAA": true, "passesAALarge": true, "passesAAA": true },
+          { "fg": "#323d54", "bg": "#ffffff", "ratio": 10.87, "role": "primary body text (neutral-800) on white", "passesAA": true, "passesAALarge": true, "passesAAA": true },
+          { "fg": "#def1fa", "bg": "#0013a2", "ratio": 11.19, "role": "light text on blue reversed section (indigo-700)", "passesAA": true, "passesAALarge": true, "passesAAA": true },
+          { "fg": "#001d9b", "bg": "#ffffff", "ratio": 12.73, "role": "dark-blue text on white", "passesAA": true, "passesAALarge": true, "passesAAA": true },
+          { "fg": "#0013a2", "bg": "#ffffff", "ratio": 13.00, "role": "brand-blue link/heading (indigo-700) on white", "passesAA": true, "passesAALarge": true, "passesAAA": true },
+          { "fg": "#ffffff", "bg": "#0013a2", "ratio": 13.00, "role": "SECONDARY CTA button label (white on indigo-700)", "passesAA": true, "passesAALarge": true, "passesAAA": true }
+        ],
+        "failsAAnormal": 8,
+        "remediation": "White text reaches AA on orange only at orange-800 (#df1400, 4.96:1); orange-700 (#e84300) is 4.01, still short. Body/brand-blue pairs already pass AAA. The defined --iris-color-neutral-wcag45 (#6d7588) computes 4.62:1 and should replace #848c9d for muted text."
+      }
+    },
+    "altCoverage": {
+      "value": 0.90,
+      "unit": "share-of-images-with-meaningful-alt",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "contentImages": 81,
+        "emptyAlt": 0,
+        "genericAlt": 8,
+        "byPage": "exam 4 generic + subscriptions 4 generic; all others 0 empty/0 generic per probe",
+        "caveat": "Zero empty alt is a genuine strength. However the home page JSON shows several 'media image' and 'callout image' alts (carousel + betterway callout) that the probe's generic heuristic did not flag, so effective meaningful-alt is modestly lower than 0.90."
+      }
+    },
+    "cwv": {
+      "status": "measured",
+      "method": "playwright-lab",
+      "detail": {
+        "mobile": {
+          "lcp": { "value": 16.56, "unit": "s", "class": "poor" },
+          "cls": { "value": 0.382, "unit": "score", "class": "poor" },
+          "tbt": { "value": 1363, "unit": "ms", "class": "poor" },
+          "fcp": { "value": 8.70, "unit": "s", "class": "poor" },
+          "run": "home-mobile-v2 (status 200, 198 resources, 1498KB, 375x667)"
+        },
+        "desktop": {
+          "lcp": { "value": 3.11, "unit": "s", "class": "needs-improvement" },
+          "cls": { "value": 0.097, "unit": "score", "class": "good" },
+          "tbt": { "value": 97, "unit": "ms", "class": "good" },
+          "run": "home-desktop (status 200, 393 resources, 2063KB, 1440x900)"
+        },
+        "note": "Lab TBT is a proxy for INP; PSI field data unavailable (not probed). Several mobile runs returned HTTP 403 (PerimeterX bot-challenge stubs: 13 resources / 22 DOM nodes) and were excluded. The Yottaa front-end optimizer + Adobe Launch tag chain + PerimeterX challenge likely inflate mobile LCP/TBT; the measured values classify poor regardless and represent a real full-load render."
+      }
+    },
+    "duplicateTitle": {
+      "value": true,
+      "unit": "boolean",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "duplicate": "'1-800 Contacts | Order Contact Lenses Online' shared by / and /buy-contacts (which returns 200 but finalUrl redirects to /). og:title/description also identical.",
+        "checkRef": "check:duplicate-title"
+      }
+    },
+    "pdpTitleQuality": {
+      "value": 14,
+      "unit": "title-length-chars",
+      "status": "measured",
+      "method": "pages-json",
+      "detail": {
+        "page": "lens-acuvue-oasys (PDP template, ~373 URLs)",
+        "title": "'1-800 Contacts' — brand-only, no product term",
+        "metaDescription": "generic brand boilerplate, not product-specific",
+        "checkRef": "check:title-missing"
+      }
+    },
+    "h1Integrity": {
+      "value": "broken",
+      "unit": "qualitative",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "home": "11 h1 in DOM / 1 visible",
+        "pdp": "4 in DOM / 3 visible (three competing visible h1s)",
+        "subscriptions": "7 in DOM / 2 visible",
+        "faq": "3 in DOM / 0 visible (no visible h1 at all)",
+        "headingSkips": "home outline runs h1 -> h2 -> h5 (skips h3/h4)",
+        "checkRef": "check:single-h1"
+      }
+    },
+    "landmarkSet": {
+      "value": "incomplete",
+      "unit": "qualitative",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "present": "role=banner and role=main on all pages; <main> element on PDP only",
+        "missingEverywhere": "no <nav>/role=navigation, no <footer>/role=contentinfo on any captured page; <main> element absent (role-only) on most",
+        "checkRef": "check:landmark-main"
+      }
+    },
+    "jsonldCoverage": {
+      "value": "partial",
+      "unit": "qualitative",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "present": "FAQPage on index/buy-contacts/exam/common-questions-faq; Product on PDP",
+        "absent": "no JSON-LD on /subscriptions, /glasses, /coupon; no Organization schema anywhere; PDP Product lacks detectable Offer/price/AggregateRating; no BreadcrumbList",
+        "checkRef": "check:jsonld"
+      }
+    },
+    "ogCompleteness": {
+      "value": "partial",
+      "unit": "qualitative",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "present": "og:title, og:description, og:url on all pages",
+        "missing": "og:image null on home + all landing pages (PDP has only a generic contacts-icon.png); og:type null on every page"
+      }
+    },
+    "sitemapValid": {
+      "value": true,
+      "unit": "boolean",
+      "status": "measured",
+      "method": "sitemap-inspection",
+      "detail": {
+        "source": "analysis/1800c-sitemap.xml (declared in robots.txt)",
+        "urls": 1126,
+        "checkRef": "check:sitemap"
+      }
+    },
+    "httpsCanonical": {
+      "value": true,
+      "unit": "boolean",
+      "status": "measured",
+      "method": "pages-json",
+      "detail": "HTTPS enforced on all pages; self-referential canonical present on every captured page (minor: /buy-contacts canonical is /buy-contacts while its finalUrl redirects to /). No meta robots noindex.",
+      "checkRef": "check:canonical"
+    },
+    "llmsTxt": {
+      "value": false,
+      "unit": "boolean",
+      "status": "measured",
+      "method": "origin-fetch",
+      "detail": "GET /llms.txt returned HTTP 403 (PerimeterX) with text/html — no llms.txt served."
+    },
+    "extractableProseWords": {
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "byPage": { "common-questions-faq": 2113, "exam": 909, "coupon": 576, "index": 389, "buy-contacts": 381, "glasses": 336, "subscriptions": 300, "lens-acuvue-oasys": 117 },
+        "note": "Marketing/FAQ pages are content-rich; the PDP template (largest indexable set, ~373 pages) is thin at 117 words and truncates its product description."
+      }
+    },
+    "headingQuestionCoverage": {
+      "value": 0.4,
+      "unit": "share-headings-as-question-or-topic",
+      "status": "estimated",
+      "method": "heading-outline-review",
+      "detail": {
+        "basis": "Roughly 40% of h2/h3 map to askable topics ('How to order', 'How it works', FAQ questions, 'ExpressExam vs. the doctor's office'); the remainder are slogans/puns ('Huzzah for happy customers!', 'FAQs: Freakin' Awesome Questions', 'Best. Contacts. Subscription. Ever.', 'Yeah, we just busted out a huzzah')."
+      }
+    },
+    "keyFactsCrawlable": {
+      "value": "partial",
+      "unit": "qualitative",
+      "status": "measured",
+      "method": "pages-json-review",
+      "detail": "What-it-is / who-it's-for / offers are in crawlable text on marketing pages. Per-lens PRICE is locked in the JS pack-size/quantity selector widget and not stated as crawlable text on the PDP; an answer engine cannot cite 'what does ACUVUE OASYS cost here'."
+    }
+  },
+
+  "findings": [
+    {
+      "id": "F-001",
+      "severity": "P1",
+      "dimension": "performance",
+      "title": "Mobile Core Web Vitals all classify POOR",
+      "evidence": { "type": "measurement", "ref": "measurements.cwv", "observed": "mobile LCP 16.56s, CLS 0.382, TBT 1363ms, FCP 8.70s (home-mobile-v2, full 198-resource load); desktop LCP 3.11s needs-improvement" },
+      "businessImpact": "Mobile is the majority of e-commerce traffic; a 16.6s LCP and 0.38 layout shift lose visitors before the buy path even paints and depress paid-search Quality Score and conversion.",
+      "fix": "The EDS migration is the lever: ship a static, server-rendered hero with explicit image dimensions (kills CLS), move the Adobe Launch tag chain + Yottaa + PerimeterX challenge off the critical path (defer/async), preload the one LCP image, and consolidate to a single first-party font. Re-measure with PSI field data post-cutover.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-002",
+      "severity": "P1",
+      "dimension": "accessibility",
+      "title": "Primary CTA (white on orange) fails WCAG AA for its button label",
+      "evidence": { "type": "measurement", "ref": "measurements.contrast", "observed": "white #ffffff on orange-600 #f36b00 = 3.04:1 (AA normal needs 4.5); this is the most-used button, 9x on the home page" },
+      "businessImpact": "Low-vision users cannot reliably read the site's primary buy action, directly costing conversions and creating ADA exposure for a brand that publishes an /accessibility page.",
+      "fix": "White text reaches AA on orange only at orange-800 (#df1400, 4.96:1); reserve orange-600 for large/bold labels (meets AA-large 3:1) or switch the text-bearing primary button to indigo-700 (#0013a2, 13:1). Adopt the already-defined WCAG-safe iris tokens as the button contract.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-003",
+      "severity": "P1",
+      "dimension": "technical-seo",
+      "title": "PDP template (~373 pages) ships brand-only titles and boilerplate descriptions",
+      "evidence": { "type": "measurement", "ref": "measurements.pdpTitleQuality", "observed": "lens/acuvue-oasys title = '1-800 Contacts' (14 chars, no product term); meta description is generic brand boilerplate" },
+      "businessImpact": "The largest indexable template cannot rank for its own product queries ('acuvue oasys contacts'); 373 pages present identical, value-free titles and forfeit high-intent organic traffic.",
+      "fix": "Templated intent-bearing titles ('ACUVUE OASYS with HYDRACLEAR PLUS Contact Lenses | 1-800 Contacts') and product-specific meta descriptions sourced from the ButterCMS/product data at build time.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-004",
+      "severity": "P2",
+      "dimension": "technical-seo",
+      "title": "Broken H1 structure site-wide",
+      "evidence": { "type": "measurement", "ref": "measurements.h1Integrity", "observed": "home 11 h1 in DOM / 1 visible; PDP 3 visible h1; FAQ 0 visible h1; heading outline skips h1 -> h2 -> h5" },
+      "businessImpact": "Search engines and screen readers get an incoherent document outline; the FAQ page has no h1 at all and the PDP has three competing h1s.",
+      "fix": "Exactly one h1 per page carrying the page's value term; sequential heading levels (no h3/h4 skips). EDS section templates enforce this by construction.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-005",
+      "severity": "P2",
+      "dimension": "technical-seo",
+      "title": "Duplicate title and Open Graph across / and /buy-contacts",
+      "evidence": { "type": "measurement", "ref": "measurements.duplicateTitle", "observed": "'1-800 Contacts | Order Contact Lenses Online' on both; /buy-contacts returns 200 but finalUrl redirects to /, yet canonical says /buy-contacts" },
+      "businessImpact": "Two URLs compete for the same query and split signals; the redirect/canonical mismatch muddies indexation.",
+      "fix": "Give /buy-contacts a distinct intent-bearing title or consolidate it to / with a clean canonical/redirect.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-006",
+      "severity": "P2",
+      "dimension": "accessibility",
+      "title": "Incomplete landmark set on every page",
+      "evidence": { "type": "measurement", "ref": "measurements.landmarkSet", "observed": "no <nav>/role=navigation and no <footer>/role=contentinfo on any captured page; <main> element (not just role) absent on most" },
+      "businessImpact": "Screen-reader users cannot jump to navigation or footer; assistive-tech landmark navigation is degraded across the whole site.",
+      "fix": "Emit semantic <nav>, <main>, and <footer> landmarks in the EDS template shell (these come for free from EDS block scaffolding).",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-007",
+      "severity": "P2",
+      "dimension": "content-llm-visibility",
+      "title": "Structured-data gaps: no Organization, missing on 3 pages, thin Product",
+      "evidence": { "type": "measurement", "ref": "measurements.jsonldCoverage", "observed": "no JSON-LD on /subscriptions, /glasses, /coupon; no Organization schema anywhere; PDP Product lacks Offer/price/AggregateRating; no llms.txt (llms.txt 403)" },
+      "businessImpact": "Answer engines can't build a confident entity graph for the brand or cite product price/ratings, weakening AI-search representation.",
+      "fix": "Add Organization + BreadcrumbList site-wide, complete Product with Offer + AggregateRating on the PDP template, JSON-LD on the three bare pages, and publish an llms.txt.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-008",
+      "severity": "P2",
+      "dimension": "technical-seo",
+      "title": "Open Graph image and type missing site-wide",
+      "evidence": { "type": "measurement", "ref": "measurements.ogCompleteness", "observed": "og:image null on home + all landing pages; og:type null on every page (PDP has only a generic contacts-icon.png)" },
+      "businessImpact": "Links shared to social, messaging, and chat surfaces render without a preview image, depressing click-through on every shared URL.",
+      "fix": "Per-page og:image (product image on PDPs, offer art on landings) and correct og:type (website/product/article).",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-009",
+      "severity": "P2",
+      "dimension": "conversion-focus",
+      "title": "CTA label vocabulary is fragmented",
+      "evidence": { "type": "measurement", "ref": "measurements.ctaFragmentation", "observed": "order-entry action carries 4 distinct labels (Get started / First time here / Contact lenses / Back again); secondary CTAs use 'Learn more' 5x to 5 different destinations" },
+      "businessImpact": "Repeated, ambiguous labels make the next step unclear and 'Learn more' x5 is both a scannability and an accessibility (content-free link) problem.",
+      "fix": "One canonical primary verb ('Shop contacts') with clear primary/secondary hierarchy; replace generic 'Learn more' with destination-descriptive labels.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-010",
+      "severity": "P2",
+      "dimension": "accessibility",
+      "title": "Additional text/background contrast failures in real roles",
+      "evidence": { "type": "measurement", "ref": "measurements.contrast", "observed": "black-on-dark-blue button 1.65:1; light-blue #8ac0e3 text 1.96:1; orange-on-pale-blue 2.61:1; orange-on-white 3.04:1; white-on-#5099d3 3.07:1; teal #00a08b 3.28:1; muted gray #848c9d 3.38:1 (8 pairs fail AA normal)" },
+      "businessImpact": "Muted labels, teal PDP accents, and light-blue text are unreadable for low-vision users despite a WCAG-safe token existing in the system.",
+      "fix": "Swap #848c9d muted text for the defined --iris-color-neutral-wcag45 (#6d7588, 4.62:1); darken teal/orange text roles; never place black text on indigo-800. Lint the token-to-role mapping against 4.5:1.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-011",
+      "severity": "P2",
+      "dimension": "content-llm-visibility",
+      "title": "PDP content thin and price locked in a JS widget",
+      "evidence": { "type": "measurement", "ref": "measurements.extractableProseWords", "observed": "PDP = 117 prose words (truncated description); per-lens price lives only in the pack-size/quantity selector widget, not crawlable text" },
+      "businessImpact": "The highest-volume indexable template can't be cited by answer engines for 'what does this lens cost' and gives search little to index.",
+      "fix": "Render the full product description, spec table, and a starting-price/price-range as crawlable text on the PDP template.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-012",
+      "severity": "P3",
+      "dimension": "brand-expression",
+      "title": "Border-radius sprawl",
+      "evidence": { "type": "measurement", "ref": "measurements.radiusSprawl", "observed": "12 distinct radius values (4/5/6/8/10/11/12/16/19.5/24/30/32) plus 50% and compound corners" },
+      "businessImpact": "Inconsistent corner vocabulary reads as multiple design eras stitched together and undercuts an otherwise strong token system.",
+      "fix": "Consolidate to a 3-step radius scale (pill 30, card 16, control 8) as iris tokens and retire the one-offs.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-013",
+      "severity": "P3",
+      "dimension": "visual-hierarchy-craft",
+      "title": "Heading size decoupled from semantic level",
+      "evidence": { "type": "measurement", "ref": "measurements.typeScale", "observed": "h5 (29px) renders larger than h3/h4 (18-21px) on card grids; h2 appears at both 41px and 29px; PDP adds 57/34/32/28px" },
+      "businessImpact": "The visual hierarchy contradicts the document structure, weakening scannability and reinforcing the H1 problems.",
+      "fix": "Bind each heading level to one size via the type scale; use a single modular ratio across templates.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-014",
+      "severity": "P3",
+      "dimension": "brand-expression",
+      "title": "Hero leads with a temporal promo instead of a durable value proposition",
+      "evidence": { "type": "screenshot", "ref": "stardust/current/assets/screenshots/index.png (hero)", "observed": "H1 = 'Flash sale: 30% off your first order today' with a promo countdown pattern" },
+      "businessImpact": "The page's strongest slot and its H1 carry a dated, expiring offer rather than the brand's durable 'best price + free shipping' promise, hurting both evergreen SEO and first-impression clarity.",
+      "fix": "Lead the hero with a durable value-prop H1 and demote the flash-sale/countdown to a secondary promo band.",
+      "guides": [],
+      "ledgerId": null
+    }
+  ],
+
+  "benchmarks": {
+    "status": "skipped",
+    "reason": "Reference benchmarking (Phase 5) not run in the report-completion pass; refero MCP not probed.",
+    "references": []
+  },
+
+  "upliftDirections": [
+    {
+      "id": "A",
+      "pitch": "Tomorrow's version of the site you have today.",
+      "summary": "Same IA and playful voice, the P1/P2 findings fixed on EDS: static mobile-fast hero with reserved dimensions (F-001), AA-safe primary CTA via iris WCAG tokens (F-002, F-010), templated PDP titles + Product schema (F-003, F-007, F-011), one h1 per page with a full landmark set (F-004, F-006), and unified CTA vocabulary (F-009).",
+      "addressesFindings": ["F-001", "F-002", "F-003", "F-004", "F-005", "F-006", "F-007", "F-008", "F-009", "F-010", "F-011"]
+    },
+    {
+      "id": "B",
+      "pitch": "What if the iris design system became the product surface?",
+      "summary": "Amplify the captured-but-underexploited strength: a formally named token system with dedicated WCAG-safe neutrals and a distinctive display face (GTWalsheim). Make it fully consistent and accessible - one radius scale, level-bound type, brand color deployed with intent - so the friendly '1-800' voice rides a rigorous, coherent system.",
+      "addressesFindings": ["F-010", "F-012", "F-013"]
+    },
+    {
+      "id": "C",
+      "pitch": "What if ordering felt like a guided ritual?",
+      "register": "reveal",
+      "summary": "Same IA as A; render the '3 easy steps' / pack-size / prescription flow as progressive, reduced-motion-respecting reveals so motion carries the ordering ritual rather than decoration.",
+      "addressesFindings": ["F-014"]
+    }
+  ],
+
+  "degradations": [
+    { "capability": "impeccable", "status": "available", "effect": "report.html can be craft-rendered" },
+    { "capability": "refero-mcp", "status": "not-probed", "effect": "Phase 5 benchmarking skipped" },
+    { "capability": "marketing-skills", "status": "absent", "effect": "SEO/LLM checks run directly against captured probes" },
+    { "capability": "modern-web-guidance", "status": "absent", "effect": "generic remediation text; guides: []" },
+    { "capability": "pagespeed-insights", "status": "not-probed", "effect": "Playwright-only lab CWV; lab TBT proxies INP; no field data" },
+    { "capability": "rollout-ledger", "status": "absent", "effect": "no findings.mjs recording; ledgerId null on every finding" },
+    { "capability": "live-recrawl", "status": "intentionally-skipped", "effect": "report-completion pass from on-disk probes; PerimeterX bot protection made re-crawl wasteful" }
+  ]
+}

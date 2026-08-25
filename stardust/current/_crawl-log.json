@@ -1,0 +1,72 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-08-25T13:57:23.149035+00:00",
+    "againstInput": "http://1800contacts.com/ --cap 8",
+    "synthesizedInputs": [],
+    "notes": "Merged log: initial headless run was fully 403-blocked (F5 BigIP/Varnish bot management); headed real-Chrome stealth captured home; remaining 7 pages required one fresh browser session per page (origin permits a single navigation per session before returning 403)."
+  },
+  "discovery": {
+    "fetchTechnique": "headed-chrome-stealth-forced",
+    "sitemap": "https://www.1800contacts.com/sitemap.xml",
+    "sitemapUrlCount": 1168,
+    "sitemapUniqueCount": 1126,
+    "count": 8,
+    "concurrency": 1,
+    "botBlock": "challenge",
+    "originRedirect": {
+      "from": "http://1800contacts.com",
+      "to": "https://www.1800contacts.com"
+    },
+    "selection": "home + 7 IA pillars: /buy-contacts (sitemap-listed shop URL), /lens/acuvue-oasys (PDP), /exam, /subscriptions, /glasses, /coupon, /common-questions-faq"
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "Rendered; 'Press & Hold' bot-check modal overlays hero; cookie banner mid-page; both filtered from content capture."
+    },
+    {
+      "slug": "buy-contacts",
+      "verdict": "recaptured",
+      "notes": "First capture was a 'Loading...' SPA shell; recapture rendered \u2014 but the route client-redirects to the homepage (finalUrl=/), content identical to index while canonical says /buy-contacts."
+    },
+    {
+      "slug": "lens-acuvue-oasys",
+      "verdict": "suspect",
+      "notes": "Structure captured, but buy-box price/quantity regions show skeleton placeholders in screenshot \u2014 price not rendered without interaction."
+    },
+    {
+      "slug": "exam",
+      "verdict": "ok",
+      "notes": "Fully rendered; rich content."
+    },
+    {
+      "slug": "subscriptions",
+      "verdict": "ok",
+      "notes": "Rendered; benefit-tile icons were skeletons at capture."
+    },
+    {
+      "slug": "glasses",
+      "verdict": "ok",
+      "notes": "Rendered; sub-brand 'The Framery' hero."
+    },
+    {
+      "slug": "coupon",
+      "verdict": "ok",
+      "notes": "Rendered."
+    },
+    {
+      "slug": "common-questions-faq",
+      "verdict": "ok",
+      "notes": "Rendered; FAQ answers collapsed in accordions (in DOM)."
+    }
+  ],
+  "siblingCandidates": []
+}

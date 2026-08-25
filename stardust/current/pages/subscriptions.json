@@ -1,0 +1,432 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-25T13:28:45.500Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "subscriptions",
+  "url": "https://www.1800contacts.com/subscriptions",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-25T13:28:45.500Z",
+  "finalUrl": "https://www.1800contacts.com/subscriptions",
+  "title": "Contact Lens Subscriptions | 1-800 Contacts",
+  "description": "Subscribe and save 5% on your contact lenses with a 1-800 Contacts subscription. Check out how it works and order your contacts, hassle-free.",
+  "og": {
+    "title": "Contact Lens Subscriptions | 1-800 Contacts",
+    "description": "Subscribe and save 5% on your contact lenses with a 1-800 Contacts subscription. Check out how it works and order your contacts, hassle-free.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Subscribe now, save 5% always"
+    },
+    {
+      "tag": "h2",
+      "text": "Here’s how it works:"
+    },
+    {
+      "tag": "h6",
+      "text": "Step 1: Order your contacts"
+    },
+    {
+      "tag": "h6",
+      "text": "Step 2: You take control"
+    },
+    {
+      "tag": "h6",
+      "text": "Step 3: You're all set"
+    },
+    {
+      "tag": "h2",
+      "text": "See what subscribers have to say"
+    },
+    {
+      "tag": "h2",
+      "text": "Best. Contacts. Subscription. Ever."
+    },
+    {
+      "tag": "h1",
+      "text": "Fresh contacts, happy eyes"
+    },
+    {
+      "tag": "h2",
+      "text": "We’re here to help."
+    }
+  ],
+  "body": [
+    "First order? Save 30% + free shipping! 🎉",
+    "Get your contacts delivered on time, every time—with free shipping.",
+    "Snooze or cancel anytime",
+    "You’re always in the driver’s seat with your subscription.",
+    "Free returns and exchanges",
+    "Change your mind (or your Rx)? No worries.",
+    "Stack the savings",
+    "Enjoy 5% off, free shipping, and no extra fees.",
+    "Never Run Out of Contacts®",
+    "New contacts at your door when you need them.",
+    "Ready to start?",
+    "Select the “subscribe and save 5%” option during checkout.",
+    "Choose how often you'd like to receive your contacts.",
+    "Sign into your account anytime if you need to snooze or cancel.",
+    "Turns out, saving money on contacts that you don't have to worry about is pretty much a dream come true.",
+    "“Convenient and cost effective. It just makes sense.”",
+    "– Jeffery",
+    "“I’m a fan. Contacts show up in my mailbox and I don’t have to think about it.”",
+    "– Gregg",
+    "“It’s convenient and easy to manage. I like the reminders before my contacts ship.”",
+    "– Ben",
+    "With free shipping and returns, you’ll always get what you need, when you need it. And if you decide subscription isn’t for you, you can cancel anytime. Anything else? We’re on it, 24/7.",
+    "Wearing your contacts too long because it’s your last pair? We’ve all been there. With subscription, you’ll never run out of contacts again, keeping your eyes healthy and squeaky clean.",
+    "We accept",
+    "Real people with real answers in real time, 24/7.",
+    "Chat with us"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Contact lenses",
+      "href": "/lenses"
+    },
+    {
+      "label": "How to order",
+      "href": "/how-to-order"
+    },
+    {
+      "label": "Online vision exam",
+      "href": "/exam"
+    },
+    {
+      "label": "Vision insurance",
+      "href": "/vision-insurance"
+    },
+    {
+      "label": "Let’s do it",
+      "href": "/lenses"
+    },
+    {
+      "label": "Let’s go",
+      "href": "/lenses"
+    },
+    {
+      "label": "Start my subscription",
+      "href": "/lenses"
+    },
+    {
+      "label": "Learn more",
+      "href": "/gajillion-percent-promise"
+    },
+    {
+      "label": "1-800-266-8228",
+      "href": "tel:18002668228"
+    },
+    {
+      "label": "Customer reviews",
+      "href": "/reviews"
+    },
+    {
+      "label": "Our story",
+      "href": "/the-company"
+    },
+    {
+      "label": "Community",
+      "href": "/eyesociety/category/community"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "How to order",
+      "href": "/how-to-order"
+    },
+    {
+      "label": "How to read your prescription",
+      "href": "/how-to-read-rx"
+    },
+    {
+      "label": "Returns & exchanges",
+      "href": "/returns-and-exchanges"
+    },
+    {
+      "label": "Gajillion percent promise",
+      "href": "/gajillion-percent-promise"
+    },
+    {
+      "label": "Best-price guarantee",
+      "href": "/best-price-guarantee"
+    },
+    {
+      "label": "FAQs",
+      "href": "/common-questions-faq"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact-us"
+    },
+    {
+      "label": "Order status",
+      "href": "/account/order-history"
+    },
+    {
+      "label": "Reorder",
+      "href": "/reorder"
+    },
+    {
+      "label": "Upload prescription",
+      "href": "/upload-rx"
+    },
+    {
+      "label": "My prescriptions",
+      "href": "/account/prescriptions"
+    },
+    {
+      "label": "Get the app",
+      "href": "/mobile-app"
+    },
+    {
+      "label": "Glasses",
+      "href": "/glasses"
+    },
+    {
+      "label": "Eye Society blog",
+      "href": "/eyesociety"
+    },
+    {
+      "label": "Insurance",
+      "href": "/vision-insurance"
+    },
+    {
+      "label": "FSA / HSA",
+      "href": "/fsa-fund-use"
+    },
+    {
+      "label": "Offers & coupons",
+      "href": "/coupon"
+    },
+    {
+      "label": "Online vision exam",
+      "href": "/exam/landing"
+    },
+    {
+      "label": "Find eye doctors",
+      "href": "/eye-doctor-search"
+    },
+    {
+      "label": "Privacy practices",
+      "href": "/privacy/notice-of-privacy-practices"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "/terms/terms-and-conditions"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility?offering=general"
+    },
+    {
+      "label": "Ad choices",
+      "href": "#"
+    },
+    {
+      "label": "Patents",
+      "href": "/patents"
+    },
+    {
+      "label": "privacy policy",
+      "href": "/privacy/privacy-policy"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "/terms/terms-and-conditions"
+    },
+    {
+      "label": "Live Chat",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.1800contacts.com/",
+    "https://support.apple.com/en-us/102665",
+    "https://www.mozilla.org/en-US/firefox/new",
+    "https://www.microsoft.com/en-us/windows/microsoft-edge",
+    "https://www.google.com/chrome/browser",
+    "https://www.1800contacts.com/lenses",
+    "https://www.1800contacts.com/how-to-order",
+    "https://www.1800contacts.com/exam",
+    "https://www.1800contacts.com/vision-insurance",
+    "tel:18002668228",
+    "https://www.1800contacts.com/lenses/acuvue",
+    "https://www.1800contacts.com/lenses/air-optix",
+    "https://www.1800contacts.com/lenses/dailies",
+    "https://www.1800contacts.com/lenses/biofinity",
+    "https://www.1800contacts.com/lenses/bausch-lomb",
+    "https://www.1800contacts.com/lenses/coopervision",
+    "https://www.1800contacts.com/gajillion-percent-promise",
+    "https://www.instagram.com/1800contacts/",
+    "https://www.facebook.com/1800Contacts",
+    "https://www.tiktok.com/@1800contacts",
+    "https://www.youtube.com/1800contacts",
+    "https://www.1800contacts.com/reviews",
+    "https://www.1800contacts.com/the-company",
+    "https://www.1800contacts.com/eyesociety/category/community",
+    "https://www.1800contacts.com/careers",
+    "https://www.1800contacts.com/how-to-read-rx",
+    "https://www.1800contacts.com/returns-and-exchanges",
+    "https://www.1800contacts.com/best-price-guarantee",
+    "https://www.1800contacts.com/common-questions-faq",
+    "https://www.1800contacts.com/contact-us",
+    "https://www.1800contacts.com/account/order-history",
+    "https://www.1800contacts.com/reorder",
+    "https://www.1800contacts.com/upload-rx",
+    "https://www.1800contacts.com/account/prescriptions",
+    "https://www.1800contacts.com/mobile-app",
+    "https://www.1800contacts.com/glasses",
+    "https://www.1800contacts.com/eyesociety",
+    "https://www.1800contacts.com/fsa-fund-use",
+    "https://www.1800contacts.com/coupon",
+    "https://www.1800contacts.com/exam/landing",
+    "https://www.1800contacts.com/eye-doctor-search",
+    "https://www.1800contacts.com/privacy/notice-of-privacy-practices",
+    "https://www.1800contacts.com/terms/terms-and-conditions",
+    "https://www.1800contacts.com/accessibility?offering=general",
+    "https://www.1800contacts.com/#",
+    "https://www.1800contacts.com/patents",
+    "https://www.1800contacts.com/privacy/privacy-policy"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1639611205/web/icons/64_calendar_shadow-white.svg",
+        "alt": "icon",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1639611235/web/icons/64_truck_shadow-white.svg",
+        "alt": "icon",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1639611226/web/icons/64_piggy-bank_shadow-white.svg",
+        "alt": "icon",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1639611221/web/icons/64_person_shadow-white.svg",
+        "alt": "icon",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://cdn.buttercms.com/gLsxpywgQ8GS4NExw1io",
+        "alt": "media image",
+        "w": 816,
+        "h": 520
+      },
+      {
+        "src": "https://cdn.buttercms.com/MZG0gcYTBGa5mtrpg79t",
+        "alt": "media image",
+        "w": 816,
+        "h": 520
+      },
+      {
+        "src": "https://cdn.buttercms.com/RQwy3cQR2SsEStzf51up",
+        "alt": "media image",
+        "w": 816,
+        "h": 520
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/q_auto,f_auto/v1689374337/web/CAMP-9886-Free-contacts_desktop.png",
+        "alt": "media image",
+        "w": 1576,
+        "h": 900
+      },
+      {
+        "src": "https://services-public-de-na1.niceincontact.com/guide/user-images/5723/44d3b701-41fd-4cf1-af74-6b35b67bf83e.svg",
+        "alt": "Live Chat",
+        "w": 100,
+        "h": 100
+      }
+    ],
+    "allImgCount": 20,
+    "cssBackgrounds": [
+      "https://img.1800contacts.com/image/upload/v1693598473/SubX_Hero-1920-2.png",
+      "https://img.1800contacts.com/image/upload/q_auto/f_auto/v1725489178/subxherodesktop.png"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": null,
+        "title": null
+      }
+    ]
+  },
+  "customProps": {
+    "--iris-color-neutral-100": "#f9fcff",
+    "--iris-color-neutral-200": "#eef2f9",
+    "--iris-color-neutral-300": "#dde1ea",
+    "--iris-color-neutral-400": "#c5cbd6",
+    "--iris-color-neutral-500": "#a7aebc",
+    "--iris-color-neutral-600": "#848c9d",
+    "--iris-color-neutral-700": "#5c667a",
+    "--iris-color-neutral-800": "#323d54",
+    "--iris-color-neutral-900": "#08122b",
+    "--iris-color-neutral-wcag45": "#6d7588",
+    "--iris-color-neutral-wcag3": "#8d95a5",
+    "--iris-color-orange-100": "#fffb98",
+    "--iris-color-orange-200": "#ffef86",
+    "--iris-color-orange-300": "#ffdb66",
+    "--iris-color-orange-400": "#ffbe31",
+    "--iris-color-orange-500": "#ff9600",
+    "--iris-color-orange-600": "#f36b00",
+    "--iris-color-orange-700": "#e84300",
+    "--iris-color-orange-800": "#df1400",
+    "--iris-color-orange-900": "#d90000",
+    "--iris-color-indigo-100": "#f4fcff",
+    "--iris-color-indigo-200": "#def1fa",
+    "--iris-color-indigo-300": "#baddf0",
+    "--iris-color-indigo-400": "#8ac0e3",
+    "--iris-color-indigo-500": "#5099d3",
+    "--iris-color-indigo-600": "#0066be",
+    "--iris-color-indigo-700": "#0013a2",
+    "--iris-color-indigo-800": "#000083",
+    "--iris-color-indigo-900": "#0d005c",
+    "--iris-color-red-100": "#fffaf8",
+    "--iris-color-red-200": "#ffeae4",
+    "--iris-color-red-300": "#fdd0c3",
+    "--iris-color-red-400": "#f7aa96",
+    "--iris-color-red-500": "#ec775f",
+    "--iris-color-red-600": "#d9230c",
+    "--iris-color-red-700": "#b90000",
+    "--iris-color-red-800": "#8b0000",
+    "--iris-color-red-900": "#550000",
+    "--iris-color-green-100": "#f6fdfc",
+    "--iris-color-green-200": "#daf6f2",
+    "--iris-color-green-300": "#a9eae1",
+    "--iris-color-green-400": "#52d9ca",
+    "--iris-color-green-500": "#00c1ad",
+    "--iris-color-green-600": "#00a08b",
+    "--iris-color-green-700": "#007565",
+    "--iris-color-green-800": "#00564b",
+    "--iris-color-green-900": "#003430",
+    "--iris-color-white": "#ffffff",
+    "--iris-color-black": "#161616"
+  },
+  "_signals": {
+    "filteredInterstitials": 1,
+    "distinctHeadings": 9,
+    "mainTextLen": 75448,
+    "realImageCount": 9,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/subscriptions.png"
+}

@@ -1,0 +1,82 @@
+# EDS query-index configuration for the 1800contacts.com migration.
+# Authored by stardust:prepare-migration Phase 4.5 (dynamic-blocks gate).
+# Selectors + emitted <meta> names line up with stardust/dynamic-blocks-map.md.
+# Indexes build against the PUBLISHED tree — publish pages before expecting rows.
+
+version: 1
+
+indices:
+  # ---- EyeSociety blog (531 URLs: ~524 articles + 7 category hubs) ----
+  eyesociety:
+    include:
+      - '/eyesociety/**'
+    exclude:
+      - '/eyesociety/category/**'   # hubs consume the index; they aren't rows
+    target: /eyesociety/query-index.json
+    properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, 'content')
+      description:
+        select: head > meta[name="description"]
+        value: attribute(el, 'content')
+      image:
+        select: head > meta[property="og:image"]
+        value: attribute(el, 'content')
+      category:
+        select: head > meta[name="category"]
+        value: attribute(el, 'content')
+      publishdate:
+        select: head > meta[name="publishdate"]
+        value: attribute(el, 'content')
+      author:
+        select: head > meta[name="author"]
+        value: attribute(el, 'content')
+      lastModified:
+        select: none
+        value: parseTimestamp(headers('last-modified'), 'ddd, DD MMM YYYY hh:mm:ss GMT')
+
+  # ---- Eye-doctor directory (1 index + ~50 US state pages) ----
+  eye-doctor-search:
+    include:
+      - '/eye-doctor-search/**'
+    exclude:
+      - '/eye-doctor-search'        # the index page itself renders the list
+    target: /eye-doctor-search/query-index.json
+    properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, 'content')
+      state:
+        select: head > meta[name="state"]
+        value: attribute(el, 'content')
+      image:
+        select: head > meta[property="og:image"]
+        value: attribute(el, 'content')
+
+  # ---- Product catalog (OPTIONAL) ----
+  # Only enable if PDPs/PLPs are authored in EDS. Carries CATALOG FACETS ONLY —
+  # price and stock are live commerce-API values and must NOT be indexed here.
+  lenses:
+    include:
+      - '/lens/**'
+    target: /lenses/query-index.json
+    properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, 'content')
+      image:
+        select: head > meta[property="og:image"]
+        value: attribute(el, 'content')
+      brand:
+        select: head > meta[name="brand"]
+        value: attribute(el, 'content')
+      manufacturer:
+        select: head > meta[name="manufacturer"]
+        value: attribute(el, 'content')
+      lenstype:
+        select: head > meta[name="lenstype"]
+        value: attribute(el, 'content')
+      packsize:
+        select: head > meta[name="packsize"]
+        value: attribute(el, 'content')

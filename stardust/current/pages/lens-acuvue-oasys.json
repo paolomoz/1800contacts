@@ -1,0 +1,404 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-08-25T13:27:42.268Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "lens-acuvue-oasys",
+  "url": "https://www.1800contacts.com/lens/acuvue-oasys",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-08-25T13:27:42.268Z",
+  "finalUrl": "https://www.1800contacts.com/lens/acuvue-oasys",
+  "title": "Acuvue Oasys 12 Pack Contact Lenses | 1-800 Contacts",
+  "description": "Order Acuvue Oasys 12 pack contact lenses at 1-800 Contacts. Hydraclear Plus keeps eyes moist all day, plus 99% UVB & 95% UVA-1 protection. Free shipping.",
+  "og": {
+    "title": "Acuvue Oasys 12 Pack Contact Lenses | 1-800 Contacts",
+    "description": "Order Acuvue Oasys 12 pack contact lenses at 1-800 Contacts. Hydraclear Plus keeps eyes moist all day, plus 99% UVB & 95% UVA-1 protection. Free shipping.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "ACUVUE® OASYS®with HYDRACLEAR® PLUS"
+    },
+    {
+      "tag": "h6",
+      "text": "Select pack size:"
+    },
+    {
+      "tag": "h6",
+      "text": "Select quantity:"
+    },
+    {
+      "tag": "h3",
+      "text": "Included with every order"
+    },
+    {
+      "tag": "h3",
+      "text": "Product description and details"
+    },
+    {
+      "tag": "h2",
+      "text": "Recent reviews"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently askedquestions."
+    },
+    {
+      "tag": "h2",
+      "text": "We’re here to help."
+    }
+  ],
+  "body": [
+    "Acuvue Oasys contact lenses with Hydraclear Plus provide an extremely comfortable contact lens wearing experience. These lenses have been designed to keep your eyes moist and comfortable all day long, using Hydraclear Plus technology. These Acuvue Oasys contacts come with an inside out marking so you can insert them properly every time. They block more than 99% of UVB and 95% of UVA-1 rays, the highest levels you'll find on the market today. And with dryness-reducing Hydraclear Plus technology, these are the contact lenses for anyone looking to put down the rewetting drops and take off the glasses. Previously offered in 6- or 24-packs, now you can buy Acuvue Oasys with Hydraclear Plus in a convenient 12-pack."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Contact lenses",
+      "href": "/lenses"
+    },
+    {
+      "label": "How to order",
+      "href": "/how-to-order"
+    },
+    {
+      "label": "Online vision exam",
+      "href": "/exam"
+    },
+    {
+      "label": "Vision insurance",
+      "href": "/vision-insurance"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://www.1800contacts.com/mt/gajillion-percent-promise"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://www.1800contacts.com/mt/gajillion-percent-promise"
+    },
+    {
+      "label": "See if you qualify",
+      "href": "https://www.1800contacts.com/exam"
+    },
+    {
+      "label": "Learn more",
+      "href": "/gajillion-percent-promise"
+    },
+    {
+      "label": "1-800-266-8228",
+      "href": "tel:18002668228"
+    },
+    {
+      "label": "Customer reviews",
+      "href": "/reviews"
+    },
+    {
+      "label": "Our story",
+      "href": "/the-company"
+    },
+    {
+      "label": "Community",
+      "href": "/eyesociety/category/community"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "How to order",
+      "href": "/how-to-order"
+    },
+    {
+      "label": "How to read your prescription",
+      "href": "/how-to-read-rx"
+    },
+    {
+      "label": "Returns & exchanges",
+      "href": "/returns-and-exchanges"
+    },
+    {
+      "label": "Gajillion percent promise",
+      "href": "/gajillion-percent-promise"
+    },
+    {
+      "label": "Best-price guarantee",
+      "href": "/best-price-guarantee"
+    },
+    {
+      "label": "FAQs",
+      "href": "/common-questions-faq"
+    },
+    {
+      "label": "Contact us",
+      "href": "/contact-us"
+    },
+    {
+      "label": "Order status",
+      "href": "/account/order-history"
+    },
+    {
+      "label": "Reorder",
+      "href": "/reorder"
+    },
+    {
+      "label": "Upload prescription",
+      "href": "/upload-rx"
+    },
+    {
+      "label": "My prescriptions",
+      "href": "/account/prescriptions"
+    },
+    {
+      "label": "Get the app",
+      "href": "/mobile-app"
+    },
+    {
+      "label": "Glasses",
+      "href": "/glasses"
+    },
+    {
+      "label": "Eye Society blog",
+      "href": "/eyesociety"
+    },
+    {
+      "label": "Insurance",
+      "href": "/vision-insurance"
+    },
+    {
+      "label": "FSA / HSA",
+      "href": "/fsa-fund-use"
+    },
+    {
+      "label": "Offers & coupons",
+      "href": "/coupon"
+    },
+    {
+      "label": "Online vision exam",
+      "href": "/exam/landing"
+    },
+    {
+      "label": "Find eye doctors",
+      "href": "/eye-doctor-search"
+    },
+    {
+      "label": "Privacy practices",
+      "href": "/privacy/notice-of-privacy-practices"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "/terms/terms-and-conditions"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility?offering=general"
+    },
+    {
+      "label": "Ad choices",
+      "href": "#"
+    },
+    {
+      "label": "Patents",
+      "href": "/patents"
+    },
+    {
+      "label": "Live Chat",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.1800contacts.com/",
+    "https://support.apple.com/en-us/102665",
+    "https://www.mozilla.org/en-US/firefox/new",
+    "https://www.microsoft.com/en-us/windows/microsoft-edge",
+    "https://www.google.com/chrome/browser",
+    "https://www.1800contacts.com/lenses",
+    "https://www.1800contacts.com/how-to-order",
+    "https://www.1800contacts.com/exam",
+    "https://www.1800contacts.com/vision-insurance",
+    "tel:18002668228",
+    "https://www.1800contacts.com/lenses/acuvue",
+    "https://www.1800contacts.com/lenses/air-optix",
+    "https://www.1800contacts.com/lenses/dailies",
+    "https://www.1800contacts.com/lenses/biofinity",
+    "https://www.1800contacts.com/lenses/bausch-lomb",
+    "https://www.1800contacts.com/lenses/coopervision",
+    "https://www.1800contacts.com/mt/gajillion-percent-promise",
+    "https://www.1800contacts.com/gajillion-percent-promise",
+    "https://www.instagram.com/1800contacts/",
+    "https://www.facebook.com/1800Contacts",
+    "https://www.tiktok.com/@1800contacts",
+    "https://www.youtube.com/1800contacts",
+    "https://www.1800contacts.com/reviews",
+    "https://www.1800contacts.com/the-company",
+    "https://www.1800contacts.com/eyesociety/category/community",
+    "https://www.1800contacts.com/careers",
+    "https://www.1800contacts.com/how-to-read-rx",
+    "https://www.1800contacts.com/returns-and-exchanges",
+    "https://www.1800contacts.com/best-price-guarantee",
+    "https://www.1800contacts.com/common-questions-faq",
+    "https://www.1800contacts.com/contact-us",
+    "https://www.1800contacts.com/account/order-history",
+    "https://www.1800contacts.com/reorder",
+    "https://www.1800contacts.com/upload-rx",
+    "https://www.1800contacts.com/account/prescriptions",
+    "https://www.1800contacts.com/mobile-app",
+    "https://www.1800contacts.com/glasses",
+    "https://www.1800contacts.com/eyesociety",
+    "https://www.1800contacts.com/fsa-fund-use",
+    "https://www.1800contacts.com/coupon",
+    "https://www.1800contacts.com/exam/landing",
+    "https://www.1800contacts.com/eye-doctor-search",
+    "https://www.1800contacts.com/privacy/notice-of-privacy-practices",
+    "https://www.1800contacts.com/terms/terms-and-conditions",
+    "https://www.1800contacts.com/accessibility?offering=general",
+    "https://www.1800contacts.com/#",
+    "https://www.1800contacts.com/patents"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://img.1800contacts.com/image/upload/q_auto,f_auto,w_80,h_80,c_pad/products/003158-front",
+        "alt": "ACUVUE® OASYS® with HYDRACLEAR® PLUS",
+        "w": 80,
+        "h": 80
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/q_auto,f_auto,w_80,h_80,c_pad/products/003158-rx",
+        "alt": "Box parameters",
+        "w": 80,
+        "h": 80
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/q_auto,f_auto,w_680,h_313,c_pad/products/003158-front",
+        "alt": "ACUVUE® OASYS® with HYDRACLEAR® PLUS",
+        "w": 680,
+        "h": 313
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/q_auto,f_auto,w_680,h_313,c_pad/products/003158-rx",
+        "alt": "Box parameters",
+        "w": 680,
+        "h": 313
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1751489592/Contact_right.svg",
+        "alt": "Contact lens icon",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1585237810/web/icon-smile-2tone.svg",
+        "alt": "Smiley face icon",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1751489573/Trophy.svg",
+        "alt": "Trophy icon",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1639611235/web/icons/64_truck_shadow-white.svg",
+        "alt": "Delivery truck icon",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1593615797/web/icon-torn-lens-2tone.svg",
+        "alt": "Torn lens icon",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://img.1800contacts.com/image/upload/v1585237810/web/icon-returns-2tone.svg",
+        "alt": "Returns icon",
+        "w": 64,
+        "h": 64
+      },
+      {
+        "src": "https://services-public-de-na1.niceincontact.com/guide/user-images/5723/44d3b701-41fd-4cf1-af74-6b35b67bf83e.svg",
+        "alt": "Live Chat",
+        "w": 100,
+        "h": 100
+      }
+    ],
+    "allImgCount": 23,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": null,
+        "title": null
+      }
+    ]
+  },
+  "customProps": {
+    "--iris-color-neutral-100": "#f9fcff",
+    "--iris-color-neutral-200": "#eef2f9",
+    "--iris-color-neutral-300": "#dde1ea",
+    "--iris-color-neutral-400": "#c5cbd6",
+    "--iris-color-neutral-500": "#a7aebc",
+    "--iris-color-neutral-600": "#848c9d",
+    "--iris-color-neutral-700": "#5c667a",
+    "--iris-color-neutral-800": "#323d54",
+    "--iris-color-neutral-900": "#08122b",
+    "--iris-color-neutral-wcag45": "#6d7588",
+    "--iris-color-neutral-wcag3": "#8d95a5",
+    "--iris-color-orange-100": "#fffb98",
+    "--iris-color-orange-200": "#ffef86",
+    "--iris-color-orange-300": "#ffdb66",
+    "--iris-color-orange-400": "#ffbe31",
+    "--iris-color-orange-500": "#ff9600",
+    "--iris-color-orange-600": "#f36b00",
+    "--iris-color-orange-700": "#e84300",
+    "--iris-color-orange-800": "#df1400",
+    "--iris-color-orange-900": "#d90000",
+    "--iris-color-indigo-100": "#f4fcff",
+    "--iris-color-indigo-200": "#def1fa",
+    "--iris-color-indigo-300": "#baddf0",
+    "--iris-color-indigo-400": "#8ac0e3",
+    "--iris-color-indigo-500": "#5099d3",
+    "--iris-color-indigo-600": "#0066be",
+    "--iris-color-indigo-700": "#0013a2",
+    "--iris-color-indigo-800": "#000083",
+    "--iris-color-indigo-900": "#0d005c",
+    "--iris-color-red-100": "#fffaf8",
+    "--iris-color-red-200": "#ffeae4",
+    "--iris-color-red-300": "#fdd0c3",
+    "--iris-color-red-400": "#f7aa96",
+    "--iris-color-red-500": "#ec775f",
+    "--iris-color-red-600": "#d9230c",
+    "--iris-color-red-700": "#b90000",
+    "--iris-color-red-800": "#8b0000",
+    "--iris-color-red-900": "#550000",
+    "--iris-color-green-100": "#f6fdfc",
+    "--iris-color-green-200": "#daf6f2",
+    "--iris-color-green-300": "#a9eae1",
+    "--iris-color-green-400": "#52d9ca",
+    "--iris-color-green-500": "#00c1ad",
+    "--iris-color-green-600": "#00a08b",
+    "--iris-color-green-700": "#007565",
+    "--iris-color-green-800": "#00564b",
+    "--iris-color-green-900": "#003430",
+    "--iris-color-white": "#ffffff",
+    "--iris-color-black": "#161616"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 8,
+    "mainTextLen": 1440,
+    "realImageCount": 11,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/lens-acuvue-oasys.png"
+}

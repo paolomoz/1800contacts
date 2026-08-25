@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1-800 Contacts | Order Contact Lenses Online</title>
+<meta name="description" content="At 1-800 Contacts, we beat any price on contact lenses, plus free, fast shipping and convenient online ordering. We Deliver. You Save™">
+<style>
+:root{
+  --navy:#0013a2; --navy-deep:#000083; --blue:#0066be; --blue-mid:#5099d3;
+  --fill:#def1fa; --hero-wash:#dbedf7; --mint:#99dbd8; --orange:#f36b00;
+  --star:#ffbe31; --text:#323d54; --muted:#5c667a; --white:#fff;
+  --heading:'Ambit','Nunito','Quicksand','Segoe UI',system-ui,sans-serif;
+  --body:'Ambit','Nunito Sans','Helvetica Neue',system-ui,sans-serif;
+  --container:1332px;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{font-family:var(--body);color:var(--text);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:var(--container);margin:0 auto;padding:0 24px;}
+h1,h2,h3,h4,h5{font-family:var(--heading);font-weight:700;margin:0;line-height:1.2;color:var(--navy);}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:none;border-radius:999px;
+  font-family:var(--heading);font-weight:700;cursor:pointer;line-height:1;text-align:center;}
+.btn-orange{background:var(--orange);color:#fff;}
+.btn-navy{background:var(--navy);color:#fff;}
+
+/* ---- promo bar ---- */
+.promo{background:var(--mint);height:42px;display:flex;align-items:center;justify-content:center;
+  gap:10px;color:var(--navy);font-family:var(--heading);font-weight:700;font-size:15px;}
+.promo .digits{display:inline-flex;gap:4px;align-items:center;}
+.promo .digits b{background:#fff;border-radius:4px;padding:2px 6px;min-width:26px;text-align:center;
+  font-variant-numeric:tabular-nums;}
+.promo .digits span{font-weight:700;}
+
+/* ---- header ---- */
+.hdr{background:var(--navy);height:52px;display:flex;align-items:center;}
+.hdr .wrap{max-width:100%;padding:0 28px;display:flex;align-items:center;gap:28px;width:100%;}
+.hdr .burger{width:22px;height:16px;display:flex;flex-direction:column;justify-content:space-between;margin-right:4px;}
+.hdr .burger i{display:block;height:2px;background:#fff;border-radius:2px;}
+.hdr .logo{height:16px;}
+.hdr nav{display:flex;gap:30px;margin:0 auto;}
+.hdr nav a{color:#fff;font-family:var(--heading);font-weight:600;font-size:16px;}
+.hdr .right{display:flex;align-items:center;gap:22px;}
+.hdr .search{width:20px;height:20px;border:2px solid #fff;border-radius:50%;position:relative;}
+.hdr .search::after{content:"";position:absolute;width:7px;height:2px;background:#fff;transform:rotate(45deg);
+  right:-4px;bottom:0;border-radius:2px;}
+.hdr .signin{background:var(--orange);color:#fff;font-family:var(--heading);font-weight:700;font-size:15px;
+  border-radius:999px;padding:7px 18px;}
+
+/* ---- hero ---- */
+.hero{position:relative;background:var(--hero-wash);overflow:hidden;}
+.hero .art{position:absolute;inset:0;z-index:0;}
+.hero .art img{width:100%;height:100%;object-fit:cover;object-position:right center;}
+.hero .wrap{position:relative;z-index:1;padding-top:58px;padding-bottom:45px;min-height:479px;}
+.hero .col{max-width:600px;}
+.hero h1{font-size:54px;line-height:1.12;letter-spacing:-.5px;margin-bottom:18px;}
+.hero .sub{color:var(--blue);font-family:var(--heading);font-weight:700;font-size:22px;line-height:1.25;margin-bottom:26px;}
+.hero .cta{display:flex;flex-direction:column;gap:16px;max-width:300px;}
+.hero .cta .btn{height:52px;font-size:18px;}
+.hero .fineprint{color:var(--navy);font-size:13px;margin-top:16px;}
+
+/* ---- insurance strip ---- */
+.ins{background:#fbfcff;}
+.ins .wrap{display:flex;align-items:center;gap:40px;padding-top:128px;padding-bottom:129px;}
+.ins .left{flex:1;max-width:620px;}
+.ins h2{font-size:44px;line-height:1.12;margin-bottom:16px;}
+.ins p{font-size:18px;color:var(--text);max-width:540px;margin:0 0 30px;}
+.ins .btn{background:var(--orange);color:#fff;height:52px;font-size:17px;padding:0 34px;}
+.ins .logos{flex:0 0 auto;width:440px;padding:34px 30px;background:#fff;border:1px solid #e6eef6;
+  border-radius:16px;box-shadow:0 1px 4px rgba(8,18,43,.05);}
+
+/* ---- cards / carousel ---- */
+.cards-sec{background:var(--fill);}
+.cards-sec .wrap{padding-top:40px;padding-bottom:110px;position:relative;}
+.cards-sec h2{text-align:center;font-size:40px;margin-bottom:36px;}
+.cards-row{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}
+.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 1px 4px rgba(8,18,43,.08);
+  display:flex;flex-direction:column;}
+.card .img{aspect-ratio:852/460;overflow:hidden;}
+.card .img img{width:100%;height:100%;object-fit:cover;}
+.card .body{padding:26px 22px 30px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:22px;flex:1;}
+.card h5{font-size:26px;line-height:1.2;}
+.card .btn{background:var(--orange);color:#fff;height:44px;font-size:16px;padding:0 34px;width:auto;}
+.cards-sec .chevron{position:absolute;right:2px;top:52%;font-size:26px;color:var(--navy);}
+.dots{display:flex;gap:8px;justify-content:center;margin-top:26px;}
+.dots i{width:9px;height:9px;border-radius:50%;background:#9fc3e0;}
+.dots i.on{background:var(--navy);}
+
+/* ---- steps ---- */
+.steps-sec{background:#fff;}
+.steps-sec .wrap{padding-top:84px;padding-bottom:80px;}
+.steps-head{position:relative;margin-bottom:30px;}
+.steps-head h2{font-size:40px;display:inline-block;}
+.steps-head .doodle{position:absolute;left:340px;top:-6px;width:110px;}
+.steps-head .lead{color:var(--blue);font-family:var(--heading);font-weight:600;font-size:18px;margin-top:6px;}
+.steps-row{display:grid;grid-template-columns:repeat(3,1fr);gap:64px;}
+.step .n{color:var(--blue);font-family:var(--heading);font-weight:600;font-size:15px;margin-bottom:8px;}
+.step h5{font-size:26px;margin-bottom:14px;}
+.step p{font-size:16px;color:var(--text);margin:0;}
+.steps-sec .cta{text-align:center;margin-top:44px;}
+.steps-sec .cta .btn{background:var(--orange);color:#fff;height:52px;font-size:18px;padding:0 44px;}
+
+/* ---- reviews ---- */
+.rev-sec{background:var(--fill);}
+.rev-sec .wrap{padding-top:81px;padding-bottom:89px;}
+.rev-sec h2{text-align:center;font-size:40px;margin-bottom:8px;}
+.rev-sec .sub{text-align:center;color:var(--blue);font-family:var(--heading);font-weight:700;font-size:22px;margin-bottom:40px;}
+.rev-row{display:grid;grid-template-columns:repeat(3,1fr);gap:56px;}
+.rev .stars{color:var(--star);font-size:24px;letter-spacing:3px;margin-bottom:16px;}
+.rev p{font-size:16px;color:var(--text);margin:0 0 16px;}
+.rev .who{font-size:16px;color:var(--text);}
+.rev-sec .cta{text-align:center;margin-top:40px;}
+.rev-sec .cta .btn{background:var(--navy);color:#fff;height:52px;font-size:17px;padding:0 40px;}
+
+/* ---- faq ---- */
+.faq-sec{background:var(--blue-mid);}
+.faq-sec .wrap{display:flex;gap:56px;padding-top:94px;padding-bottom:28px;align-items:flex-start;}
+.faq-left{flex:0 0 490px;}
+.faq-sec h2{color:#fff;font-size:40px;line-height:1.15;}
+.faq-left .mascot{width:290px;margin-top:16px;margin-left:-30px;}
+.faq-list{flex:1;display:flex;flex-direction:column;gap:16px;}
+.faq-item{background:#fff;border-radius:12px;padding:20px 24px;display:flex;justify-content:space-between;
+  align-items:center;}
+.faq-item span{color:var(--navy);font-family:var(--heading);font-weight:700;font-size:17px;}
+.faq-item .chev{color:var(--navy);font-size:14px;}
+
+/* ---- footer ---- */
+.ft{background:var(--navy);color:#fff;}
+.ft .wrap{padding-top:60px;padding-bottom:52px;display:flex;gap:40px;}
+.ft .brand{flex:0 0 380px;}
+.ft .brand .logo{height:15px;margin-bottom:26px;}
+.ft .brand h3{color:#fff;font-size:34px;line-height:1.25;margin-bottom:18px;}
+.ft .brand .learn{color:#fff;font-family:var(--heading);font-weight:700;text-decoration:underline;font-size:16px;}
+.ft .social{display:flex;gap:22px;margin:28px 0 22px;}
+.ft .social i{width:26px;height:26px;background:#fff;border-radius:5px;display:block;}
+.ft .accept{font-size:13px;color:#c9cff0;margin-bottom:10px;}
+.ft .pays{display:flex;gap:8px;}
+.ft .pays i{width:34px;height:22px;background:#fff;border-radius:3px;display:block;}
+.ft .cols{flex:1;display:flex;gap:36px;}
+.ft .help{flex:0 0 100%;}
+.ft-right{flex:1;}
+.ft-right .top{margin-bottom:26px;}
+.ft-right .top h4{color:#fff;font-size:26px;margin-bottom:8px;}
+.ft-right .top p{font-size:16px;color:#e4e7ff;margin:0 0 14px;}
+.ft-right .contact{display:flex;gap:44px;font-family:var(--heading);font-weight:700;font-size:17px;}
+.ft-cols{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;}
+.ft-col h5{color:#fff;font-size:18px;margin-bottom:16px;}
+.ft-col a{display:block;color:#e4e7ff;font-size:15px;margin-bottom:12px;}
+.ft .legal{border-top:1px solid rgba(255,255,255,.18);margin-top:6px;padding-top:22px;
+  display:flex;justify-content:space-between;font-size:14px;color:#c9cff0;}
+.ft .legal .links{display:flex;gap:26px;}
+</style>
+</head>
+<body>
+
+<!-- promo bar -->
+<div class="promo">
+  First order? Save 30% + free shipping! 🎉
+  <span class="digits"><b>00</b>:<b>21</b>:<b>33</b>:<b>47</b></span>
+</div>
+
+<!-- header -->
+<header class="hdr"><div class="wrap">
+  <div class="burger"><i></i><i></i><i></i></div>
+  <img class="logo" src="assets/logo-white.png" alt="1-800 Contacts">
+  <nav>
+    <a href="/lenses">Contact lenses</a>
+    <a href="/how-to-order">How to order</a>
+    <a href="/exam">Online vision exam</a>
+    <a href="/vision-insurance">Vision insurance</a>
+  </nav>
+  <div class="right"><div class="search"></div><a class="signin" href="/account">Sign in</a></div>
+</div></header>
+
+<!-- hero -->
+<section class="hero">
+  <div class="art"><img src="assets/hero.jpg" alt="Best online contacts retailer"></div>
+  <div class="wrap"><div class="col">
+    <h1>Flash sale: 30% off your first order today</h1>
+    <div class="sub">Your exact brand, our best price.<br>Ends Wed. night @ 11 PM (ET)</div>
+    <div class="cta">
+      <a class="btn btn-orange" href="/reorder">Back again</a>
+      <a class="btn btn-navy" href="/lenses">First time here</a>
+    </div>
+    <div class="fineprint">30% discount available for first-time orders only.</div>
+  </div></div>
+</section>
+
+<!-- insurance strip -->
+<section class="ins"><div class="wrap">
+  <div class="left">
+    <h2>Save $130 on average with vision insurance</h2>
+    <p>Just enter your name, birthday, and zip code, and we’ll apply your vision benefits at checkout.</p>
+    <a class="btn" href="/vision-insurance">Look up my insurance</a>
+  </div>
+  <div class="logos"><img src="assets/insurance-logos.png" alt="Anthem, Blue View Vision, Davis Vision, Superior Vision, Spectera"></div>
+</div></section>
+
+<!-- cards / carousel -->
+<section class="cards-sec"><div class="wrap">
+  <h2>Need something else? We can help.</h2>
+  <div class="cards-row">
+    <div class="card">
+      <div class="img"><img src="assets/card-exam.png" alt="Doctor-issued prescription, takes 10 minutes"></div>
+      <div class="body"><h5>Renew your<br>prescription online</h5><a class="btn" href="/exam">Tell me more</a></div>
+    </div>
+    <div class="card">
+      <div class="img"><img src="assets/card-glasses.jpg" alt="Glasses"></div>
+      <div class="body"><h5>Glasses from $79 + free<br>prescription lenses</h5><a class="btn" href="/glasses">Shop glasses</a></div>
+    </div>
+    <div class="card">
+      <div class="img"><img src="assets/card-aquasoft.png" alt="AquaSoft contact lenses"></div>
+      <div class="body"><h5>Save up to 40% when<br>you switch to AquaSoft</h5><a class="btn" href="/try-contact-lens-brands/results/aquasoft-30">Learn more</a></div>
+    </div>
+  </div>
+  <div class="chevron">›</div>
+  <div class="dots"><i class="on"></i><i></i></div>
+</div></section>
+
+<!-- steps -->
+<section class="steps-sec"><div class="wrap">
+  <div class="steps-head">
+    <h2>How to order</h2>
+    <img class="doodle" src="assets/easy-peasy.svg" alt="Easy peasy">
+    <div class="lead">Get your contacts today in 3 easy steps.</div>
+  </div>
+  <div class="steps-row">
+    <div class="step"><div class="n">Step 1</div><h5>Find your contacts</h5><p>Do a quick search or scan the side of your box.</p></div>
+    <div class="step"><div class="n">Step 2</div><h5>Enter your prescription</h5><p>Upload a pic of your prescription, enter the info manually, or we can contact your eye doctor for you.</p></div>
+    <div class="step"><div class="n">Step 3</div><h5>Place your order</h5><p>Sit back and relax: once your prescription is verified we’ll ship your contacts for free.</p></div>
+  </div>
+  <div class="cta"><a class="btn" href="/lenses">Get started</a></div>
+</div></section>
+
+<!-- reviews -->
+<section class="rev-sec"><div class="wrap">
+  <h2>Huzzah for happy customers!</h2>
+  <div class="sub">Yeah, we just busted out a “huzzah.”</div>
+  <div class="rev-row">
+    <div class="rev"><div class="stars">★★★★★</div><p>“LOVE this company. Getting contacts could NOT be more simple. I can order at my convenience and they show up at my door within days!!! Can’t beat it!”</p><div class="who">— Jayme S.</div></div>
+    <div class="rev"><div class="stars">★★★★★</div><p>“First time ordering. But a lifetime customer! Got my contacts faster than getting them from my eye clinic! Love it. Wish I would have changed to you sooner!”</p><div class="who">— Sherry A.</div></div>
+    <div class="rev"><div class="stars">★★★★★</div><p>“I love how easy and convenient it is to order online also, being able to chat with the customer service agents is helpful and they provide excellent customer support.”</p><div class="who">— Brandi G.</div></div>
+  </div>
+  <div class="cta"><a class="btn" href="/reviews">Read more reviews</a></div>
+</div></section>
+
+<!-- faq -->
+<section class="faq-sec"><div class="wrap">
+  <div class="faq-left">
+    <h2>FAQs: Freakin’<br>Awesome Questions</h2>
+    <img class="mascot" src="assets/faq-mascot.png" alt="1-800 Contacts mascot holding boxes of contacts">
+  </div>
+  <div class="faq-list">
+    <div class="faq-item"><span>Am I getting the right contacts?</span><span class="chev">⌄</span></div>
+    <div class="faq-item"><span>What’s your return policy?</span><span class="chev">⌄</span></div>
+    <div class="faq-item"><span>Do you price match?</span><span class="chev">⌄</span></div>
+    <div class="faq-item"><span>Do I have to pay for shipping?</span><span class="chev">⌄</span></div>
+    <div class="faq-item"><span>Can I renew my prescription online?</span><span class="chev">⌄</span></div>
+    <div class="faq-item"><span>Do you sell glasses?</span><span class="chev">⌄</span></div>
+  </div>
+</div></section>
+
+<!-- footer -->
+<footer class="ft"><div class="wrap">
+  <div class="brand">
+    <img class="logo" src="assets/logo-white.png" alt="1-800 Contacts">
+    <h3>Your happiness, backed by our Gajillion Percent Promise.</h3>
+    <a class="learn" href="/gajillion-percent-promise">Learn more</a>
+    <div class="social"><i></i><i></i><i></i><i></i></div>
+    <div class="accept">We accept</div>
+    <div class="pays"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <div class="ft-right">
+    <div class="top">
+      <h4>We’re here to help.</h4>
+      <p>Real people with real answers in real time, 24/7.</p>
+      <div class="contact"><span>📞 1-800-266-8228</span><span>💬 Chat with us</span></div>
+    </div>
+    <div class="ft-cols">
+      <div class="ft-col"><h5>About us</h5><a href="/reviews">Customer reviews</a><a href="/the-company">Our story</a><a href="/eyesociety/category/community">Community</a><a href="/careers">Careers</a></div>
+      <div class="ft-col"><h5>Help</h5><a href="/how-to-order">How to order</a><a href="/how-to-read-rx">How to read your prescription</a><a href="/returns-and-exchanges">Returns &amp; exchanges</a><a href="/gajillion-percent-promise">Gajillion percent promise</a><a href="/best-price-guarantee">Best-price guarantee</a><a href="/common-questions-faq">FAQs</a><a href="/contact-us">Contact us</a></div>
+      <div class="ft-col"><h5>My account</h5><a href="/account/order-history">Order status</a><a href="/reorder">Reorder</a><a href="/upload-rx">Upload prescription</a><a href="/account/prescriptions">My prescriptions</a><a href="/mobile-app">Get the app</a></div>
+      <div class="ft-col"><h5>Resources</h5><a href="/glasses">Glasses</a><a href="/eyesociety">Eye Society blog</a><a href="/vision-insurance">Insurance</a><a href="/fsa-fund-use">FSA / HSA</a><a href="/coupon">Offers &amp; coupons</a><a href="/exam/landing">Online vision exam</a><a href="/eye-doctor-search">Find eye doctors</a></div>
+    </div>
+  </div>
+</div>
+<div class="wrap legal">
+  <span>Copyright © 1-800 Contacts. All rights reserved.</span>
+  <span class="links"><a href="/privacy/notice-of-privacy-practices">Privacy practices</a><a href="/terms/terms-and-conditions">Terms and conditions</a><a href="/accessibility">Accessibility</a><a href="#">Ad choices</a><a href="/patents">Patents</a></span>
+</div>
+</footer>
+
+</body>
+</html>

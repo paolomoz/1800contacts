@@ -1,0 +1,88 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-08-25T13:57:23.149035+00:00",
+    "againstInput": "http://1800contacts.com/ --cap 8"
+  },
+  "site": {
+    "originUrl": "https://www.1800contacts.com",
+    "extractedAt": "2026-08-25T13:57:23.149035+00:00",
+    "pageCap": 8,
+    "totalDiscovered": 1126,
+    "crawled": 8
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.1800contacts.com/",
+      "status": "extracted",
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "type": null
+    },
+    {
+      "slug": "buy-contacts",
+      "url": "https://www.1800contacts.com/buy-contacts",
+      "status": "extracted",
+      "currentStatePath": "stardust/current/pages/buy-contacts.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "type": null
+    },
+    {
+      "slug": "lens-acuvue-oasys",
+      "url": "https://www.1800contacts.com/lens/acuvue-oasys",
+      "status": "extracted",
+      "currentStatePath": "stardust/current/pages/lens-acuvue-oasys.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "type": null
+    },
+    {
+      "slug": "exam",
+      "url": "https://www.1800contacts.com/exam",
+      "status": "extracted",
+      "currentStatePath": "stardust/current/pages/exam.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "type": null
+    },
+    {
+      "slug": "subscriptions",
+      "url": "https://www.1800contacts.com/subscriptions",
+      "status": "extracted",
+      "currentStatePath": "stardust/current/pages/subscriptions.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "type": null
+    },
+    {
+      "slug": "glasses",
+      "url": "https://www.1800contacts.com/glasses",
+      "status": "extracted",
+      "currentStatePath": "stardust/current/pages/glasses.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "type": null
+    },
+    {
+      "slug": "coupon",
+      "url": "https://www.1800contacts.com/coupon",
+      "status": "extracted",
+      "currentStatePath": "stardust/current/pages/coupon.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "type": null
+    },
+    {
+      "slug": "common-questions-faq",
+      "url": "https://www.1800contacts.com/common-questions-faq",
+      "status": "extracted",
+      "currentStatePath": "stardust/current/pages/common-questions-faq.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "type": null
+    }
+  ]
+}

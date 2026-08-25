@@ -1,0 +1,13 @@
+{
+  "discovery": {
+    "fetchTechnique": "headed-chrome-stealth-forced",
+    "count": 1,
+    "concurrency": 1
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "crawl": {
+    "failures": []
+  }
+}

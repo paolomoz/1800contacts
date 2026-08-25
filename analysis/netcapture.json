@@ -1,0 +1,1257 @@
+{
+  "fetchedAt": "2026-08-25T13:37:06.204Z",
+  "pages": {
+    "/": {
+      "hostCounts": {
+        "www.1800contacts.com": 91,
+        "rapid-cdn.yottaa.com": 1,
+        "rapid-1.yottaa.net": 1,
+        "ift.px-cloud.net": 2,
+        "collector-pxzviswmjw.px-cloud.net": 6,
+        "api.buttercms.com": 13,
+        "qoe-1.yottaa.net": 2,
+        "img.1800contacts.com": 7,
+        "assets.adobedtm.com": 15,
+        "client.wra-api.net": 2,
+        "westus-0.in.applicationinsights.azure.com": 1,
+        "dpm.demdex.net": 2,
+        "fonts.googleapis.com": 2,
+        "client.px-cloud.net": 2,
+        "gs.nmgassets.com": 4,
+        "cdn.zineone.com": 1,
+        "adobedc.demdex.net": 1,
+        "cm.everesttech.net": 1,
+        "cloud3.zineone.com": 5,
+        "fonts.gstatic.com": 2,
+        "1800contacts.demdex.net": 1,
+        "": 61,
+        "analytics.1800contacts.com": 5,
+        "digitalfeedback.us.confirmit.com": 8,
+        "colrep.sitelabweb.com": 7,
+        "web-modules-de-na1.niceincontact.com": 13,
+        "cdn.quantummetric.com": 1,
+        "www.googletagmanager.com": 2,
+        "js.px-cloud.net": 1,
+        "crcldu.com": 2,
+        "connect.facebook.net": 2,
+        "www.redditstatic.com": 1,
+        "s.pinimg.com": 2,
+        "bat.bing.com": 2,
+        "js.adsrvr.org": 2,
+        "collector-pxzviswmjw.px-client.net": 1,
+        "analytics.tiktok.com": 5,
+        "session.sitelabweb.com": 1,
+        "ingest.quantummetric.com": 14,
+        "pixel-config.reddit.com": 1,
+        "insight.adsrvr.org": 2,
+        "gs.wandzcdn.com": 3,
+        "bat.bing.net": 1,
+        "www.google.com": 1,
+        "1800contacts.report-uri.com": 1,
+        "ad.doubleclick.net": 1,
+        "fst-ec.perimeterx.net": 1,
+        "dvp.px-cloud.net": 1,
+        "match.adsrvr.org": 1,
+        "app-de-na1.niceincontact.com": 1,
+        "channels-de-na1.niceincontact.com": 3,
+        "chhjbpecpncaggjpdakmflnfcopglcmi": 2,
+        "nenlahapcbofgnanklpelkaejcehkggg": 3,
+        "bmnlcjabgnpnenekpadlanbbkooimhnj": 2,
+        "emalgedpdlghbkikiaeocoblajamonoh": 3,
+        "mfidniedemcgceagapgdekdbmanojomk": 3,
+        "hfapbcheiepjppjbnkphkmegjlipojba": 3,
+        "jjfblogammkiefalfpafidabbnamoknm": 2,
+        "dcdiajifnnbipfljbggcbbheipfdmgpo": 1,
+        "dagdlcijhfbmgkjokkjicnnfimlebcll": 1,
+        "inoeonmfapjbbkmdafoankkfajkcphgd": 2,
+        "eoolfmmapnkhandljfaaofncecfakljd": 1,
+        "lokadhdaghfjbmailhhenifjejpokche": 1,
+        "hcglieiegpckeibpgbiikpbmaofgcpaa": 1,
+        "gfkpklgmocbcbdabfellcnikamdaeajd": 1,
+        "jfoanacamkbfibjbidbmeobmnndfgpca": 1,
+        "nopjifljihndhkfeogabcclpgpceapln": 1,
+        "bflolcmnokpcochfhappdfipeficedjf": 1,
+        "kkpllkodjeloidieedojogacfhpaihoh": 1,
+        "hnfanknocfeofbddgcijnmhnfnkdnaad": 1,
+        "gpdjojdkbbmdfjfahjcgigfpmkopogic": 1,
+        "alncdjedloppbablonallfbkeiknmkdi": 2,
+        "aelgobmabdmlfmiblddjfnjodalhidnn": 1,
+        "bfnaelmomeimhlpmgjnjophhpkkoljpa": 1,
+        "bfgdeiadkckfbkeigkoncpdieiiefpig": 1,
+        "bcocdbombenodlegijagbhdjbifpiijp": 1,
+        "jlhmfgmfgeifomenelglieieghnjghma": 2,
+        "lpfcbjknijpeeillifnkikgncikgfhdo": 1,
+        "kgjfgplpablkjnlkjmjdecgdpfankdle": 1,
+        "bbpjcfkgapecndkanjcojnldopjlnmjk": 1,
+        "appcnhiefcidclcdjeahgklghghihfok": 1,
+        "lifbcibllhkdhoafpjfnlhfpfgnpldfl": 1,
+        "cfs.wandzapi.com": 1,
+        "maekfnoeejhpjfkfmdlckioggdcdofpg": 1,
+        "dmghijelimhndkbmpgbldicpogfkceaj": 1,
+        "bkmemecbbfhmgcmfhkjlmdkodfbfponb": 1,
+        "pbnndmlekkboofhnbonilimejonapojg": 1,
+        "bfbmjmiodbnnpllbbbfblcplfjjepjdn": 1,
+        "geows.sitelabweb.com": 3,
+        "efaidnbmnnnibpcajpcglclefindmkaj": 1,
+        "ncennffkjdiamlpmcbajkmaiiiddgioo": 1,
+        "aapbdbdomjkkjkaonfhkkikfgjllcleb": 1,
+        "glcimepnljoholdmjchkloafkggfoijh": 1,
+        "ngpampappnmepgilojfohadhhmbhlaek": 1,
+        "ecnphlgnajanjnkcmbpancdjoidceilk": 1,
+        "jgfbgkjjlonelmpenhpfeeljjlcgnkpe": 1,
+        "cjpalhdlnbpafiamejdnhcphjbkeiagm": 1,
+        "bkdgflcldnnnapblkhphbgpggdiikppg": 1,
+        "gppongmhjkpfnbhagpmjfkannfbllamg": 1,
+        "ohlencieiipommannpdfcmfdpjjmeolj": 1,
+        "gbmdgpbipfallnflgajpaliibnhdgobh": 1,
+        "neebplgakaahbhdphmkckjjcegoiijjo": 1,
+        "clngdbkpkpeebahjckkjfobafhncgmne": 1,
+        "ogdlpmhglpejoiomcodnpjnfgcpmgale": 1,
+        "bhlhnicpbhignbdhedgjhgdocnmhomnp": 1,
+        "logldmlncddmdfcjaaljjjkajcnacigc": 1,
+        "lkmpdpkkkeeoiodlnmlichcmfmdjbjic": 1,
+        "gngocbkfmikdgphklgmmehbjjlfgdemm": 1,
+        "liecbddmkiiihnedobmlmillhodjkdmb": 1,
+        "oocalimimngaihdkbihfgmpkcpnmlaoa": 1,
+        "gebbhagfogifgggkldgodflihgfeippi": 1,
+        "ponfpcnoihfmfllpaingbgckeeldkhle": 1,
+        "bnomihfieiccainjcjblhegjgglakjdd": 1,
+        "ahmapmilbkfamljbpgphfndeemhnajme": 1,
+        "fjoaledfpmneenckfbpdfhkmimnjocfa": 1,
+        "fgddmllnllkalaagkghckoinaemmogpe": 1,
+        "gkojfkhlekighikafcpjkiklfbnlmeio": 1,
+        "jplnlifepflhkbkgonidnobkakhmpnmh": 1,
+        "services-public-de-na1.niceincontact.com": 1,
+        "iblgdcjagdifpikcobibfpkddkphllmc": 1,
+        "aaiolimgbncdaldgbbjkidiijidchhjo": 1,
+        "hnchgcelpejnpglbnaieofanfoikiepb": 1,
+        "emnoomldgleagdjapdeckpmebokijail": 1,
+        "analytics-ipv6.tiktokw.us": 1,
+        "ct.pinterest.com": 5,
+        "alb.reddit.com": 1,
+        "www.googleadservices.com": 2,
+        "googleads.g.doubleclick.net": 1
+      },
+      "apiCalls": [
+        {
+          "method": "GET",
+          "host": "rapid-1.yottaa.net",
+          "path": "/api/v1/configure.rapid.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ift.px-cloud.net",
+          "path": "/ns",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "collector-pxzviswmjw.px-cloud.net",
+          "path": "/api/v2/collector",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/pages/exam_price/price-books/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "www.1800contacts.com",
+          "path": "/api/startup",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "www.1800contacts.com",
+          "path": "/api/sitePreferences/sessionAiApiKey",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "westus-0.in.applicationinsights.azure.com",
+          "path": "/v2/track",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "dpm.demdex.net",
+          "path": "/id",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "www.1800contacts.com",
+          "path": "/api/session/client-ip",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/pages/personalized_discount_configuration/personalized-discount-configuration/",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "collector-pxzviswmjw.px-cloud.net",
+          "path": "/api/v2/collector",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "adobedc.demdex.net",
+          "path": "/ee/v1/identity/acquire",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "cloud3.zineone.com",
+          "path": "/c3/api/v1/connect",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "gs.nmgassets.com",
+          "path": "/184S28W5K.snp",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "analytics.1800contacts.com",
+          "path": "/ee/irl1/v1/interact",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "gs.nmgassets.com",
+          "path": "/nmgCommonDictionary.json",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "colrep.sitelabweb.com",
+          "path": "/chpdata/",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "gs.nmgassets.com",
+          "path": "/L3184S28W5K.json",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "colrep.sitelabweb.com",
+          "path": "/chpdata/",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "ift.px-cloud.net",
+          "path": "/ns",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "collector-pxzviswmjw.px-cloud.net",
+          "path": "/assets/js/bundle",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "cloud3.zineone.com",
+          "path": "/c3/api/v1/connectwebsocket/1aebb810-aace-4746-bcc4-712d95b57916",
+          "type": "xhr"
+        },
+        {
+          "method": "HEAD",
+          "host": "www.1800contacts.com",
+          "path": "/zviSWmJw/captcha/captcha.js",
+          "type": "xhr"
+        },
+        {
+          "method": "HEAD",
+          "host": "client.px-cloud.net",
+          "path": "/PXzviSWmJw/main.min.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "collector-pxzviswmjw.px-client.net",
+          "path": "/b/g",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "collector-pxzviswmjw.px-cloud.net",
+          "path": "/api/v2/collector",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "session.sitelabweb.com",
+          "path": "/sid",
+          "type": "fetch"
+        },
+        {
+          "method": "HEAD",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/d",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "pixel-config.reddit.com",
+          "path": "/pixels/a2_g08hxpdntzsw/config",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "digitalfeedback.us.confirmit.com",
+          "path": "/api/digitalfeedback/loader/prod/program",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "www.google.com",
+          "path": "/ccm/collect",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ad.doubleclick.net",
+          "path": "/ccm/s/collect",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "fst-ec.perimeterx.net",
+          "path": "/",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "dvp.px-cloud.net",
+          "path": "/v",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "collector-pxzviswmjw.px-cloud.net",
+          "path": "/assets/js/bundle",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "web-modules-de-na1.niceincontact.com",
+          "path": "/guide/1.0/tenants/5723/environment",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "cloud3.zineone.com",
+          "path": "/c3/api/v1/originId",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "cloud3.zineone.com",
+          "path": "/c3/api/v1/event",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "gs.wandzcdn.com",
+          "path": "/wandz/18TC923E6W-1800contacts_com-config.json",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "channels-de-na1.niceincontact.com",
+          "path": "/web-analytics/1.0/tenants/5723/visitors/35bed06a-c2bc-4da7-a8d7-bf2eb67847c0/events",
+          "type": "fetch"
+        },
+        {
+          "method": "PUT",
+          "host": "channels-de-na1.niceincontact.com",
+          "path": "/web-analytics/1.0/tenants/5723/visitors/35bed06a-c2bc-4da7-a8d7-bf2eb67847c0",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "channels-de-na1.niceincontact.com",
+          "path": "/web-analytics/1.0/tenants/5723/visitors/35bed06a-c2bc-4da7-a8d7-bf2eb67847c0/events",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "insight.adsrvr.org",
+          "path": "/track/realtimeconversion",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "web-modules-de-na1.niceincontact.com",
+          "path": "/guide/1.0/tenants/5723/configuration",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/resource-loader/800contacts/hash-check",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "chhjbpecpncaggjpdakmflnfcopglcmi",
+          "path": "/img/rakuten/logo-rakuten.svg",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "nenlahapcbofgnanklpelkaejcehkggg",
+          "path": "/assets/icons/shopping-icon16.png",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "bmnlcjabgnpnenekpadlanbbkooimhnj",
+          "path": "/proxies/requestProxies.js",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "cloud3.zineone.com",
+          "path": "/c3/api/v1/event",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "emalgedpdlghbkikiaeocoblajamonoh",
+          "path": "/img/logo_prod_supported.png",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "mfidniedemcgceagapgdekdbmanojomk",
+          "path": "/css/font.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "hfapbcheiepjppjbnkphkmegjlipojba",
+          "path": "/img/pink/logo-16.png",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "jjfblogammkiefalfpafidabbnamoknm",
+          "path": "/html/images/icon_32.png",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "dcdiajifnnbipfljbggcbbheipfdmgpo",
+          "path": "/content/styles.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "dagdlcijhfbmgkjokkjicnnfimlebcll",
+          "path": "/style.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "inoeonmfapjbbkmdafoankkfajkcphgd",
+          "path": "/gdocs.page.bundle.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "eoolfmmapnkhandljfaaofncecfakljd",
+          "path": "/static/logo.svg",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "lokadhdaghfjbmailhhenifjejpokche",
+          "path": "/menu.html",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "hcglieiegpckeibpgbiikpbmaofgcpaa",
+          "path": "/ciuvo-contentscript-wex.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "gfkpklgmocbcbdabfellcnikamdaeajd",
+          "path": "/style.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "jfoanacamkbfibjbidbmeobmnndfgpca",
+          "path": "/dist/contentScripts/index.global.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "nopjifljihndhkfeogabcclpgpceapln",
+          "path": "/stt.html",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "bflolcmnokpcochfhappdfipeficedjf",
+          "path": "/icon.png",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "kkpllkodjeloidieedojogacfhpaihoh",
+          "path": "/scripts/inject.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "hnfanknocfeofbddgcijnmhnfnkdnaad",
+          "path": "/siteWarning.html",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "gpdjojdkbbmdfjfahjcgigfpmkopogic",
+          "path": "/style.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "alncdjedloppbablonallfbkeiknmkdi",
+          "path": "/css/home.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "aelgobmabdmlfmiblddjfnjodalhidnn",
+          "path": "/inject.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "bfnaelmomeimhlpmgjnjophhpkkoljpa",
+          "path": "/ethAlwaysAsk.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "bfgdeiadkckfbkeigkoncpdieiiefpig",
+          "path": "/popup.html",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "bcocdbombenodlegijagbhdjbifpiijp",
+          "path": "/app/nj.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "jlhmfgmfgeifomenelglieieghnjghma",
+          "path": "/cwcsf-nativemsg-iframe-43c85c0d-d633-af5e-c056-32dc7efc570b.html",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "lpfcbjknijpeeillifnkikgncikgfhdo",
+          "path": "/icon-128.png",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "kgjfgplpablkjnlkjmjdecgdpfankdle",
+          "path": "/images/loading_24.gif",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "bbpjcfkgapecndkanjcojnldopjlnmjk",
+          "path": "/index.html",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "appcnhiefcidclcdjeahgklghghihfok",
+          "path": "/shims.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "lifbcibllhkdhoafpjfnlhfpfgnpldfl",
+          "path": "/skypelogo_16.png",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "cfs.wandzapi.com",
+          "path": "/data",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "maekfnoeejhpjfkfmdlckioggdcdofpg",
+          "path": "/css/content.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "gs.wandzcdn.com",
+          "path": "/wandz/5kLogo.png",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "dmghijelimhndkbmpgbldicpogfkceaj",
+          "path": "/data/content_script/general/dark_1.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "bkmemecbbfhmgcmfhkjlmdkodfbfponb",
+          "path": "/data/content_script/general/dark_1.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "alncdjedloppbablonallfbkeiknmkdi",
+          "path": "/css/home.css",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "pbnndmlekkboofhnbonilimejonapojg",
+          "path": "/js/page-script.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "bfbmjmiodbnnpllbbbfblcplfjjepjdn",
+          "path": "/js/video-player-status.js",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "geows.sitelabweb.com",
+          "path": "/jdldata/",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "geows.sitelabweb.com",
+          "path": "/jdldata/",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "api.buttercms.com",
+          "path": "/v2/content/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "web-modules-de-na1.niceincontact.com",
+          "path": "/guide/1.0/tenants/5723/skill/users-available",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "analytics.1800contacts.com",
+          "path": "/ee/irl1/v1/interact",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "colrep.sitelabweb.com",
+          "path": "/chpdata/",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "colrep.sitelabweb.com",
+          "path": "/chpdata/",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "analytics.1800contacts.com",
+          "path": "/ee/irl1/v1/interact",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "web-modules-de-na1.niceincontact.com",
+          "path": "/guide/1.0/tenants/5723/templates/ad22a6d8-a711-4bd5-9c1f-8966994583f5",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "efaidnbmnnnibpcajpcglclefindmkaj",
+          "path": "/viewer.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ncennffkjdiamlpmcbajkmaiiiddgioo",
+          "path": "/assets/menu_logo.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
+          "path": "/popup_css_compiled.css",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "jlhmfgmfgeifomenelglieieghnjghma",
+          "path": "/cwcsf-nativemsg-iframe-43c85c0d-d633-af5e-c056-32dc7efc570b.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "glcimepnljoholdmjchkloafkggfoijh",
+          "path": "/images/install_logo.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ngpampappnmepgilojfohadhhmbhlaek",
+          "path": "/captured.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "inoeonmfapjbbkmdafoankkfajkcphgd",
+          "path": "/errorlogging.page.bundle.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ecnphlgnajanjnkcmbpancdjoidceilk",
+          "path": "/images/tick.svg",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "jgfbgkjjlonelmpenhpfeeljjlcgnkpe",
+          "path": "/images/16x16.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "colrep.sitelabweb.com",
+          "path": "/chpdata/",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+          "path": "/web_accessible_resources/1x1.gif",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "bmnlcjabgnpnenekpadlanbbkooimhnj",
+          "path": "/offscreen/offscreen.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "bkdgflcldnnnapblkhphbgpggdiikppg",
+          "path": "/img/logo-small.svg",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "gppongmhjkpfnbhagpmjfkannfbllamg",
+          "path": "/js/dom.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ohlencieiipommannpdfcmfdpjjmeolj",
+          "path": "/assets/logo.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "gbmdgpbipfallnflgajpaliibnhdgobh",
+          "path": "/assets/viewer.css",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "nenlahapcbofgnanklpelkaejcehkggg",
+          "path": "/css/tailwind.css",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "neebplgakaahbhdphmkckjjcegoiijjo",
+          "path": "/selectionHook.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "clngdbkpkpeebahjckkjfobafhncgmne",
+          "path": "/install-usercss.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ogdlpmhglpejoiomcodnpjnfgcpmgale",
+          "path": "/content.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "bhlhnicpbhignbdhedgjhgdocnmhomnp",
+          "path": "/images/icon-16.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "mfidniedemcgceagapgdekdbmanojomk",
+          "path": "/js/optanon.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "emalgedpdlghbkikiaeocoblajamonoh",
+          "path": "/styles/hermesSDK.css",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "hfapbcheiepjppjbnkphkmegjlipojba",
+          "path": "/klapp.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "logldmlncddmdfcjaaljjjkajcnacigc",
+          "path": "/notifybar/images/banner.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "lkmpdpkkkeeoiodlnmlichcmfmdjbjic",
+          "path": "/icon-32.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "gngocbkfmikdgphklgmmehbjjlfgdemm",
+          "path": "/assets/icons/128.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "liecbddmkiiihnedobmlmillhodjkdmb",
+          "path": "/html/bubble.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "oocalimimngaihdkbihfgmpkcpnmlaoa",
+          "path": "/img/Friends.svg",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "gebbhagfogifgggkldgodflihgfeippi",
+          "path": "/ryd.script.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ponfpcnoihfmfllpaingbgckeeldkhle",
+          "path": "/vendor/messages.json",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "bnomihfieiccainjcjblhegjgglakjdd",
+          "path": "/menu/index.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ahmapmilbkfamljbpgphfndeemhnajme",
+          "path": "/assets/scripts/pdf.worker.min.mjs",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "fjoaledfpmneenckfbpdfhkmimnjocfa",
+          "path": "/icons/nordvpn-16-active.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "fgddmllnllkalaagkghckoinaemmogpe",
+          "path": "/src/html/networkLock.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "gkojfkhlekighikafcpjkiklfbnlmeio",
+          "path": "/js/popup.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "jplnlifepflhkbkgonidnobkakhmpnmh",
+          "path": "/src/html/importRules.html",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "web-modules-de-na1.niceincontact.com",
+          "path": "/guide/1.0/tenants/5723/skill/users-available",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "web-modules-de-na1.niceincontact.com",
+          "path": "/guide/1.0/tenants/5723/skill/users-available",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "web-modules-de-na1.niceincontact.com",
+          "path": "/guide/1.0/tenants/5723/skill/users-available",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/horizon/800contacts",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "geows.sitelabweb.com",
+          "path": "/jdldata/",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "iblgdcjagdifpikcobibfpkddkphllmc",
+          "path": "/content/styles.css",
+          "type": "xhr"
+        },
+        {
+          "method": "POST",
+          "host": "ingest.quantummetric.com",
+          "path": "/resource-loader/800contacts/hash-check",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "collector-pxzviswmjw.px-cloud.net",
+          "path": "/api/v2/collector",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "jjfblogammkiefalfpafidabbnamoknm",
+          "path": "/built/inject.css",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "mfidniedemcgceagapgdekdbmanojomk",
+          "path": "/css/font.css",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "hfapbcheiepjppjbnkphkmegjlipojba",
+          "path": "/img/pink/logo-16.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "emalgedpdlghbkikiaeocoblajamonoh",
+          "path": "/img/logo_prod_supported.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "chhjbpecpncaggjpdakmflnfcopglcmi",
+          "path": "/img/rakuten/logo-rakuten.svg",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "nenlahapcbofgnanklpelkaejcehkggg",
+          "path": "/GENERATED/bg.js",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "aaiolimgbncdaldgbbjkidiijidchhjo",
+          "path": "/images/close.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "hnchgcelpejnpglbnaieofanfoikiepb",
+          "path": "/content/styles.css",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "emnoomldgleagdjapdeckpmebokijail",
+          "path": "/icons/icon48.png",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "colrep.sitelabweb.com",
+          "path": "/chpdata/",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "analytics.1800contacts.com",
+          "path": "/ee/irl1/v1/interact",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "analytics.1800contacts.com",
+          "path": "/ee/irl1/v1/interact",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "ct.pinterest.com",
+          "path": "/user/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "ct.pinterest.com",
+          "path": "/user/",
+          "type": "xhr"
+        },
+        {
+          "method": "GET",
+          "host": "www.googleadservices.com",
+          "path": "/pagead/conversion/946905300/",
+          "type": "fetch"
+        },
+        {
+          "method": "GET",
+          "host": "ct.pinterest.com",
+          "path": "/v3/",
+          "type": "fetch"
+        },
+        {
+          "method": "POST",
+          "host": "googleads.g.doubleclick.net",
+          "path": "/pagead/viewthroughconversion/946905300/",
+          "type": "fetch"
+        }
+      ],
+      "scripts": [
+        "https://ct.pinterest.com/static/ct/token_create.js",
+        "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=i58j6u&scenarioId=16171&programVersion=251",
+        "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=i58j6u&scenarioId=16170&programVersion=251",
+        "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=i58j6u&scenarioId=15444&programVersion=251",
+        "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=i58j6u&scenarioId=14308&programVersion=251",
+        "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=i58j6u&scenarioId=12826&programVersion=251",
+        "https://analytics.tiktok.com/i18n/pixel/static/identify_ea043f1c.js",
+        "https://analytics.tiktok.com/i18n/pixel/static/main.MTgxMDg1OGQ1MA.js",
+        "https://s.pinimg.com/ct/lib/main.e47a302d.js",
+        "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/static/v34/intercept-survey.js",
+        "https://www.googletagmanager.com/gtag/js?id=AW-946905300&cx=c&gtm=4e68l1",
+        "https://connect.facebook.net/signals/config/1173025372809257?v=2.9.385&r=stable&domain=www.1800contacts.com&hme=1a72ec78e057d90ba48afa55a82b063b1c9b6ab7c0155009fecc72226a622ed2&ex_m=113%2C218%2C164%2C25%2C78%2C79%2C156%2C74%2C73%2C11%2C174%2C98%2C19%2C148%2C136%2C43%2C81%2C86%2C144%2C169%2C176%2C29%2C17%2C30%2C31%2C32%2C34%2C52%2C157%2C83%2C121%2C21%2C23%2C48%2C44%2C46%2C45%2C91%2C100%2C104%2C119%2C155%2C158%2C50%2C120%2C27%2C24%2C128%2C75%2C40%2C160%2C159%2C161%2C152%2C150%2C28%2C39%2C63%2C118%2C171%2C76%2C20%2C123%2C89%2C72%2C22%2C93%2C94%2C125%2C92%2C146%2C145%2C149%2C105%2C170%2C173%2C38%2C53%2C122%2C51%2C8%2C4%2C5%2C7%2C6%2C3%2C99%2C110%2C177%2C185%2C232%2C80%2C245%2C244%2C243%2C14%2C26%2C37%2C59%2C112%2C65%2C10%2C69%2C106%2C107%2C108%2C114%2C139%2C35%2C33%2C141%2C142%2C143%2C138%2C137%2C165%2C82%2C168%2C166%2C167%2C54%2C64%2C132%2C18%2C172%2C49%2C293%2C294%2C292%2C307%2C329%2C225%2C214%2C66%2C215%2C213%2C332%2C323%2C56%2C226%2C116%2C140%2C88%2C130%2C58%2C129%2C135%2C134%2C62%2C70%2C68%2C162%2C84%2C85%2C124%2C41%2C36%2C57%2C60%2C109%2C175%2C1%2C133%2C16%2C131%2C12%2C2%2C61%2C101%2C15%2C71%2C67%2C127%2C97%2C96%2C178%2C179%2C102%2C103%2C9%2C111%2C55%2C153%2C95%2C87%2C77%2C126%2C115%2C47%2C154%2C0%2C90%2C147%2C151%2C163%2C42%2C117%2C13%2C180",
+        "https://connect.facebook.net/en_US/fbevents.js",
+        "https://www.redditstatic.com/ads/pixel.js",
+        "https://s.pinimg.com/ct/core.js",
+        "https://bat.bing.com/bat.js",
+        "https://js.adsrvr.org/up_loader.1.1.0.js",
+        "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CQVRF23C77U8E82MT4LG&lib=ttq",
+        "https://cdn.quantummetric.com/qscripts/quantum-800contacts.js",
+        "https://gs.nmgassets.com/184S28W5K.js",
+        "https://rapid-cdn.yottaa.com/rapid/lib/wwUpRfHb3NemgA.js",
+        "https://www.1800contacts.com/zviSWmJw/init.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/launch-EN99f4f6c802314e99ac2283945a4a2c1b.min.js",
+        "https://cdn.zineone.com/cloud/latest/z1m.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RC54fe1aad87d0421b8a0b6f20a34c5a70-source.min.js",
+        "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader?programKey=i58j6u",
+        "https://web-modules-de-na1.niceincontact.com/loader/1/loader.js?496574",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RC5d70f82609af42bdae5b8f1b2ea8fed3-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RC85be6b38a3364b8b9b90c7d76076555b-source.min.js",
+        "https://www.googletagmanager.com/gtag/js?id=G-3Q5KSLC8FB",
+        "https://colrep.sitelabweb.com/nmg_tag.json",
+        "https://bat.bing.com/p/action/4017056.js",
+        "https://gs.wandzcdn.com/wandz/18TC923E6W.js",
+        "https://web-modules-de-na1.niceincontact.com/guide/channel-guide.js?29794417",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RCd9ef7b4c51dc4c278ad641708d16d98b-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RCa9f30e814b2f41dab2cab105d97b7c8c-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RC7a14f1b8c2fb4662957593346adcb976-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RCd62d923d6c67420b8bf8d83b0adfeaf3-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RCc3d00543d6a241fa9a1ad58fdfd0347b-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RC9eac30f780e947c687ca9861cdd17d5c-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RC3c5560d4587e4e55818a28349be90d47-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RCe0b53907c6d1482093d36c8fefa81290-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RCa505dd61bbf04f9dacd6c9c581cd1746-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RCd8da65b30967414e9e382ec7aa7840f8-source.min.js",
+        "https://assets.adobedtm.com/8bc472cb93ae/6c97378c993d/a82f317d78a4/RC550bd92a1f9745bda0bf9e7e862fba15-source.min.js",
+        "https://www.1800contacts.com/polyfills-PPYJLRAF.js",
+        "https://www.1800contacts.com/main-54KH5UWP.js"
+      ],
+      "jsonld": [],
+      "globals": {
+        "dataLayer": "object",
+        "gtag": "function",
+        "_satellite": "object",
+        "adobe": "object",
+        "digitalData": "object",
+        "_uxa": "object",
+        "fbq": "function",
+        "ttq": "object",
+        "pintrk": "function",
+        "rdt": "function",
+        "uetq": "object"
+      },
+      "metas": [],
+      "nextDataPresent": false,
+      "nextBuildId": null,
+      "title": "1-800 Contacts",
+      "requestCount": 407
+    }
+  }
+}

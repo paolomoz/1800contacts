@@ -1,0 +1,62 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "mode": "bounded-single",
+    "synthesizedFrom": [
+      "stardust/current/pages/index.json",
+      "stardust/replica/css-lift/lift-record.md"
+    ]
+  },
+  "colors": {
+    "primary": "#0013a2",
+    "secondary": "#0066be",
+    "accent": "#f36b00",
+    "star": "#ffbe31",
+    "fillLight": "#def1fa",
+    "fillFaq": "#5099d3",
+    "heroWash": "#dbedf7",
+    "promoMint": "#99dbd8",
+    "text": "#323d54",
+    "muted": "#5c667a",
+    "white": "#ffffff"
+  },
+  "typography": {
+    "headingFamily": "'Ambit', 'Nunito', 'Quicksand', 'Segoe UI', system-ui, sans-serif",
+    "bodyFamily": "'Ambit', 'Nunito Sans', 'Helvetica Neue', system-ui, sans-serif",
+    "ramp": {
+      "heroH1": "54px/1.15 700",
+      "sectionH2": "40px/1.2 700",
+      "insuranceH2": "44px/1.15 700",
+      "cardH5": "26px/1.25 700",
+      "subhead": "22px/1.3 600",
+      "body": "17px/1.55 400",
+      "small": "13px/1.4 400"
+    }
+  },
+  "rounded": { "button": "999px", "card": "16px", "faqRow": "12px" },
+  "spacing": { "container": "1200px", "sidePad": "24px", "sidePadDesktop": "32px" },
+  "extensions": {
+    "componentStyle": {
+      "buttonPrimary": "bg #f36b00, white, weight 700, pill",
+      "buttonSecondary": "bg #0013a2, white, pill",
+      "card": "white face, radius 16px, image-top + body + pill CTA"
+    },
+    "motifs": ["pill buttons", "rounded cards", "marker doodle accents", "big numeric callouts", "star rating", "payment badges"],
+    "modules": [
+      { "name": "header", "status": "candidate" },
+      { "name": "promo-bar", "status": "candidate" },
+      { "name": "hero", "status": "candidate" },
+      { "name": "insurance-strip", "status": "candidate" },
+      { "name": "cards-carousel", "status": "candidate" },
+      { "name": "steps", "status": "candidate" },
+      { "name": "reviews", "status": "candidate" },
+      { "name": "faq", "status": "candidate" },
+      { "name": "footer", "status": "candidate" }
+    ],
+    "voice": {
+      "heroHeadline": "Flash sale: 30% off your first order today",
+      "ctas": ["Back again", "First time here", "Get started", "Read more reviews"],
+      "signaturePhrases": ["Huzzah for happy customers!", "FAQs: Freakin' Awesome Questions", "Gajillion Percent Promise"]
+    }
+  }
+}

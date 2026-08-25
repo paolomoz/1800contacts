@@ -1,0 +1,3 @@
+{"ts":"2026-08-25T15:25:00Z","skill":"replica","phase":"extract","event":"start","detail":"bounded --single homepage crawl of https://www.1800contacts.com/"}
+{"ts":"2026-08-25T13:30:00Z","skill":"replica","phase":"extract","event":"end","detail":"index captured 200 via headed Chrome (PerimeterX 403 headless); vision verdict suspect (overlay pollution only)"}
+{"ts": "2026-08-25T13:57:23.149035+00:00", "skill": "stardust:audit", "phase": "extract", "event": "end", "detail": "8/8 pages captured via headed-chrome-stealth (one session per page)"}

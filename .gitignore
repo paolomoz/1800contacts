@@ -8,6 +8,10 @@ helix-importer-ui
 *.bak
 .idea
 
+# stardust migration scratch — bot-clearance session (sensitive cookies) + run logs
+stardust/px-clearance.json
+stardust/*.log
+
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
