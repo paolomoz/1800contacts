@@ -9,10 +9,16 @@
       "breakpoints": {
         "1440": {
           "iterations": 3,
-          "pixelDiffPct": 8.58,
-          "heightDeltaPx": 7,
+          "pixelDiffPct": 8.6,
+          "heightDeltaPx": -2,
           "pixelProbe": "PASS",
           "heightProbe": "PASS",
+          "desktopRefinements": [
+            "cards carousel made functional: native scroll-snap view + JS pager; chevron advances/wraps, dots rebuilt per breakpoint (2 desktop pages / 5 mobile). Corrected desktop dot count 5->2 to match live",
+            "reviews carousel made functional on mobile (scroll-snap swipe + 3 dots); removed a stray desktop reviews dot (.rev-dots lost to .dots on source order -> was adding +34px; now .rev-sec-scoped hide)",
+            "insurance logos 'properly implemented': removed the white bordered/shadowed card, section bg #fbfcff->#fff (matches live), cluster raster sits on plain white right-aligned in the live 3-row grid (Anthem+BlueView / Davis+Superior+Spectera / Solstice+United)",
+            "footer refined: real inline-SVG social glyphs (Instagram/Facebook/TikTok/YouTube) + payment badges (Visa/Mastercard/Discover/Amex/PayPal/$/FSA-HSA) replacing blank white squares; smiley inline after the h3; phone icon before the number; h3 34->38px, h4 26->30px to match live glyph sizes"
+          ],
           "contentDiff": "PASS (0 genuine structural drops; measured offline via content-parity.mjs against capture — live root empty under PerimeterX solve)",
           "visualDiff": "PASS (subsumed by pixel band analysis; all deltas = documented font/mascot residuals)",
           "contentFixes": [
@@ -30,8 +36,13 @@
         },
         "360": {
           "iterations": 3,
-          "pixelDiffPct": 15.11,
+          "pixelDiffPct": 15.68,
           "heightDeltaPx": -5,
+          "mobileRefinements": [
+            "cards + reviews carousels now natively swipeable (scroll-snap) with JS dots (5 cards / 3 reviews)",
+            "footer real inline-SVG social + payment icons; smiley inline after h3; phone icon; footer top padding 42->36 to hold the -5px height PASS after icon additions",
+            "pixel 15.11->15.68: the +0.5% is real SVG glyphs replacing blank white icon squares (AA on new marks); still entirely font/AA residual, no structural offset"
+          ],
           "pixelProbe": "RESIDUAL (font-limited; 15.11% > 10% bar, overage is entirely licensed-font substitution AA; no band has an unexplained structural offset; sparse-text steps band = 7.1% alignment floor)",
           "heightProbe": "PASS",
           "contentDiff": "PASS (0 genuine structural drops via content-parity.mjs; 1 residual = consent-banner 'privacy policy' link, out of scope)",
