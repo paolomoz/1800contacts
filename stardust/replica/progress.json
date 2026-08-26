@@ -29,7 +29,7 @@
           "residuals": [
             "hero band 13.5% + FAQ band 15.8% = licensed-font substitution (Ambit->Nunito), not structural",
             "FAQ mascot is a raster lift from the ground-truth capture (source SVG behind PerimeterX)",
-            "carousel page-2 card imagery behind carousel (in no capture) -> brand-fill placeholder, offscreen",
+            "RESOLVED (2026-08-26): all 5 card images now authored in DA content (real img.1800contacts.com CDN assets, DA-ingested to media bus as optimized pictures). The two page-2 placeholders (app, Gajillion) are gone. Card imagery moved from block-JS index array to authorable content cells.",
             "content-parity 1 residual: 'privacy policy'->/privacy/privacy-policy is consent-banner chrome dismissed by the gate, out of measured scope"
           ],
           "evidence": "stardust/replica/gates/index-1440/"
@@ -96,6 +96,10 @@
             "plainHtml": "PASS (/index.plain.html 200, exactly 1 h1, 0 about:error, all 6 page blocks present)",
             "computedStyle": "PASS (7 sections; all blocks data-block-status=loaded; steps-row grid 3col, cards-row flex 5, card flex-col, insurance flex, reviews grid 3col, footer grid 4col; 12 imgs 0 broken; body.appear; 0 pageerror)"
           },
+          "followups": [
+            "2026-08-26 (9e599df): carousel non-advancement fixed (ResizeObserver re-measure; pageW guards) in cards.js + reviews.js.",
+            "2026-08-26 (9e599df): card imagery moved to DA content. All 5 cards authored as 2-cell rows (image cell <picture> + text cell) using real img.1800contacts.com CDN URLs; DA ingested them to the media bus as optimized pictures. Re-verified: 5/5 cards render 852px images, 0 placeholders, 13 imgs 0 broken, all blocks loaded, 0 pageerror. PUT+preview 200; POST /live/ still never issued."
+          ],
           "notLive": "POST /live/ never issued; production / not published. Content is not branched in EDS, so main's preview at / now also shows this replica (preview tier only)."
         }
       }
