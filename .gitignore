@@ -22,3 +22,6 @@ stardust/*.log
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+
+# DA upload staging (sanitised scratch)
+.da-staging/

@@ -49,10 +49,12 @@ function initCarousel(view, dotsEl, opts) {
   let pageW = 0;
 
   function activeIdx() {
+    if (!pageW) return 0;
     return Math.max(0, Math.min(pages - 1, Math.round(view.scrollLeft / pageW)));
   }
 
   function go(i) {
+    if (!pageW) return;
     view.scrollTo({ left: i * pageW, behavior: reduce ? 'auto' : 'smooth' });
   }
 
@@ -74,6 +76,10 @@ function initCarousel(view, dotsEl, opts) {
   function measure() {
     const perView = mobile() ? 1 : opts.perView;
     const cw = cards[0].getBoundingClientRect().width;
+    // Layout not ready yet (section still display:none pre-appear → 0 width).
+    // Bail without caching a zero pageW; the ResizeObserver re-runs measure
+    // the moment the view gets a real box.
+    if (!view.clientWidth || !cw) return;
     const cs = getComputedStyle(track);
     const gap = parseFloat(cs.columnGap || cs.gap || '0') || 0;
     pageW = perView === 1 ? cw + gap : view.clientWidth;
@@ -85,13 +91,18 @@ function initCarousel(view, dotsEl, opts) {
   view.addEventListener('scroll', update, { passive: true });
   if (opts.next) {
     opts.next.addEventListener('click', () => {
+      if (!pageW) measure();
       let a = activeIdx() + 1;
       if (a >= pages) a = 0;
       go(a);
     });
   }
-  let t;
-  window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(measure, 150); });
+  // Re-measure whenever the view's box changes: fires once the section becomes
+  // visible and gets a real width (decorate-time measure ran at 0 width and
+  // cached pageW=0, which killed the chevron/dots), and again on breakpoint or
+  // orientation changes. Replaces the decorate-only + window-resize measure.
+  const ro = new ResizeObserver(() => measure());
+  ro.observe(view);
   measure();
 }
 

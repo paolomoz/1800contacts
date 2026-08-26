@@ -80,7 +80,24 @@
           "DA_TOKEN absent (no .env) -> cannot PUT authored docs to admin.da.live/source -> no rendered preview URL",
           "code branch replica-home not yet pushed to origin -> AEM Code Sync cannot build the blocks for the branch preview"
         ],
-        "status": "local build + QA complete and green; STOPPED before any outward-facing write (preview-only scope, awaiting DA_TOKEN + push authorization)"
+        "status": "DEPLOYED TO PREVIEW (preview tier only; /live/ and production publish NOT touched)",
+        "deploy": {
+          "date": "2026-08-26",
+          "scope": "migrate + preview only, home page only",
+          "codePush": "replica-home pushed to origin (a474657); AEM Code Sync built the blocks",
+          "daTarget": "root / (existing docs were aem-boilerplate placeholder, not real content; overwrite authorized by user)",
+          "writes": [
+            "PUT source/index.html -> 200, POST preview/replica-home/ -> 200",
+            "PUT source/nav.html -> 200, POST preview/replica-home/nav -> 200",
+            "PUT source/footer.html -> 200, POST preview/replica-home/footer -> 200"
+          ],
+          "previewUrl": "https://replica-home--1800contacts--paolomoz.aem.page/",
+          "verify": {
+            "plainHtml": "PASS (/index.plain.html 200, exactly 1 h1, 0 about:error, all 6 page blocks present)",
+            "computedStyle": "PASS (7 sections; all blocks data-block-status=loaded; steps-row grid 3col, cards-row flex 5, card flex-col, insurance flex, reviews grid 3col, footer grid 4col; 12 imgs 0 broken; body.appear; 0 pageerror)"
+          },
+          "notLive": "POST /live/ never issued; production / not published. Content is not branched in EDS, so main's preview at / now also shows this replica (preview tier only)."
+        }
       }
     }
   ],

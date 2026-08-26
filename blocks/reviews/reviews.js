@@ -27,9 +27,10 @@ function initCarousel(view, dotsEl, opts) {
     }
   }
   function activeIdx() {
+    if (!pageW) return 0;
     return Math.max(0, Math.min(pages - 1, Math.round(view.scrollLeft / pageW)));
   }
-  function go(i) { view.scrollTo({ left: i * pageW, behavior: 'smooth' }); }
+  function go(i) { if (!pageW) return; view.scrollTo({ left: i * pageW, behavior: 'smooth' }); }
   function update() {
     const a = activeIdx();
     Array.prototype.forEach.call(dotsEl.children, (d, i) => { d.classList.toggle('on', i === a); });
@@ -37,6 +38,10 @@ function initCarousel(view, dotsEl, opts) {
   function measure() {
     const perView = mobile() ? 1 : opts.perView;
     const cw = cards[0].getBoundingClientRect().width;
+    // Layout not ready (section still display:none pre-appear → 0 width). Bail
+    // without caching a zero pageW; the ResizeObserver re-runs measure once the
+    // view gets a real box.
+    if (!view.clientWidth || !cw) return;
     const cs = getComputedStyle(track);
     const gap = parseFloat(cs.columnGap || cs.gap || '0') || 0;
     pageW = perView === 1 ? (cw + gap) : view.clientWidth;
@@ -47,13 +52,17 @@ function initCarousel(view, dotsEl, opts) {
   view.addEventListener('scroll', update, { passive: true });
   if (opts.next) {
     opts.next.addEventListener('click', () => {
+      if (!pageW) measure();
       let a = activeIdx() + 1;
       if (a >= pages) a = 0;
       go(a);
     });
   }
-  let t;
-  window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(measure, 150); });
+  // Re-measure whenever the view's box changes: fires once the section becomes
+  // visible and gets a real width (the decorate-time measure ran at 0 width and
+  // cached pageW=0, killing the dots/swipe), and on breakpoint changes.
+  const ro = new ResizeObserver(() => measure());
+  ro.observe(view);
   measure();
 }
 
