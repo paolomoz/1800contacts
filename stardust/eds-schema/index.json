@@ -1,0 +1,434 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Flash sale: 30% off your first order today"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Your exact brand, our best price. Ends Wed. night @ 11 PM (ET)"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Back again",
+     "href": "/reorder"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "First time here",
+     "href": "/lenses"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "30% discount available for first-time orders only."
+    }
+   ],
+   "imgCount": 2,
+   "repeats": []
+  },
+  {
+   "section": "ins",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Save $130 on average with vision insurance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Just enter your name, birthday, and zip code, and we’ll apply your vision benefits at checkout."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Look up my insurance",
+     "href": "/vision-insurance"
+    }
+   ],
+   "imgCount": 2,
+   "repeats": []
+  },
+  {
+   "section": "cards-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Need something else? We can help."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Renew your prescription online"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Tell me more",
+     "href": "/exam"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Glasses from $79 + free prescription lenses"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Shop glasses",
+     "href": "/glasses"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Save up to 40% when you switch to AquaSoft"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/try-contact-lens-brands/results/aquasoft-30"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Everything’s easier on our app"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "View details",
+     "href": "/mobile-app"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Our Gajillion Percent Promise has your back"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "See what's included",
+     "href": "/mt/gajillion-percent-promise"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "›"
+    }
+   ],
+   "imgCount": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "steps-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How to order"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Get your contacts today in 3 easy steps."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Step 1"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Find your contacts"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Do a quick search or scan the side of your box."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Step 2"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Enter your prescription"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Upload a pic of your prescription, enter the info manually, or we can contact your eye doctor for you."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Step 3"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Place your order"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Sit back and relax: once your prescription is verified we’ll ship your contacts for free."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Get started",
+     "href": "/lenses"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.step",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "rev-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Huzzah for happy customers!"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Yeah, we just busted out a “huzzah.”"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "★★★★★"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "“LOVE this company. Getting contacts could NOT be more simple. I can order at my convenience and they show up at my door within days!!! Can’t beat it!”"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "— Jayme S."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "★★★★★"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "“First time ordering. But a lifetime customer! Got my contacts faster than getting them from my eye clinic! Love it. Wish I would have changed to you sooner!”"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "— Sherry A."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "★★★★★"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "“I love how easy and convenient it is to order online also, being able to chat with the customer service agents is helpful and they provide excellent customer support.”"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "— Brandi G."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Read more reviews",
+     "href": "/reviews"
+    }
+   ],
+   "imgCount": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.rev",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "faq-sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "FAQs: Freakin’ Awesome Questions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Am I getting the right contacts?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "⌄"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Yes! We triple-check your prescription to make sure you get the same high-quality contacts your doctor prescribed."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "What’s your return policy?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "⌄"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "You can return or exchange any unopened contacts for free—no time limit. Learn more."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Do you price match?"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "⌄"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "We sure do! If you find a better price elsewhere, we’ll beat it. Learn more."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Do I have to pay for shipping?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "⌄"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Nope, not unless you want to upgrade to faster shipping (but our free standard shipping is ridiculously fast)."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Can I renew my prescription online?"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "⌄"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Yes! You can conveniently renew your prescription with our online vision exam, ExpressExam. ."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "See if you qualify",
+     "href": "/exam"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Do you sell glasses?"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "⌄"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Heck yes we do. Our sister site, The Framery, delivers stylish, high-quality frames and lenses directly to you—without the middlemen or designer markups."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Check out hundreds of frames and find your perfect pair.",
+     "href": "/glasses"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.faq-item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

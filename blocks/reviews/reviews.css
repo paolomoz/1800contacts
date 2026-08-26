@@ -1,0 +1,151 @@
+/* ---- reviews section background (full-bleed) ---- */
+main .section.reviews-container {
+  background: var(--fill);
+}
+
+.reviews .wrap {
+  padding-top: 81px;
+  padding-bottom: 89px;
+}
+
+.reviews h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.reviews .sub {
+  text-align: center;
+  color: var(--blue);
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.55;
+  margin-bottom: 40px;
+}
+
+.reviews .rev-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px;
+}
+
+.reviews .rev .stars {
+  color: var(--star);
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+
+.reviews .rev p {
+  font-size: 16px;
+  color: var(--text);
+  margin: 0 0 16px;
+}
+
+.reviews .rev .who {
+  font-size: 16px;
+  color: var(--text);
+}
+
+/* dots — mobile-only (hidden on desktop, matches prototype 2-class rule) */
+.reviews .dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.reviews .dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #9fc3e0;
+  cursor: pointer;
+}
+
+.reviews .dots i.on {
+  background: var(--navy);
+}
+
+.reviews .rev-dots {
+  display: none;
+}
+
+/* navy secondary CTA (a.button.secondary supplied by the global button system) */
+.reviews .cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.reviews .cta .button {
+  padding: 0 40px;
+  margin: 0;
+}
+
+/* ============================ MOBILE (<=768px) ============================ */
+@media (max-width: 768px) {
+  .reviews .wrap {
+    padding: 26px 20px 12px;
+  }
+
+  .reviews h2 {
+    font-size: 30px;
+  }
+
+  .reviews .sub {
+    font-size: 19px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+
+  .reviews .rev-view {
+    overflow: auto hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .reviews .rev-view::-webkit-scrollbar {
+    display: none;
+  }
+
+  .reviews .rev-row {
+    display: flex;
+    grid-template-columns: none;
+    gap: 24px;
+  }
+
+  .reviews .rev {
+    flex: 0 0 100%;
+    text-align: center;
+    scroll-snap-align: start;
+  }
+
+  .reviews .rev .stars {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .reviews .rev p {
+    margin: 0 0 12px;
+  }
+
+  .reviews .rev-dots {
+    display: flex;
+    margin-top: 18px;
+  }
+
+  .reviews .cta {
+    margin-top: 22px;
+  }
+
+  /* .cta .button width/height handled by the global button mobile rule */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reviews .rev-view {
+    scroll-behavior: auto;
+  }
+}

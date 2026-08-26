@@ -64,8 +64,25 @@
           "evidence": "stardust/replica/gates/index-360/",
           "decision": "USER: accept documented font residual and proceed to handoff, OR source licensed Ambit kit to close the last ~5%"
         }
+      },
+      "edsBuild": {
+        "branch": "replica-home",
+        "blocks": ["hero", "insurance", "cards", "steps", "reviews", "faq", "header", "footer"],
+        "contentDocs": ["content/index.html", "content/nav.html", "content/footer.html"],
+        "localQA": {
+          "davidsModelLint": "PASS (0 red; 1 yellow justified — see insuranceAdvisory)",
+          "blockRoundtrip": "PASS (all 6 page blocks round-trip closed; reviews sub div->h5 role-parity fix applied)",
+          "qaGate": "PASS (26 ok / 0 warn / 0 fail, --schema against stardust/eds-schema/index.json)",
+          "chromeDecode": "PASS (qa/chrome-check.mjs via playwright route-interception against authored content/nav.html + content/footer.html; header+footer status 'loaded', 0 page errors)"
+        },
+        "insuranceAdvisory": "davids-model-lint 1 yellow on the insurance section: flagged as candidate default-content (D1). Kept as a block deliberately — it is a bespoke two-column composition (copy+CTA left, breakpoint-swapped insurer-logo raster right, with a desktop #fff / mobile --navy inversion), not plain prose. This is the D1 'genuinely bespoke composition' exception, not the text/heading/image anti-pattern. No structural risk.",
+        "transportBlockers": [
+          "DA_TOKEN absent (no .env) -> cannot PUT authored docs to admin.da.live/source -> no rendered preview URL",
+          "code branch replica-home not yet pushed to origin -> AEM Code Sync cannot build the blocks for the branch preview"
+        ],
+        "status": "local build + QA complete and green; STOPPED before any outward-facing write (preview-only scope, awaiting DA_TOKEN + push authorization)"
       }
     }
   ],
-  "lastRun": "2026-08-25"
+  "lastRun": "2026-08-26"
 }

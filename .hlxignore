@@ -1,7 +1,4 @@
-.*
-*.md
-karma.config.js
-LICENSE
-package.json
-package-lock.json
-test/*
+# Not delivery content — keep migration scratch and tooling off the aem.page host.
+stardust/
+skills/
+qa/

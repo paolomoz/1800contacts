@@ -1,20 +1,75 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* ============================ FOOTER ============================ *\
+   Replica of the prototype .ft footer. CSS lifted verbatim from
+   stardust/prototypes/index-proposed.html and scoped under .footer .ft.
+   .wrap (max-width/centering) comes from the foundation styles.css.
+\* ============================================================== */
+
+.footer .ft { background: var(--navy); color: #fff; }
+.footer .ft .wrap { padding-top: 60px; padding-bottom: 52px; display: flex; gap: 44px; }
+
+.footer .ft .brand { flex: 0 0 470px; }
+.footer .ft .brand .logo { height: 15px; width: auto; margin-bottom: 30px; display: block; }
+.footer .ft .brand h3 { color: #fff; font-size: 38px; line-height: 1.22; margin-bottom: 16px; }
+.footer .ft .brand h3 .smiley { width: 34px; height: 34px; display: inline-block; vertical-align: -9px; margin-left: 12px; }
+.footer .ft .brand .learn { color: #fff; font-family: var(--heading-font-family); font-weight: 700; text-decoration: underline; font-size: 16px; display: inline-block; }
+
+.footer .ft .social { display: flex; align-items: center; gap: 24px; margin: 30px 0 24px; }
+.footer .ft .social a { display: block; color: #fff; }
+.footer .ft .social svg { width: 24px; height: 24px; display: block; fill: currentColor; }
+
+.footer .ft .accept { font-size: 13px; color: #c9cff0; margin-bottom: 10px; }
+.footer .ft .pays { display: flex; gap: 8px; }
+.footer .ft .pays .pay { width: 38px; height: 24px; background: #fff; border-radius: 3px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.footer .ft .pays .pay svg { width: 100%; height: 100%; display: block; }
+.footer .ft .pays .pay.amex { background: #006fcf; }
+
+.footer .ft-right { flex: 1; }
+.footer .ft-right .top { margin-bottom: 26px; }
+.footer .ft-right .top h4 { color: #fff; font-size: 30px; margin-bottom: 10px; }
+.footer .ft-right .top p { font-size: 16px; color: #e4e7ff; margin: 0 0 16px; }
+.footer .ft-right .contact { display: flex; align-items: center; gap: 44px; font-family: var(--heading-font-family); font-weight: 700; font-size: 17px; }
+.footer .ft-right .contact .phone-ic { width: 22px; height: 22px; flex: 0 0 auto; margin-right: 10px; vertical-align: middle; }
+.footer .ft-right .contact span { display: inline-flex; align-items: center; }
+.footer .ft-right .contact a { color: #fff; text-decoration: none; }
+
+.footer .ft-cols { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.footer .ft-col h5 { color: #fff; font-size: 18px; margin-bottom: 16px; }
+.footer .ft-col a { display: block; color: #e4e7ff; font-size: 15px; margin-bottom: 12px; text-decoration: none; }
+.footer .ft-col a:hover { text-decoration: underline; }
+
+.footer .ft .legal { border-top: 1px solid rgba(255, 255, 255, .18); margin-top: 6px; padding-top: 22px; display: flex; justify-content: space-between; font-size: 14px; color: #c9cff0; }
+.footer .ft .legal .links { display: flex; gap: 26px; }
+.footer .ft .legal .links a { color: #c9cff0; text-decoration: none; }
+.footer .ft .legal .links a:hover { text-decoration: underline; }
+
+/* ============================ MOBILE (≤768px) ============================ */
+@media (max-width: 768px) {
+  .footer .ft .wrap { display: flex; flex-direction: column; gap: 0; padding: 36px 20px 28px; }
+  .footer .ft .brand, .footer .ft .ft-right { display: contents; }
+  .footer .ft .brand .logo { order: 1; height: 16px; margin-bottom: 24px; }
+  .footer .ft .brand h3 { order: 2; font-size: 30px; line-height: 1.22; margin-bottom: 18px; }
+  .footer .ft .brand .learn { order: 3; margin-bottom: 40px; }
+  .footer .ft-right .top { order: 4; margin-bottom: 34px; }
+  .footer .ft-right .top h4 { font-size: 24px; }
+  .footer .ft-right .contact { flex-direction: column; gap: 12px; align-items: flex-start; }
+  .footer .ft-right .contact span + span { display: none; }
+  .footer .ft-cols { order: 5; grid-template-columns: 1fr; gap: 0; }
+  .footer .ft-col { border-top: 1px solid rgba(255, 255, 255, .15); padding: 17px 0; }
+  .footer .ft-col h5 { margin: 0; font-size: 17px; font-weight: 700; cursor: pointer; }
+  .footer .ft-col h5::after { content: "⌄"; float: right; font-weight: 400; font-size: 18px; transition: transform .2s ease; }
+  .footer .ft-col a { display: none; }
+  .footer .ft-col.open a { display: block; margin-top: 12px; }
+  .footer .ft-col.open h5::after { transform: rotate(180deg); }
+  .footer .ft .brand .social { order: 6; margin: 32px 0 22px; gap: 24px; }
+  .footer .ft .brand .social svg { width: 28px; height: 28px; }
+  .footer .ft .brand .accept { order: 7; font-size: 14px; margin-bottom: 12px; }
+  .footer .ft .brand .pays { order: 8; flex-wrap: wrap; gap: 8px; }
+  .footer .ft .brand .pays .pay { width: 44px; height: 28px; }
+  .footer .ft .brand h3 .smiley { width: 30px; height: 30px; vertical-align: -7px; margin-left: 10px; }
+  .footer .ft .legal { flex-direction: column; align-items: flex-start; gap: 18px; margin-top: 34px; padding-top: 24px; }
+  .footer .ft .legal .links { flex-wrap: wrap; gap: 14px 22px; }
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
-}
-
-footer .footer p {
-  margin: 0;
-}
-
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+@media (prefers-reduced-motion: reduce) {
+  .footer .ft-col h5::after { transition: none; }
 }

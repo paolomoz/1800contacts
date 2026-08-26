@@ -1,0 +1,116 @@
+/* ---- steps section (full-bleed white background) ---- */
+main .section.steps-container {
+  background: #fff;
+}
+
+.steps .wrap {
+  padding-top: 84px;
+  padding-bottom: 80px;
+}
+
+.steps .steps-head {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.steps .steps-head h2 {
+  font-size: 40px;
+  display: inline-block;
+}
+
+.steps .steps-head .doodle {
+  position: absolute;
+  left: 340px;
+  top: -6px;
+  width: 110px;
+}
+
+.steps .steps-head .lead {
+  color: var(--blue);
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.steps .steps-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px;
+}
+
+.steps .step .n {
+  color: var(--blue);
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.steps .step h3 {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.steps .step p {
+  font-size: 16px;
+  color: var(--text);
+  margin: 0;
+}
+
+.steps .cta {
+  text-align: center;
+  margin-top: 44px;
+}
+
+/* per-block CTA override (orange is global default; steps uses 44px padding) */
+.steps .cta .button {
+  height: 52px;
+  font-size: 18px;
+  padding: 0 44px;
+}
+
+/* ============================ MOBILE (<=768px) ============================ */
+@media (max-width: 768px) {
+  .steps .wrap {
+    padding: 46px 20px 38px;
+  }
+
+  .steps .steps-head {
+    margin-bottom: 22px;
+  }
+
+  .steps .steps-head h2 {
+    font-size: 30px;
+  }
+
+  .steps .steps-head .doodle {
+    left: auto;
+    right: 6px;
+    top: -2px;
+    width: 88px;
+  }
+
+  .steps .steps-head .lead {
+    font-size: 17px;
+    margin-top: 8px;
+  }
+
+  .steps .steps-row {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .steps .step h3 {
+    font-size: 24px;
+  }
+
+  .steps .cta {
+    margin-top: 30px;
+  }
+
+  .steps .cta .button {
+    width: 100%;
+    height: 56px;
+  }
+}

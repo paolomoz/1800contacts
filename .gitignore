@@ -8,6 +8,13 @@ helix-importer-ui
 *.bak
 .idea
 
+# secrets — never commit the DA IMS token
+.env
+.env.*
+
+# local QA harness (playwright scratch, not shipped)
+qa/
+
 # stardust migration scratch — bot-clearance session (sensitive cookies) + run logs
 stardust/px-clearance.json
 stardust/*.log

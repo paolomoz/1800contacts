@@ -1,0 +1,107 @@
+/* ---- insurance section background (full-bleed) ---- */
+main .section.insurance-container {
+  background: #fff;
+}
+
+.insurance .wrap {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-top: 128px;
+  padding-bottom: 129px;
+}
+
+.insurance .left {
+  flex: 1;
+  max-width: 620px;
+}
+
+.insurance h2 {
+  font-size: 44px;
+  line-height: 1.12;
+  margin-bottom: 16px;
+}
+
+.insurance p {
+  font-size: 18px;
+  color: var(--text);
+  max-width: 540px;
+  margin: 0 0 30px;
+}
+
+.insurance .left .button {
+  height: 52px;
+  font-size: 17px;
+  padding: 0 34px;
+  margin: 0;
+}
+
+/* logos sit directly on the section background (no card) */
+.insurance .logos {
+  flex: 0 0 auto;
+  width: 470px;
+  margin-left: auto;
+}
+
+.insurance .logos-m {
+  display: none;
+}
+
+/* ============================ MOBILE (<=768px) ============================ */
+@media (max-width: 768px) {
+  main .section.insurance-container {
+    background: var(--navy);
+  }
+
+  .insurance .wrap {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 26px 20px 24px;
+    text-align: center;
+  }
+
+  .insurance .left {
+    max-width: none;
+  }
+
+  .insurance h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.15;
+    margin-bottom: 18px;
+  }
+
+  .insurance p {
+    color: #dfe4ff;
+    font-size: 16px;
+    max-width: none;
+    margin: 0 auto 26px;
+  }
+
+  .insurance .left .button {
+    width: 100%;
+    height: 56px;
+    font-size: 17px;
+  }
+
+  .insurance .logos {
+    flex: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+    width: calc(100% + 40px);
+    margin: 28px -20px 0;
+  }
+
+  .insurance .logos-d {
+    display: none;
+  }
+
+  .insurance .logos-m {
+    display: block;
+    width: 100%;
+  }
+}
