@@ -2,32 +2,23 @@
  * Cards block — replica of the prototype `<section class="cards-sec">`:
  * a scroll-snap carousel of 5 cards with a chevron (desktop) and dots.
  *
- * Authored input (first row is the section head, rows 2–6 are the cards):
+ * Authored input (first row is the section head, each following row is a card
+ * as two cells: an image cell + a text cell):
  *   Row 1: <h2>Need something else? We can help.</h2>
- *   Rows 2–6: each cell = <h3>title</h3> + <p><strong><a>CTA</a></strong></p>
+ *   Rows 2–6: cell 1 = <picture><img></picture> (authored image, lives in DA),
+ *             cell 2 = <h3>title</h3> + <p><strong><a>CTA</a></strong></p>
  *             (decorateButtons() rewrites the CTA to a.button.primary in
  *              p.button-wrapper before this block runs).
  *
- * Card imagery cannot be authored per-card (no DA upload path), so each card's
- * image is assigned BY INDEX here — matching the prototype exactly:
- *   index 0 → /img/card-exam.png (desktop) + /img/card-exam-m.png (mobile swap)
- *   index 1 → /img/card-glasses.jpg
- *   index 2 → /img/card-aquasoft.png
- *   index 3 → placeholder (.img.ph, background var(--hero-wash)) — "app" card
- *   index 4 → placeholder (.img.ph, background var(--hero-wash)) — "Gajillion" card
+ * The image MUST ride a <picture> alone in its own cell: the runtime's
+ * wrapTextNodes folds any cell that leads with a bare <img> or a <picture>
+ * followed by more content into a single <p>, which would swallow the title.
  *
- * The decoder is defensive: it flattens all authored nodes in document order
- * and segments cards on each <h3> boundary, so it works for BOTH the
- * one-row-per-card shape AND a DA-flattened single-cell shape.
+ * The decoder is shape-agnostic: it flattens the authored content into an
+ * ordered stream of the three things a card is made of (image / title / CTA)
+ * and segments on each <h3> boundary, attaching the picture that precedes it.
+ * This works for BOTH the two-cell-row shape and a DA-flattened single cell.
  */
-
-const CARD_IMAGES = [
-  { d: '/img/card-exam.png', m: '/img/card-exam-m.png', alt: 'Doctor-issued prescription, takes 10 minutes' },
-  { d: '/img/card-glasses.jpg', alt: 'Glasses' },
-  { d: '/img/card-aquasoft.png', alt: 'AquaSoft contact lenses' },
-  null,
-  null,
-];
 
 /**
  * Port of the prototype `initCarousel`: native scroll-snap view driven by dots
@@ -107,28 +98,28 @@ function initCarousel(view, dotsEl, opts) {
 }
 
 export default async function decorate(block) {
-  // Collect authored cells defensively; support the DA-flattened single cell.
-  let cells = [...block.querySelectorAll(':scope > div > div')];
-  if (cells.length <= 1) cells = [cells[0] || block];
+  const head = block.querySelector('h2');
 
-  // Flatten meaningful child elements in document order.
-  const nodes = [];
-  cells.forEach((cell) => {
-    [...cell.children].forEach((n) => { if (n.nodeType === 1) nodes.push(n); });
-  });
+  // Flatten the authored content into an ordered stream of the three things a
+  // card is made of — image / title / CTA — then segment on each <h3>. This is
+  // shape-agnostic: two-cell rows (image cell then text cell) and a
+  // DA-flattened single cell both linearise to the same picture→h3→link order.
+  const stream = [...block.querySelectorAll('picture, img, h3, a')]
+    // keep the <picture> wrapper, drop the <img> it contains (double count)
+    .filter((n) => !(n.tagName === 'IMG' && n.closest('picture')));
 
-  // Section head + segment cards on each <h3> boundary.
-  const head = nodes.find((n) => n.tagName === 'H2');
   const groups = [];
+  let pendingPic = null;
   let cur = null;
-  nodes.forEach((n) => {
-    if (n === head) return;
-    if (n.tagName === 'H3') {
-      cur = { title: n, cta: null };
+  stream.forEach((n) => {
+    if (n.tagName === 'PICTURE' || n.tagName === 'IMG') {
+      pendingPic = n;
+    } else if (n.tagName === 'H3') {
+      cur = { pic: pendingPic, title: n, cta: null };
+      pendingPic = null;
       groups.push(cur);
-    } else if (cur && !cur.cta) {
-      const a = n.tagName === 'A' ? n : (n.querySelector && n.querySelector('a'));
-      if (a) cur.cta = a;
+    } else if (n.tagName === 'A' && cur && !cur.cta) {
+      cur.cta = n;
     }
   });
 
@@ -143,35 +134,20 @@ export default async function decorate(block) {
   const cardsRow = document.createElement('div');
   cardsRow.className = 'cards-row';
 
-  groups.forEach((g, i) => {
+  groups.forEach((g) => {
     const card = document.createElement('div');
     card.className = 'card';
 
-    // Image by index (prototype mapping).
+    // Image comes from the authored content (lives in DA). No picture → the
+    // brand-fill placeholder wash.
     const img = document.createElement('div');
     img.className = 'img';
-    const src = CARD_IMAGES[i];
-    if (!src) {
-      img.classList.add('ph');
-    } else if (src.m) {
-      // Exam card: desktop + mobile image swap.
-      const imgD = document.createElement('img');
-      imgD.className = 'ex-d';
-      imgD.src = src.d;
-      imgD.alt = src.alt;
-      imgD.loading = 'lazy';
-      const imgM = document.createElement('img');
-      imgM.className = 'ex-m';
-      imgM.src = src.m;
-      imgM.alt = src.alt;
-      imgM.loading = 'lazy';
-      img.append(imgD, imgM);
+    if (g.pic) {
+      img.append(g.pic);
+      const imgEl = img.querySelector('img');
+      if (imgEl && !imgEl.getAttribute('loading')) imgEl.loading = 'lazy';
     } else {
-      const el = document.createElement('img');
-      el.src = src.d;
-      el.alt = src.alt;
-      el.loading = 'lazy';
-      img.append(el);
+      img.classList.add('ph');
     }
 
     const body = document.createElement('div');

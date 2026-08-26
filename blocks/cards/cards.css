@@ -120,11 +120,6 @@ main .section.cards-container {
   background: var(--navy);
 }
 
-/* exam-card image swap — desktop shows ex-d, mobile shows ex-m */
-.cards .ex-m {
-  display: none;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .cards .cards-view {
     scroll-behavior: auto;
@@ -162,14 +157,6 @@ main .section.cards-container {
 
   .cards .card .img {
     aspect-ratio: 254 / 175;
-  }
-
-  .cards .ex-d {
-    display: none;
-  }
-
-  .cards .ex-m {
-    display: block;
   }
 
   .cards .card .body {
