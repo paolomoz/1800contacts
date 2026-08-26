@@ -26,6 +26,9 @@ img{max-width:100%;display:block;}
 .btn-orange{background:var(--orange);color:#fff;}
 .btn-navy{background:var(--navy);color:#fff;}
 
+/* mobile-only chrome hidden on desktop */
+.hero .art-m,.logos-m,.m-search,.m-cta,.faq-x,.rev-dots,.hdr .moon,.m-br,.ex-m{display:none;}
+
 /* ---- promo bar ---- */
 .promo{background:var(--mint);height:42px;display:flex;align-items:center;justify-content:center;
   gap:10px;color:var(--navy);font-family:var(--heading);font-weight:700;font-size:15px;}
@@ -157,6 +160,145 @@ img{max-width:100%;display:block;}
 .ft .legal{border-top:1px solid rgba(255,255,255,.18);margin-top:6px;padding-top:22px;
   display:flex;justify-content:space-between;font-size:14px;color:#c9cff0;}
 .ft .legal .links{display:flex;gap:26px;}
+
+/* ============================ MOBILE (≤768px) ============================ */
+@media (max-width:768px){
+  .wrap{padding:0 18px;}
+
+  /* promo — text over countdown, two rows */
+  .promo{height:auto;flex-direction:column;gap:6px;padding:13px 14px;font-size:13.5px;line-height:1.2;text-align:center;}
+  .promo .digits b{min-width:24px;}
+
+  /* header — sticky, hamburger + logo + icons + sign in */
+  .hdr{position:sticky;top:0;z-index:50;height:52px;}
+  .hdr .wrap{padding:0 16px;gap:12px;}
+  .hdr nav{display:none;}
+  .hdr .logo{height:17px;}
+  .hdr .right{margin-left:auto;gap:16px;}
+  .hdr .moon{display:block;width:18px;height:18px;border-radius:50%;
+    box-shadow:inset -5px 2px 0 0 #fff;transform:rotate(-20deg);}
+  .hdr .signin{font-size:14px;padding:7px 15px;white-space:nowrap;}
+
+  /* mobile search pill */
+  .m-search{display:block;background:#fff;padding:8px 16px;}
+  .m-search-pill{display:flex;align-items:center;gap:11px;height:34px;padding:0 18px;
+    border:1px solid #dde5ee;border-radius:999px;color:#7c8698;
+    font-family:var(--heading);font-weight:600;font-size:16px;}
+  .m-search-pill .mag{width:16px;height:16px;border:2px solid #9aa4b5;border-radius:50%;position:relative;flex:0 0 auto;}
+  .m-search-pill .mag::after{content:"";position:absolute;width:6px;height:2px;background:#9aa4b5;
+    right:-4px;bottom:0;transform:rotate(45deg);border-radius:2px;}
+
+  /* hero — art banner on top, text block on white below */
+  .hero{background:#fff;overflow:visible;}
+  .hero .art{position:static;inset:auto;}
+  .hero .art-d{display:none;}
+  .hero .art-m{display:block;width:100%;}
+  .hero .wrap{position:static;padding:22px 20px 33px;min-height:0;text-align:center;}
+  .hero .col{max-width:none;}
+  .hero h1{font-size:31px;line-height:1.28;letter-spacing:-.3px;margin-bottom:14px;}
+  .m-br{display:inline;}
+  .hero .sub{font-size:18px;margin-bottom:24px;}
+  .hero .cta{max-width:none;gap:14px;}
+  .hero .cta .btn{height:52px;font-size:18px;width:100%;}
+  .hero .fineprint{text-align:center;color:var(--muted);font-size:13px;margin-top:30px;}
+
+  /* insurance — navy, centered, full-width btn, mobile logo card */
+  .ins{background:var(--navy);}
+  .ins .wrap{flex-direction:column;align-items:stretch;gap:0;padding:26px 20px 24px;text-align:center;}
+  .ins .left{max-width:none;}
+  .ins h2{color:#fff;font-size:30px;line-height:1.15;margin-bottom:18px;}
+  .ins p{color:#dfe4ff;font-size:16px;max-width:none;margin:0 auto 26px;}
+  .ins .btn{width:100%;height:56px;font-size:17px;}
+  .ins .logos{flex:none;background:none;border:none;box-shadow:none;padding:0;border-radius:0;
+    width:calc(100% + 40px);margin:28px -20px 0;}   /* full-bleed: card lift is 360px-native */
+  .logos-d{display:none;}
+  .logos-m{display:block;width:100%;}
+
+  /* cards — 254px card + peek of next, full-bleed right (matches live carousel) */
+  .cards-sec .wrap{padding:56px 0 96px;}
+  .cards-sec h2{font-size:30px;line-height:1.15;margin-bottom:36px;padding:0 18px;}
+  .cards-view{padding:0 0 0 32px;margin:0;height:371px;}
+  .cards-row{gap:11px;align-items:flex-start;}
+  .card{flex:0 0 254px;}
+  .card .img{aspect-ratio:254/175;}
+  .ex-d{display:none;}
+  .ex-m{display:block;}
+  .card .body{padding:28px 20px 40px;gap:18px;}
+  .card h5{font-size:24px;}
+  .card .btn{height:52px;font-size:16px;}
+  .cards-sec .chevron{display:none;}
+  .cards-sec .dots{padding:0 18px;}
+
+  /* steps — stacked */
+  .steps-sec .wrap{padding:46px 20px 38px;}
+  .steps-head{margin-bottom:22px;}
+  .steps-head h2{font-size:30px;}
+  .steps-head .doodle{left:auto;right:6px;top:-2px;width:88px;}
+  .steps-head .lead{font-size:17px;margin-top:8px;}
+  .steps-row{grid-template-columns:1fr;gap:26px;}
+  .step h5{font-size:24px;}
+  .steps-sec .cta{margin-top:30px;}
+  .steps-sec .cta .btn{width:100%;height:56px;}
+
+  /* reviews — single-card clipped carousel with dots */
+  .rev-sec .wrap{padding:26px 20px 12px;}
+  .rev-sec h2{font-size:30px;}
+  .rev-sec .sub{font-size:19px;line-height:1.3;margin-bottom:16px;}
+  .rev-view{overflow:hidden;}
+  .rev-row{display:flex;grid-template-columns:none;gap:24px;}
+  .rev{flex:0 0 100%;text-align:center;}
+  .rev .stars{font-size:26px;margin-bottom:10px;}
+  .rev p{margin:0 0 12px;}
+  .rev-dots{display:flex;margin-top:18px;}
+  .rev-sec .cta{margin-top:22px;}
+  .rev-sec .cta .btn{width:100%;height:56px;}
+
+  /* faq — stacked, circle-X icon, full-width accordion pills */
+  .faq-sec .wrap{flex-direction:column;gap:0;padding:62px 18px 54px;align-items:stretch;}
+  .faq-left{flex:none;text-align:center;}
+  .faq-sec h2{font-size:30px;line-height:1.18;}
+  .faq-left .mascot{display:none;}
+  .faq-x{display:block;width:58px;height:58px;border:3px solid #fff;border-radius:50%;
+    margin:26px auto 36px;position:relative;}
+  .faq-x::before,.faq-x::after{content:"";position:absolute;top:50%;left:50%;width:22px;height:3px;
+    background:#fff;border-radius:2px;}
+  .faq-x::before{transform:translate(-50%,-50%) rotate(45deg);}
+  .faq-x::after{transform:translate(-50%,-50%) rotate(-45deg);}
+  .faq-list{gap:14px;}
+  .faq-item{padding:20px 22px;}
+  .faq-item span{font-size:16px;}
+
+  /* footer — single column, reordered via display:contents, nav accordion */
+  .ft .wrap{display:flex;flex-direction:column;gap:0;padding:42px 20px 28px;}
+  .ft .brand,.ft .ft-right{display:contents;}
+  .ft .brand .logo{order:1;height:16px;margin-bottom:24px;}
+  .ft .brand h3{order:2;font-size:30px;line-height:1.22;margin-bottom:18px;}
+  .ft .brand .learn{order:3;margin-bottom:40px;}
+  .ft-right .top{order:4;margin-bottom:34px;}
+  .ft-right .top h4{font-size:24px;}
+  .ft-right .contact{flex-direction:column;gap:12px;}
+  .ft-right .contact span+span{display:none;}
+  .ft-cols{order:5;grid-template-columns:1fr;gap:0;}
+  .ft-col{border-top:1px solid rgba(255,255,255,.15);padding:17px 0;}
+  .ft-col h5{margin:0;font-size:17px;font-weight:700;}
+  .ft-col h5::after{content:"⌄";float:right;font-weight:400;font-size:18px;}
+  .ft-col a{display:none;}
+  .ft .brand .social{order:6;margin:32px 0 22px;gap:20px;}
+  .ft .brand .social i{width:30px;height:30px;border-radius:8px;}
+  .ft .brand .accept{order:7;font-size:14px;margin-bottom:12px;}
+  .ft .brand .pays{order:8;flex-wrap:wrap;gap:8px;}
+  .ft .brand .pays i{width:40px;height:26px;}
+  .ft .legal{flex-direction:column;align-items:flex-start;gap:18px;margin-top:34px;padding-top:24px;}
+  .ft .legal .links{flex-wrap:wrap;gap:14px 22px;}
+
+  /* sticky bottom CTA bar */
+  .m-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--navy);
+    align-items:center;gap:14px;padding:13px 16px;box-shadow:0 -2px 14px rgba(0,0,0,.16);}
+  .m-cta-x{background:none;border:none;color:#fff;font-size:22px;line-height:1;padding:0 2px;cursor:pointer;}
+  .m-cta-txt{color:#fff;font-family:var(--heading);font-weight:700;font-size:16px;line-height:1.15;}
+  .m-cta-btn{margin-left:auto;background:#fff;color:var(--navy);font-family:var(--heading);font-weight:700;
+    border-radius:999px;padding:13px 22px;font-size:15px;white-space:nowrap;}
+}
 </style>
 </head>
 <body>
@@ -177,15 +319,18 @@ img{max-width:100%;display:block;}
     <a href="/exam">Online vision exam</a>
     <a href="/vision-insurance">Vision insurance</a>
   </nav>
-  <div class="right"><div class="search"></div><a class="signin" href="/account">Sign in</a></div>
+  <div class="right"><div class="moon"></div><div class="search"></div><a class="signin" href="/account">Sign in</a></div>
 </div></header>
+
+<!-- mobile search pill (mobile only) -->
+<div class="m-search"><div class="m-search-pill"><span class="mag"></span>Find my contacts</div></div>
 
 <main class="content">
 <!-- hero -->
 <section class="hero">
-  <div class="art"><img src="assets/hero.jpg" alt="Best online contacts retailer"></div>
+  <div class="art"><img class="art-d" src="assets/hero.jpg" alt="Best online contacts retailer"><img class="art-m" src="assets/hero-mobile.png" alt="30% off your exact brand of contacts"></div>
   <div class="wrap"><div class="col">
-    <h1>Flash sale: 30% off your first order today</h1>
+    <h1>Flash sale: 30% off<br class="m-br">your first order<br class="m-br">today</h1>
     <div class="sub">Your exact brand, our best price.<br>Ends Wed. night @ 11 PM (ET)</div>
     <div class="cta">
       <a class="btn btn-orange" href="/reorder">Back again</a>
@@ -202,7 +347,7 @@ img{max-width:100%;display:block;}
     <p>Just enter your name, birthday, and zip code, and we’ll apply your vision benefits at checkout.</p>
     <a class="btn" href="/vision-insurance">Look up my insurance</a>
   </div>
-  <div class="logos"><img src="assets/insurance-logos.png" alt="Anthem, Blue View Vision, Davis Vision, Superior Vision, Spectera"></div>
+  <div class="logos"><img class="logos-d" src="assets/insurance-logos.png" alt="Anthem, Blue View Vision, Davis Vision, Superior Vision, Spectera"><img class="logos-m" src="assets/ins-logos-mobile.png" alt="Anthem, Blue View Vision, Davis Vision, Superior Vision, Solstice, Spectera, United Healthcare"></div>
 </div></section>
 
 <!-- cards / carousel -->
@@ -211,7 +356,7 @@ img{max-width:100%;display:block;}
   <div class="cards-view">
   <div class="cards-row">
     <div class="card">
-      <div class="img"><img src="assets/card-exam.png" alt="Doctor-issued prescription, takes 10 minutes"></div>
+      <div class="img"><img class="ex-d" src="assets/card-exam.png" alt="Doctor-issued prescription, takes 10 minutes"><img class="ex-m" src="assets/card-exam-m.png" alt="Doctor-issued prescription, takes 10 minutes"></div>
       <div class="body"><h5>Renew your<br>prescription online</h5><a class="btn" href="/exam">Tell me more</a></div>
     </div>
     <div class="card">
@@ -233,7 +378,7 @@ img{max-width:100%;display:block;}
   </div>
   </div>
   <div class="chevron">›</div>
-  <div class="dots"><i class="on"></i><i></i></div>
+  <div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></div>
 </div></section>
 
 <!-- steps -->
@@ -255,11 +400,12 @@ img{max-width:100%;display:block;}
 <section class="rev-sec"><div class="wrap">
   <h2>Huzzah for happy customers!</h2>
   <h5 class="sub">Yeah, we just busted out a “huzzah.”</h5>
-  <div class="rev-row">
+  <div class="rev-view"><div class="rev-row">
     <div class="rev"><div class="stars">★★★★★</div><p>“LOVE this company. Getting contacts could NOT be more simple. I can order at my convenience and they show up at my door within days!!! Can’t beat it!”</p><div class="who">— Jayme S.</div></div>
     <div class="rev"><div class="stars">★★★★★</div><p>“First time ordering. But a lifetime customer! Got my contacts faster than getting them from my eye clinic! Love it. Wish I would have changed to you sooner!”</p><div class="who">— Sherry A.</div></div>
     <div class="rev"><div class="stars">★★★★★</div><p>“I love how easy and convenient it is to order online also, being able to chat with the customer service agents is helpful and they provide excellent customer support.”</p><div class="who">— Brandi G.</div></div>
-  </div>
+  </div></div>
+  <div class="dots rev-dots"><i class="on"></i><i></i><i></i></div>
   <div class="cta"><a class="btn" href="/reviews">Read more reviews</a></div>
 </div></section>
 
@@ -267,6 +413,7 @@ img{max-width:100%;display:block;}
 <section class="faq-sec"><div class="wrap">
   <div class="faq-left">
     <h2>FAQs: Freakin’<br>Awesome Questions</h2>
+    <div class="faq-x" aria-hidden="true"></div>
     <img class="mascot" src="assets/faq-mascot.png" alt="1-800 Contacts mascot holding boxes of contacts">
   </div>
   <div class="faq-list">
@@ -316,6 +463,13 @@ img{max-width:100%;display:block;}
   <span class="links"><a href="/privacy/notice-of-privacy-practices">Privacy practices</a><a href="/terms/terms-and-conditions">Terms and conditions</a><a href="/accessibility">Accessibility</a><a href="#">Ad choices</a><a href="/patents">Patents</a></span>
 </div>
 </footer>
+
+<!-- mobile sticky bottom CTA (mobile only) -->
+<div class="m-cta">
+  <button class="m-cta-x" aria-label="Dismiss">×</button>
+  <span class="m-cta-txt">Get 30% off<br>your first order.</span>
+  <a class="m-cta-btn" href="/lenses">Find my contacts</a>
+</div>
 
 </body>
 </html>

@@ -18,9 +18,11 @@
 From the project root, with the prototype server still up on :8791:
 
 ```bash
-# 1. LIVE mobile ground truth — headed; solve the Press & Hold in the Chrome window
+# 1. LIVE mobile ground truth — headed interactive solve; hold the Press & Hold
+#    in the Chrome window that opens. --solve-wait polls until you clear it, then
+#    captures (it will NOT stitch a challenge page; exits 3 if unsolved in time).
 node scripts/replica/stitch-shot.mjs "https://www.1800contacts.com/" \
-  stardust/replica/gates/index-360/live.png --width 360 --headed --settle
+  stardust/replica/gates/index-360/live.png --width 360 --headed --settle --solve-wait 420000
 ```
 
 That gives `gates/index-360/live.png` — the mobile ground truth. Then I:

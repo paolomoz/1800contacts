@@ -29,8 +29,29 @@
           "evidence": "stardust/replica/gates/index-1440/"
         },
         "360": {
-          "status": "BLOCKED — needs live mobile ground-truth capture (PerimeterX human solve at width 360); proto is desktop-only (no @media) and extract captured desktop-only, so mobile layout cannot be recreated or gated without it",
-          "plan": "stardust/replica/gates/index-360/CAPTURE-PLAN.md"
+          "iterations": 3,
+          "pixelDiffPct": 15.11,
+          "heightDeltaPx": -5,
+          "pixelProbe": "RESIDUAL (font-limited; 15.11% > 10% bar, overage is entirely licensed-font substitution AA; no band has an unexplained structural offset; sparse-text steps band = 7.1% alignment floor)",
+          "heightProbe": "PASS",
+          "contentDiff": "PASS (0 genuine structural drops via content-parity.mjs; 1 residual = consent-banner 'privacy policy' link, out of scope)",
+          "visualDiff": "PASS (composition validated via pixel-probe crops: hero 3-line h1, 254px card + peek carousel, FAQ boxes pixel-aligned, sticky header + fixed CTA bar symmetric)",
+          "mobileBuild": [
+            "full mobile @media layout recreated from human-solved 360 ground truth",
+            "sticky navy header + mobile search pill + fixed bottom CTA bar (replicated fixed for symmetric seams)",
+            "dual rasters: hero-mobile.png, ins-logos-mobile.png, card-exam-m.png (mobile card-1 crop from capture)",
+            "hero h1 size+3-line-wrap matched to live (31px + mobile-only <br>)",
+            "cards carousel: 254px card + card-2 peek + full-bleed + 5 dots, .cards-view capped to card-1 height",
+            "footer display:contents accordion reflow (order 1-8 on leaves)"
+          ],
+          "residuals": [
+            "ALL text bands 13-16% = licensed-font substitution (Ambit -> SF fallback) AA; mobile has no image/whitespace bands to dilute it (desktop did -> 8.58%). Licensed Ambit drop-in collapses every band to the ~7% steps floor and passes <=10%.",
+            "Nunito self-host A/B (reverted): closest open match improved offset-free bands only ~0.5-0.9%/band while re-wrapping every section -> substitute choice is not the lever; the licensed face is",
+            "content-parity 1 residual: 'privacy policy'->/privacy/privacy-policy is consent-banner chrome dismissed by the gate, out of measured scope (matches 1440)",
+            "carousel page-2 imagery -> brand-fill placeholder, offscreen at 360, pixel-neutral"
+          ],
+          "evidence": "stardust/replica/gates/index-360/",
+          "decision": "USER: accept documented font residual and proceed to handoff, OR source licensed Ambit kit to close the last ~5%"
         }
       }
     }

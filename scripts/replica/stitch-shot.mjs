@@ -97,6 +97,10 @@ Usage: node stitch-shot.mjs <url> <out.png> [options]
   --consent <sel>   extra consent-accept selector (clicked, not removed)
   --dismiss <sel,…> extra overlay-dismiss selectors (marketing modals etc.)
   --headed          headed stealth real Chrome (escalation for bot-managed sites)
+  --solve-wait <ms> headed interactive human-solve window for a Press&Hold challenge
+                    (polls until you clear it, then captures; exits 3 if unsolved)
+  --remove-text <s> remove the overlay whose text starts with <s> before capture
+                    (kills a banner the consent/close sweep missed; repeatable)
   --locale <tag>    pin Accept-Language + locale (e.g. en-GB) for geo determinism
   --ua <string>     user agent (default: real-Chrome desktop UA + standard headers)
   --wait <ms>       initial post-load wait (default 1200; 3000 with --settle)
@@ -106,11 +110,37 @@ Usage: node stitch-shot.mjs <url> <out.png> [options]
 Run the SAME command shape against the live page and the served prototype.
 Exit codes: 0 written, 1 error, 3 bot challenge (live side blocked — fail loud).`;
 
+const CHALLENGE = /(press\s*&?\s*hold|before we continue|are you a human|verify you are human|access to this page has been denied)/i;
+
+// Poll until a human clears an interactive challenge: no challenge text, a
+// real content height, and real body text — held stable across two polls so a
+// mid-navigation blip doesn't read as solved. Returns false on timeout.
+async function waitForSolve(page, timeoutMs, vh) {
+  const deadline = Date.now() + timeoutMs; let stable = 0;
+  console.log('\n────────────────────────────────────────────────────────');
+  console.log('  Solve the "Press & Hold" challenge in the Chrome window.');
+  console.log(`  Waiting up to ${Math.round(timeoutMs / 1000)}s…`);
+  console.log('────────────────────────────────────────────────────────\n');
+  while (Date.now() < deadline) {
+    await page.waitForTimeout(2500);
+    let text = ''; let h = 0;
+    try {
+      text = (await page.evaluate(() => (document.body ? document.body.innerText : ''))) || '';
+      h = await page.evaluate(() => Math.max(document.body.scrollHeight, document.documentElement.scrollHeight));
+    } catch { /* mid-nav */ }
+    if (!CHALLENGE.test(text) && h > vh * 1.5 && text.length > 800) {
+      stable += 1;
+      if (stable >= 2) { console.log(`✅ cleared — content height ${h}px`); return true; }
+    } else stable = 0;
+  }
+  return false;
+}
+
 function parseArgs(argv) {
   const rest = argv.slice(2);
   if (rest.includes('--help') || rest.includes('-h')) { console.log(HELP); process.exit(0); }
   const pos = [];
-  const opts = { width: 1440, vh: 900, settle: false, consent: null, dismiss: [], headed: false, locale: null, ua: REAL_CHROME_UA, wait: null, timeout: 60000 };
+  const opts = { width: 1440, vh: 900, settle: false, consent: null, dismiss: [], removeText: [], headed: false, locale: null, ua: REAL_CHROME_UA, wait: null, solveWait: 0, timeout: 60000 };
   for (let i = 0; i < rest.length; i += 1) {
     const a = rest[i];
     if (a === '--width') { opts.width = Number(rest[i += 1]); }
@@ -118,10 +148,12 @@ function parseArgs(argv) {
     else if (a === '--settle') { opts.settle = true; }
     else if (a === '--consent') { opts.consent = rest[i += 1]; }
     else if (a === '--dismiss') { opts.dismiss = (rest[i += 1] || '').split(',').map((s) => s.trim()).filter(Boolean); }
+    else if (a === '--remove-text') { opts.removeText.push(rest[i += 1]); }
     else if (a === '--headed') { opts.headed = true; }
     else if (a === '--locale') { opts.locale = rest[i += 1]; }
     else if (a === '--ua') { opts.ua = rest[i += 1]; }
     else if (a === '--wait') { opts.wait = Number(rest[i += 1]); }
+    else if (a === '--solve-wait') { opts.solveWait = Number(rest[i += 1]); }
     else if (a === '--timeout') { opts.timeout = Number(rest[i += 1]); }
     else if (a.startsWith('--')) { console.error(`unknown flag ${a}\n\n${HELP}`); process.exit(1); }
     else pos.push(a);
@@ -156,11 +188,25 @@ async function main() {
       viewport: { width: opts.width, height: opts.vh },
     });
     const page = await ctx.newPage();
-    // Challenge/blocked interstitial → loud BotChallengeError (exit 3); a
-    // challenge page must never be stitched as if it were the source.
-    // solveWindow only under --headed: headless clearance never lands, and
-    // the solve loop would spend the Akamai block budget (1 hit vs up to 4).
-    await gotoLive(page, url, { waitUntil: 'domcontentloaded', timeoutMs: opts.timeout, settleMs: 0, solveWindow: opts.headed });
+    if (opts.solveWait > 0) {
+      // Interactive human-solve window (PerimeterX "Press & Hold" etc.): the
+      // passive solveWindow reloads every 4s, which fights an interactive
+      // hold-challenge. Navigate raw, then poll until a human clears it —
+      // same signal as content-diff-solve (no challenge text + real height +
+      // real content) — before capturing. Never stitches a challenge page:
+      // if the window elapses unsolved it exits 3.
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: opts.timeout }).catch(() => {});
+      if (!(await waitForSolve(page, opts.solveWait, opts.vh))) {
+        console.error(`challenge not solved within ${Math.round(opts.solveWait / 1000)}s — not stitching a challenge page`);
+        process.exit(3);
+      }
+    } else {
+      // Challenge/blocked interstitial → loud BotChallengeError (exit 3); a
+      // challenge page must never be stitched as if it were the source.
+      // solveWindow only under --headed: headless clearance never lands, and
+      // the solve loop would spend the Akamai block budget (1 hit vs up to 4).
+      await gotoLive(page, url, { waitUntil: 'domcontentloaded', timeoutMs: opts.timeout, settleMs: 0, solveWindow: opts.headed });
+    }
     await page.waitForTimeout(opts.wait);
     await dismissAndLog(page, url, opts);
 
@@ -181,6 +227,28 @@ async function main() {
       // window — sweep again so a late interstitial isn't baked into the
       // stitched capture (recorded: carhartt-wip "Sign up, stay updated!").
       await dismissAndLog(page, url, opts);
+    }
+
+    // Text-anchored overlay removal: kill an element the consent/close-button
+    // sweep missed (e.g. a bottom-fixed cookie notice whose closer isn't a
+    // recognized button), targeted by its distinctive copy. Removes the closest
+    // fixed/sticky ancestor of the first text match so the whole banner goes,
+    // not just the text node. No-op when the text is absent (symmetric on the
+    // proto side). AFTER settle so late-injected banners are caught.
+    for (const needle of opts.removeText) {
+      const killed = await page.evaluate((txt) => {
+        const nodes = [...document.querySelectorAll('body *')];
+        const hit = nodes.find((el) => (el.textContent || '').trim().startsWith(txt));
+        if (!hit) return false;
+        let banner = hit;
+        for (let el = hit; el && el !== document.body; el = el.parentElement) {
+          const pos = getComputedStyle(el).position;
+          if (pos === 'fixed' || pos === 'sticky') banner = el;
+        }
+        banner.remove();
+        return true;
+      }, needle);
+      console.log(killed ? `removed overlay by text "${needle.slice(0, 32)}…"` : `no element matched --remove-text "${needle.slice(0, 32)}…"`);
     }
 
     // Freeze animations/transitions/carets for stable chunks — AFTER settle.
